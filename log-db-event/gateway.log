@@ -1,0 +1,1324 @@
+7f0ffd2f8740 10:01:13 Logger  : Date is 10/02/2022 (3.2.1-Prod-Linux64)
+7f0ffd2f8740 10:01:13 Sys_Init: PM System Version 3.2.1 Prod (Jan 19 2022)
+7f0ffd2f8740 10:01:13 Sys_Init: Running on Linux64 (Linux 3.10.0-1127.19.1.el7.x86_64 x86_64, CentOS Linux release 7.8.2003 (Core))
+7f0ffd2f8740 10:01:13 Sys_Init: GNU libc compile-time version: 2.17
+7f0ffd2f8740 10:01:13 Sys_Init: GNU libc runtime version:      2.17
+7f0ffd2f8740 10:01:13 Sys_Init: Core count: 2
+7f0ffd2f8740 10:01:13 Sys_Init: Thread stack size 8388608 bytes
+7f0ffd2f8740 10:01:13 Sys_Init: Limits core: soft=0; hard=-1
+7f0ffd2f8740 10:01:13 Sys_Init: Limits nproc: soft=-1; hard=-1
+7f0ffd2f8740 10:01:13 Sys_Init: Limits nofile: soft=1048576; hard=1048576
+7f0ffd2f8740 10:01:13 Module  : LibDir: /local/way4/appserv/appserver/applications/auth-serv/app/bin/mod/*.so
+7f0ffd2f8740 10:01:13 Module  : Loading /local/way4/appserv/appserver/applications/auth-serv/app/bin/mod/exsigmod.so
+7f0ffd2f8740 10:01:13 ExSignal: Module 3.2.1 is loaded
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(EXTSIGNAL) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Module  : Loading /local/way4/appserv/appserver/applications/auth-serv/app/bin/mod/igtw_mod.so
+7f0ffd2f8740 10:01:13 iGateway: Module 3.2.1 is loaded
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(IGATEWAY) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Module  : Loading /local/way4/appserv/appserver/applications/auth-serv/app/bin/mod/unc4_mod.so
+7f0ffd2f8740 10:01:13 UniCat_4: Module 3.2.1 is loaded
+7f0ffd2f8740 10:01:13 Module  : Loading /local/way4/appserv/appserver/applications/auth-serv/app/bin/mod/sock_mod.so
+7f0ffd2f8740 10:01:13 Sock_Lib: Module 3.2.1 is loaded
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(SOCKET) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(SOCKETSERVER) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(THREADSOCKET) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Module  : Loading /local/way4/appserv/appserver/applications/auth-serv/app/bin/mod/uuid_mod.so
+7f0ffd2f8740 10:01:13 UUID_Lib: Module 3.2.1 is loaded
+7f0ffd2f8740 10:01:13 Module  : Loading /local/way4/appserv/appserver/applications/auth-serv/app/bin/mod/tdbm_mod.so
+7f0ffd2f8740 10:01:13 Temp_DBM: Module 3.2.1 is loaded
+7f0ffd2f8740 10:01:13 Reg_List: DBM(TEMP_DBM) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(TDBM_CLEANER) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Module  : Loading /local/way4/appserv/appserver/applications/auth-serv/app/bin/mod/aservmod.so
+7f0ffd2f8740 10:01:13 AuthServ: Module 3.2.1 is loaded
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(AUTHCONTEXT) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(AUTHENTICATIONSERVICE_S) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(AUTHENTICATIONSERVICE) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Module  : Loading /local/way4/appserv/appserver/applications/auth-serv/app/bin/mod/adencmod.so
+7f0ffd2f8740 10:01:13 AdEncMod: Module 3.2.1 is loaded
+7f0ffd2f8740 10:01:13 Reg_List: Crypt(TWOFISH) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Crypt(BLOWFISH) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Crypt(CAST) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Crypt(BCRYPT) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Module  : Loading /local/way4/appserv/appserver/applications/auth-serv/app/bin/mod/asevtmod.so
+7f0ffd2f8740 10:01:13 ASDbEvnt: Module 3.2.1 is loaded
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(ASDBEVENT) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Module  : Loading /local/way4/appserv/appserver/applications/auth-serv/app/bin/mod/asn1_mod.so
+7f0ffd2f8740 10:01:13 ASN1_Lib: Module 3.2.1 is loaded
+7f0ffd2f8740 10:01:13 Reg_List: Proc(DER) is registered. RC: 0
+7f0ffd2f8740 10:01:13 CBT_Conf: File [/local/way4/appserv/appserver/applications/auth-serv/app/oid_list.ini]
+7f0ffd2f8740 10:01:13 Reg_List: 22 item(s) registered. RC: 0
+7f0ffd2f8740 10:01:13 CBT_Conf: File [/local/way4/appserv/appserver/applications/auth-serv/app/certconf.ini]
+7f0ffd2f8740 10:01:13 Reg_List: Proc(SET) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(ASN1) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Module  : Loading /local/way4/appserv/appserver/applications/auth-serv/app/bin/mod/stenroll.so
+7f0ffd2f8740 10:01:13 STEnroll: Module 3.2.1 is loaded
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(ST_ENROLL) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Module  : Loading /local/way4/appserv/appserver/applications/auth-serv/app/bin/mod/shellmod.so
+7f0ffd2f8740 10:01:13 ShellMod: Module 3.2.1 is loaded
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(SHELL) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(SH_CMD) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Module  : Loading /local/way4/appserv/appserver/applications/auth-serv/app/bin/mod/ctokimod.so
+7f0ffd2f8740 10:01:13 Cryptoki: Module 3.1.1 is loaded
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(PKCS11SERVICE) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(PKCS11) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Module  : Loading /local/way4/appserv/appserver/applications/auth-serv/app/bin/mod/otpsmsmd.so
+7f0ffd2f8740 10:01:13 OTP SMS : Module 3.2.1 is loaded
+7f0ffd2f8740 10:01:13 Reg_List: Auth_Mod(OTP_SMS) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Module  : Loading /local/way4/appserv/appserver/applications/auth-serv/app/bin/mod/asmbxmod.so
+7f0ffd2f8740 10:01:13 ASMsgBox: Module 3.0.36 is loaded
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(AUTHMSGBOX) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Module  : Loading /local/way4/appserv/appserver/applications/auth-serv/app/bin/mod/i8583mod.so
+7f0ffd2f8740 10:01:13 Omni8583: Module 3.2.1 is loaded
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(OMNI8583) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Proc(OMNI8583) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Module  : Loading /local/way4/appserv/appserver/applications/auth-serv/app/bin/mod/http_mod.so
+7f0ffd2f8740 10:01:13 HTTP_LIB: Module 3.2.1 is loaded
+7f0ffd2f8740 10:01:13 Reg_List: Protocol(HTTP) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Proc(HTTP) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(URL_CODE) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(URL_FORM) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(HTTP_NOTIFY) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(HTTP_RISK_PROC) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(HTTPCURLNOTIFY) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Module  : Loading /local/way4/appserv/appserver/applications/auth-serv/app/bin/mod/smspsfmd.so
+7f0ffd2f8740 10:01:13 SMSPSFmd: Module 3.1.16 is loaded
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(SMS_PSF) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Module  : Loading /local/way4/appserv/appserver/applications/auth-serv/app/bin/mod/gservmod.so
+7f0ffd2f8740 10:01:13 GLinkSrv: Module 3.2.1 is loaded
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(MPSERVER) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(MR_LINKS) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(PROCLIST) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(RECSPLIT) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(PTUNNEL) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(PROCSWITCH) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Module  : Loading /local/way4/appserv/appserver/applications/auth-serv/app/bin/mod/racalmod.so
+7f0ffd2f8740 10:01:13 RacalMOD: Module 3.2.1 is loaded
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(RG_TEST) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(RG7100) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(RG7100_GATE) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Module  : Loading /local/way4/appserv/appserver/applications/auth-serv/app/bin/mod/mcgi_mod.so
+7f0ffd2f8740 10:01:13 CGI_Proc: Module 3.2.1 is loaded
+7f0ffd2f8740 10:01:13 Reg_List: Proc(CGI) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Proc(CGI_LINK) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(CGI_LINK) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Module  : Loading /local/way4/appserv/appserver/applications/auth-serv/app/bin/mod/authgmod.so
+7f0ffd2f8740 10:01:13 AuthTran: Module 3.2.1 is loaded
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(GW_DATALINK) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(AUTH_BRIDGE) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Module  : Loading /local/way4/appserv/appserver/applications/auth-serv/app/bin/mod/ossl_mod.so
+7f0ffd2f8740 10:01:13 OpenSSL : Module 3.2.1 is loaded
+7f0ffd2f8740 10:01:13 OpenSSL : Version: OpenSSL 1.0.2s  28 May 2019
+7f0ffd2f8740 10:01:13 Reg_List: Device(OPENSSL) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(SSL_SOCK) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Module  : Loading libcrypto.so
+7f0ffd2f8740 10:01:13 Reg_List: Crypt(UCRYPT) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(PBDK2) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(ADKSSL) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(TLSSERVER) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(TLSTHREADSOCKET) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Module  : Loading /local/way4/appserv/appserver/applications/auth-serv/app/bin/mod/lua_mod.so
+7f0ffd2f8740 10:01:13 Lua_Call: Module 3.2.1 is loaded
+7f0ffd2f8740 10:01:13 Lua_Call: Lua version: 504
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(LUA) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Module  : Loading /local/way4/appserv/appserver/applications/auth-serv/app/bin/mod/cfgdbmod.so
+7f0ffd2f8740 10:01:13 CONF_DBM: Module 3.2.1 is loaded
+7f0ffd2f8740 10:01:13 Reg_List: DBM(CFG) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Module  : Loading /local/way4/appserv/appserver/applications/auth-serv/app/bin/mod/libpmstd.so
+7f0ffd2f8740 10:01:13 PMStdLib: Module 3.2.1 is loaded
+7f0ffd2f8740 10:01:13 Module  : Loading /local/way4/appserv/appserver/applications/auth-serv/app/bin/mod/epin_mod.so
+7f0ffd2f8740 10:01:13 EPIN_MOD: Module 3.1.16 is loaded
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(ISO_EPIN) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Auth_Mod(EPIN) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Module  : Loading /local/way4/appserv/appserver/applications/auth-serv/app/bin/mod/flds_mod.so
+7f0ffd2f8740 10:01:13 FieldMod: Module 3.2.1 is loaded
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(FIELDCHECK) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(STRCHECK) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Module  : Loading /local/way4/appserv/appserver/applications/auth-serv/app/bin/mod/egatemod.so
+7f0ffd2f8740 10:01:13 eGateway: Module 3.2.1 is loaded
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(EGW_HOST) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(EGW_BATCH) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(EGW_CALL) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(EGW_EXTMAC) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(EGWTRWATCH) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(EGWTDDOCSERV) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(EGATEWAY) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Module  : Loading /local/way4/appserv/appserver/applications/auth-serv/app/bin/mod/cons_mod.so
+7f0ffd2f8740 10:01:13 Console : Module 3.2.1 is loaded
+7f0ffd2f8740 10:01:13 Reg_List: Device(CONSOLE) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(CONSOLE) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Module  : Loading /local/way4/appserv/appserver/applications/auth-serv/app/bin/mod/auth_chain_mod.so
+7f0ffd2f8740 10:01:13 AM_Chain: Module 3.2.1 is loaded
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(AUTHENTICATIONCHAIN) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Module  : Loading /local/way4/appserv/appserver/applications/auth-serv/app/bin/mod/clnk_mod.so
+7f0ffd2f8740 10:01:13 Link_Mod: Module 3.2.1 is loaded
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(INTERNAL) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(PLINK) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(RLINK) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(TRLINK) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(PROC) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(RCODEC) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(CODER) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(CODEC) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(PCODEC) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(SV_RECORD) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(TSV_RECORD) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(CRLF) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(BINLEN) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(BINLEN4) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(NTS) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(CRYPTLINK) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(VISA0) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(TAC1) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(IO_HEADER) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(BTLV) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(HTLV) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(VLH_LEN) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(BINREC8) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Protocol(TPDU) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(INITLINK) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(VLH_TLV) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(RLINK_BALANCER) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Reg_List: Proc(PROCBALANCER) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Module  : Loading /local/way4/appserv/appserver/applications/auth-serv/app/bin/mod/smspinmd.so
+7f0ffd2f8740 10:01:13 SMSPINmd: Module 3.1.16 is loaded
+7f0ffd2f8740 10:01:13 Reg_List: Object Driver(SMS_PIN) is registered. RC: 0
+7f0ffd2f8740 10:01:13 Module  : Loading /local/way4/appserv/appserver/applications/auth-serv/app/bin/mod/pmxmllib.so
+7f0ffd2f8740 10:01:13 XML_Lib : Module 3.2.1 is loaded
+7f0ffd2f8740 10:01:13 XML_Lib : Expat Version: expat_2.1.0
+7f0ffd2f8740 10:01:13 Script  : Engine: XMS is set
+7f0ffd2f8740 10:01:13 Sys_Init: Finished
+7f0ffd2f8740 10:01:13 Serv_App: Starting service: QUITEVENT
+7f0ffd2f8740 10:01:13 ExSignal: Signal 15 handler is installed
+7f0ffd2f8740 10:01:13 Serv_App: Starting service: AUTHSERVER
+7f0ffd2f8740 10:01:13 Module  : Loading /opt/safenet/protecttoolkit5/ptk/lib/libcryptoki.so
+7f0ffd2f8740 10:01:13 Cryptoki: Resolving functions list ...
+7f0ffd2f8740 10:01:13 Cryptoki: C_Initialize: OK
+7f0ffd2f8740 10:01:13 Cryptoki: Cryptoki Version: 2.20
+7f0ffd2f8740 10:01:13 Cryptoki: Manufacturer: Eracom Pty. Ltd.                
+7f0ffd2f8740 10:01:13 Cryptoki: Description : ProtectServer Orange            
+7f0ffd2f8740 10:01:13 Cryptoki: Using mechanism: DES3_ECB (00000132)
+7f0ffd2f8740 10:01:13 Cryptoki: Slot(s) found: 17
+7f0ffd2f8740 10:01:14 Cryptoki: Slot: "ProtectServer Orange:80421" Manufacturer: "ERACOM Pty. Ltd." Flags: 5 HW: 71.0 FW: 2.0
+7f0ffd2f8740 10:01:14 Cryptoki: Token: "3D" Manufacturer: "ERACOM Pty. Ltd." Model: "PSO:PL450" Serial: "1306:80421" Flags: 649
+7f0ffd2f8740 10:01:14 Cryptoki: Slot: "ProtectServer Orange:00152" Manufacturer: "ERACOM Pty. Ltd." Flags: 5 HW: 71.0 FW: 2.0
+7f0ffd2f8740 10:01:14 Cryptoki: Token: "PDSMS" Manufacturer: "ERACOM Pty. Ltd." Model: "PSO:PL450" Serial: "1306:00152" Flags: 30649
+7f0ffd2f8740 10:01:14 Cryptoki: Slot: "ProtectServer Orange:13110" Manufacturer: "ERACOM Pty. Ltd." Flags: 5 HW: 71.0 FW: 2.0
+7f0ffd2f8740 10:01:14 Cryptoki: Token: "3D_MI_MIC" Manufacturer: "ERACOM Pty. Ltd." Model: "PSO:PL450" Serial: "1306:13110" Flags: 649
+7f0ffd2f8740 10:01:14 Cryptoki: Slot: "ProtectServer Orange:65123" Manufacturer: "ERACOM Pty. Ltd." Flags: 5 HW: 71.0 FW: 2.0
+7f0ffd2f8740 10:01:14 Cryptoki: Token: "ePIN" Manufacturer: "ERACOM Pty. Ltd." Model: "PSO:PL450" Serial: "1306:65123" Flags: 649
+7f0ffd2f8740 10:01:14 Cryptoki: Session is OK, Slot: 3
+7f0ffd2f8740 10:01:14 Cryptoki: Searching objects for: MIDWK
+7f0ffd2f8740 10:01:15 Cryptoki: Object handles: 8
+7f0ffd2f8740 10:01:15 Cryptoki: Class: 0x4 (Secret Key) Token: 1 Private: 0 Label: ZPK
+7f0ffd2f8740 10:01:15 Cryptoki: Class: 0x4 (Secret Key) Token: 1 Private: 0 Label: ZPK
+7f0ffd2f8740 10:01:15 Cryptoki: Class: 0x4 (Secret Key) Token: 1 Private: 1 Label: ZMK
+7f0ffd2f8740 10:01:15 Cryptoki: Class: 0x4 (Secret Key) Token: 1 Private: 1 Label: DWK
+7f0ffd2f8740 10:01:15 Cryptoki: Class: 0x1 (Certificate) Token: 1 Private: 0 Label: PD_CERT_26
+7f0ffd2f8740 10:01:15 Cryptoki: Cert type: 0 Trusted: 1 Id: C0CCE4750ECD9A3B3BBED7547178DB6553801288
+7f0ffd2f8740 10:01:15 Cryptoki: Class: 0x4 (Secret Key) Token: 1 Private: 1 Label: MIZMK
+7f0ffd2f8740 10:01:15 Cryptoki: Class: 0x4 (Secret Key) Token: 1 Private: 1 Label: MIDWK
+7f0ffd2f8740 10:01:15 Cryptoki: Key type: 20 Local: 0 Id: 
+7f0ffd2f8740 10:01:15 Cryptoki: Secret key found
+7f0ffd2f8740 10:01:15 Cryptoki: Key found
+7f0ffd2f8740 10:01:15 Cryptoki: Token mechanisms: RSA_PKCS_KEY_PAIR_GEN, RSA_PKCS, RSA_9796, RSA_X_509, MD2_RSA_PKCS, MD5_RSA_PKCS, SHA1_RSA_PKCS, RIPEMD128_RSA_PKCS, RIPEMD160_RSA_PKCS, RSA_PKCS_OAEP, RSA_X9_31_KEY_PAIR_GEN, DSA_KEY_PAIR_GEN, DSA, DSA_SHA1, DH_PKCS_KEY_PAIR_GEN, DH_PKCS_DERIVE, SHA256_RSA_PKCS, SHA384_RSA_PKCS, SHA512_RSA_PKCS, RC2_KEY_GEN, RC2_ECB, RC2_CBC, RC2_MAC, RC2_MAC_GENERAL, RC2_CBC_PAD, RC4_KEY_GEN, RC4, DES_KEY_GEN, DES_ECB, DES_CBC, DES_MAC, DES_MAC_GENERAL, DES_CBC_PAD, DES2_KEY_GEN, DES3_KEY_GEN, DES3_ECB, DES3_CBC, DES3_MAC, DES3_MAC_GENERAL, DES3_CBC_PAD, MD2, MD2_HMAC, MD2_HMAC_GENERAL, MD5, MD5_HMAC, MD5_HMAC_GENERAL, SHA_1, SHA_1_HMAC, SHA_1_HMAC_GENERAL, RIPEMD128, RIPEMD128_HMAC, RIPEMD128_HMAC_GENERAL, RIPEMD160, RIPEMD160_HMAC, RIPEMD160_HMAC_GENERAL, SHA256, SHA256_HMAC, SHA256_HMAC_GENERAL, SHA384, SHA384_HMAC, SHA384_HMAC_GENERAL, SHA512, SHA512_HMAC, SHA512_HMAC_GENERAL, CAST128_KEY_GEN, CAST128_ECB, CAST128_CBC, CAST128_MAC, CAST128_MAC_GENERAL, CAST128_CBC_PAD, IDEA_KEY_GEN, IDEA_ECB, IDEA_CBC, IDEA_MAC, IDEA_MAC_GENERAL, IDEA_CBC_PAD, GENERIC_SECRET_KEY_GEN, CONCATENATE_BASE_AND_KEY, CONCATENATE_BASE_AND_DATA, CONCATENATE_DATA_AND_BASE, XOR_BASE_AND_DATA, EXTRACT_KEY_FROM_KEY, SSL3_PRE_MASTER_KEY_GEN, SSL3_MASTER_KEY_DERIVE, SSL3_KEY_AND_MAC_DERIVE, SSL3_MD5_MAC, SSL3_SHA1_MAC, MD5_KEY_DERIVATION, MD2_KEY_DERIVATION, SHA1_KEY_DERIVATION, SHA256_KEY_DERIVATION, SHA384_KEY_DERIVATION, SHA512_KEY_DERIVATION, PBE_MD2_DES_CBC, PBE_MD5_DES_CBC, PBE_MD5_CAST128_CBC, PBE_SHA1_CAST128_CBC, PBE_SHA1_RC4_128, PBE_SHA1_RC4_40, PBE_SHA1_DES3_EDE_CBC, PBE_SHA1_DES2_EDE_CBC, PBE_SHA1_RC2_128_CBC, PBE_SHA1_RC2_40_CBC, PBA_SHA1_WITH_SHA1_HMAC, KEY_WRAP_SET_OAEP, ECDSA_KEY_PAIR_GEN, ECDSA, ECDSA_SHA1, AES_KEY_GEN, AES_ECB, AES_CBC, AES_MAC, AES_MAC_GENERAL, AES_CBC_PAD, DSA_PARAMETER_GEN, DH_PKCS_PARAMETER_GEN, 80000013, 80000101, 80000121, 80000132, X9.19_MAC, X9.19_MAC_GENERAL, 80000200, 80000321, 80000341, 80000364, KEY_ZMK_ATALLA, 80000501, 80000502, 80000503, 80000510, EMV_SESSION_KEY_DERIVE, 80000935, 80000940, 80000941, 80000950, 80000951, 80000952, 80000953, 80000954, 80000955, 80000961, 80000962, 80000964, 800009a0, 800009b0, 800009c0, 800009d0, 800009d1, 800009d2, 800009d3, 800009d4, 800009d5, 800009d6, 800009e0, 800009f0, 800009f1, 800009f2, 800009f3, VERIFY_DIN, CREATE_ADK, MMA_OTP, CREATE_PIN, CREATE_PSF, VERIFY_EPIN, HCE_GENERATE_UDK, HCE_VERIFY_MSD, HCE_VERIFY_EMV, HCE_GET_VERSION, HCE_GENERATE_MAC, HCE_GENERATE_DSK, TRANSLATE_PB, c000a410, c000a411, c000a412, c000a413, c000a414, c000a415, c000a416, c000a417, c000a418, c000a419, c000a420, c000a41a
+7f0ffd2f8740 10:01:15 Cryptoki: Using mechanism: DES3_ECB (00000132)
+7f0ffd2f8740 10:01:15 HSM_DES : HSM is set
+7f0ffd2f8740 10:01:15 CryptAPI: Cipher: HSM Key: 1 Block: 8
+7f0ffd2f8740 10:01:15 LinkLevl: Device [INTERNAL]
+7f0ffd2f8740 10:01:15 LinkLevl: Level: 0 Protocol: NONE
+7f0ffd2f8740 10:01:15 LinkLevl: Link is configured
+7f0ffd2f8740 10:01:15 Script  : Engine [XMS]
+7f0ffd2f8740 10:01:15 Script  : Code: 591 Vars: 207
+7f0ffd2f8740 10:01:15 Script  : About to read 812 byte(s)
+7f0ffd2f8740 10:01:15 Script  : Engine [XMS]
+7f0ffd2f8740 10:01:15 Script  : Code: 495 Vars: 177
+7f0ffd2f8740 10:01:15 Script  : About to read 807 byte(s)
+7f0ffd2f8740 10:01:15 LinkLevl: DevOpen = 0
+7f0ffd2f8740 10:01:15 LinkLevl: Open Level: 0 RC: 0
+7f0ffd2f8740 10:01:15 Sock_Lib: Connecting to 127.0.0.1 8840 ...
+7f0ffd2f8740 10:01:15 Sock_Lib: Connected from port 12776
+7f0ffd2f8740 10:01:15 ProcLink: WriteRec: 3
+7f0ffd2f8740 10:01:15 Script  : Start!
+7f0ffd2f8740 10:01:15 Script  : Engine: XMS Call(s): 44
+7f0ffd2f8740 10:01:15 XML_Lib : Freeing XML data
+7f0ffd2f8740 10:01:15 LinkLevl: Level 0 - NONE WriteBuf: 134
+7f0ffd2f8740 10:01:15 LinkLevl: Dumping Device Write Size: 134
+3C 53 4F 41 50 3A 45 6E 76 65 6C 6F 70 65 3E 3C 53 4F 41 50 <SOAP:Envelope><SOAP
+3A 48 65 61 64 65 72 2F 3E 3C 53 4F 41 50 3A 42 6F 64 79 3E :Header/><SOAP:Body>
+3C 73 71 6C 3A 47 65 74 41 75 74 68 54 61 67 73 3E 3C 43 61 <sql:GetAuthTags><Ca
+72 64 3E 2A 3C 2F 43 61 72 64 3E 3C 54 61 67 73 3E 33 56 45 rd>*</Card><Tags>3VE
+52 3C 2F 54 61 67 73 3E 3C 2F 73 71 6C 3A 47 65 74 41 75 74 R</Tags></sql:GetAut
+68 54 61 67 73 3E 3C 2F 53 4F 41 50 3A 42 6F 64 79 3E 3C 2F hTags></SOAP:Body></
+53 4F 41 50 3A 45 6E 76 65 6C 6F 70 65 3E                   SOAP:Envelope>
+7f0ffd2f8740 10:01:15 ProcLink: Encode RC: 134
+7f0ffd2f8740 10:01:15 CryptAPI: Encrypt HSM (51,134,2,8,1,16)
+7f0ffd2f8740 10:01:15 HSM_DES : HSM Mode: 2
+7f0ffd2f8740 10:01:15 HSM_DES : MKS []
+7f0ffd2f8740 10:01:15 HSM_DES : New MK stamp: 20220210070115
+7f0ffd2f8740 10:01:15 Obj_Drvr: CallObj(PKCS11): 51 - GetMAC
+7f0ffd2f8740 10:01:15 Cryptoki: Input len: 8 Output size: 16
+7f0ffd2f8740 10:01:15 CryptAPI: Cipher: DES Key: 8 Block: 8
+7f0ffd2f8740 10:01:15 CryptAPI: DES Encrypt: 8
+7f0ffd2f8740 10:01:15 CryptAPI: Cipher: DES2 Key: 16 Block: 8
+7f0ffd2f8740 10:01:15 CryptAPI: DES2 CBC Encrypt: 136
+7f0ffd2f8740 10:01:15 CODEC   : MsgRec sent: 154
+7f0ffd2f8740 10:01:15 CryptAPI: Decrypt HSM (51,200,2,8,1,16)
+7f0ffd2f8740 10:01:15 HSM_DES : STS [20220210070115] CTS [20220210070115]
+7f0ffd2f8740 10:01:15 HSM_DES : Diff: 1644465675-1644465675=0 Guard: 3600
+7f0ffd2f8740 10:01:15 Obj_Drvr: CallObj(PKCS11): 51 - GetMAC
+7f0ffd2f8740 10:01:15 Cryptoki: Input len: 8 Output size: 16
+7f0ffd2f8740 10:01:15 CryptAPI: Cipher: DES Key: 8 Block: 8
+7f0ffd2f8740 10:01:15 CryptAPI: DES Encrypt: 8
+7f0ffd2f8740 10:01:15 CryptAPI: Cipher: DES2 Key: 16 Block: 8
+7f0ffd2f8740 10:01:15 CryptAPI: DES2 CBC Decrypt: 184
+7f0ffd2f8740 10:01:15 ProcLink: ReadRec
+7f0ffd2f8740 10:01:15 SCR_Link: ReadCall
+7f0ffd2f8740 10:01:15 LinkLevl: Level 0 - NONE ReadBuf: 8000
+7f0ffd2f8740 10:01:15 LinkLevl: DevRead: 8000 Timeout: 1
+7f0ffd2f8740 10:01:15 LinkLevl: Dumping Device Read Size: 180
+3C 53 4F 41 50 3A 45 6E 76 65 6C 6F 70 65 3E 3C 53 4F 41 50 <SOAP:Envelope><SOAP
+3A 48 65 61 64 65 72 2F 3E 3C 53 4F 41 50 3A 42 6F 64 79 3E :Header/><SOAP:Body>
+3C 73 71 6C 3A 47 65 74 41 75 74 68 54 61 67 73 52 65 73 70 <sql:GetAuthTagsResp
+6F 6E 73 65 3E 3C 52 65 74 43 6F 64 65 3E 30 3C 2F 52 65 74 onse><RetCode>0</Ret
+43 6F 64 65 3E 3C 45 72 72 4D 65 73 67 3E 4F 4B 3C 2F 45 72 Code><ErrMesg>OK</Er
+72 4D 65 73 67 3E 3C 49 6E 66 6F 3E 36 56 45 52 3D 39 35 3C rMesg><Info>6VER=95<
+2F 49 6E 66 6F 3E 3C 2F 73 71 6C 3A 47 65 74 41 75 74 68 54 /Info></sql:GetAuthT
+61 67 73 52 65 73 70 6F 6E 73 65 3E 3C 2F 53 4F 41 50 3A 42 agsResponse></SOAP:B
+6F 64 79 3E 3C 2F 53 4F 41 50 3A 45 6E 76 65 6C 6F 70 65 3E ody></SOAP:Envelope>
+7f0ffd2f8740 10:01:15 LinkLevl: Level: 0 Read RC: 180
+7f0ffd2f8740 10:01:15 Script  : Start!
+7f0ffd2f8740 10:01:15 XML_Lib : Building XML Tree
+7f0ffd2f8740 10:01:15 Script  : Engine: XMS Call(s): 44
+7f0ffd2f8740 10:01:15 XML_Lib : Element SOAP:Envelope is matched
+7f0ffd2f8740 10:01:15 XML_Lib : Element SOAP:Header is matched
+7f0ffd2f8740 10:01:15 XML_Lib : Element SOAP:Body is matched
+7f0ffd2f8740 10:01:15 XML_Lib : Element sql:GetAuthTagsResponse is matched
+7f0ffd2f8740 10:01:15 XML_Lib : Element RetCode is matched
+7f0ffd2f8740 10:01:15 XML_Lib : Value[1] = 0
+7f0ffd2f8740 10:01:15 XML_Lib : Element ErrMesg is matched
+7f0ffd2f8740 10:01:15 XML_Lib : Value[2] = OK
+7f0ffd2f8740 10:01:15 XML_Lib : Element Info is matched
+7f0ffd2f8740 10:01:15 XML_Lib : Value[3] = 6VER=95
+7f0ffd2f8740 10:01:15 XML_Lib : Freeing XML data
+7f0ffd2f8740 10:01:15 ProcLink: Read RC: 0
+7f0ffd2f8740 10:01:15 CODEC   : MsgRec received: 1
+7f0ffd2f8740 10:01:15 Sock_Lib: Closing socket: 11 -1
+7f0ffd2f8740 10:01:15 Auth_Log: Data connection is OK
+7f0ffd2f8740 10:01:15 Auth_Log: DB API Version: 95
+7f0ffd2f8740 10:01:15 Reg_List: Auth_Mod(AUTHOBJ_DRV) is registered. RC: 0
+7f0ffd2f8740 10:01:15 CryptAPI: Cipher: HMAC_SHA1 Key: 8 Block: 20
+7f0ffd2f8740 10:01:15 Serv_App: Starting service: AUTHMSGBOXSERVICE
+7f0ffd2f8740 10:01:15 ASMsgBox: Init AS mailbox checker
+7f0ffd2f8740 10:01:15 ASMsgBox: Custom template path: (/local/way4/appserv/appserver/applications/auth-serv/app/gateway/sms_templ/) is not available, skipping
+7f0ff5560700 10:01:15 Schedule: Starting task
+7f0ff5560700 10:01:15 ASMsgBox: Scheduled event in: 15 sec(s)
+7f0ff5d61700 10:01:15 GLinkSrv: Server function starting
+7f0ff5d61700 10:01:15 Link_Srv: Total link(s): 3
+7f0ff5d61700 10:01:15 LinkLevl: Device [INTERNAL]
+7f0ff5d61700 10:01:15 LinkLevl: Level: 0 Protocol: NONE
+7f0ff5d61700 10:01:15 LinkLevl: Link is configured
+7f0ff5d61700 10:01:15 Script  : Engine [XMS]
+7f0ff5d61700 10:01:15 Script  : Code: 1488 Vars: 540
+7f0ff5d61700 10:01:15 Script  : About to read 2233 byte(s)
+7f0ff5d61700 10:01:15 Script  : Engine [XMS]
+7f0ff5d61700 10:01:15 Script  : Code: 1875 Vars: 694
+7f0ff5d61700 10:01:15 Script  : About to read 2819 byte(s)
+7f0ff5d61700 10:01:15 LinkLevl: DevOpen = 0
+7f0ff5d61700 10:01:15 LinkLevl: Open Level: 0 RC: 0
+7f0ff4d5f700 10:01:15 Sock_Lib: Listening on 127.0.0.1 9950
+7f0ff5d61700 10:01:15 LinkLevl: Device [INTERNAL]
+7f0ff5d61700 10:01:15 LinkLevl: Level: 0 Protocol: NONE
+7f0ff5d61700 10:01:15 LinkLevl: Link is configured
+7f0ff5d61700 10:01:15 Script  : Engine [XMS]
+7f0ff5d61700 10:01:15 Script  : Code: 1488 Vars: 540
+7f0ff5d61700 10:01:15 Script  : About to read 2233 byte(s)
+7f0ff5d61700 10:01:15 Script  : Engine [XMS]
+7f0ff5d61700 10:01:15 Script  : Code: 1875 Vars: 694
+7f0ff5d61700 10:01:15 Script  : About to read 2819 byte(s)
+7f0ff5d61700 10:01:15 LinkLevl: DevOpen = 0
+7f0ff5d61700 10:01:15 LinkLevl: Open Level: 0 RC: 0
+7f0ff5d61700 10:01:15 LinkLevl: Device [INTERNAL]
+7f0ff5d61700 10:01:15 LinkLevl: Level: 0 Protocol: NONE
+7f0ff5d61700 10:01:15 LinkLevl: Link is configured
+7f0ff5d61700 10:01:15 Script  : Engine [XMS]
+7f0ff5d61700 10:01:15 Script  : Code: 1488 Vars: 540
+7f0ff5d61700 10:01:15 Script  : About to read 2233 byte(s)
+7f0fe77fe700 10:01:15 Sock_Lib: Listening on 127.0.0.1 9950
+7f0ff5d61700 10:01:15 Script  : Engine [XMS]
+7f0ff5d61700 10:01:15 Script  : Code: 1875 Vars: 694
+7f0ff5d61700 10:01:15 Script  : About to read 2819 byte(s)
+7f0ff5d61700 10:01:15 LinkLevl: DevOpen = 0
+7f0ff5d61700 10:01:15 LinkLevl: Open Level: 0 RC: 0
+7f0fe7fff700 10:01:15 Sock_Lib: Socket service for 127.0.0.1:9950
+7f0ff5d61700 10:01:15 Link_Srv: Active link(s): 3 of 3
+7f0ff5d61700 10:01:15 Link_Srv: Running link(s): 1
+7f0ff5d61700 10:01:15 Link_Srv: Running link(s): 2
+7f0ff5d61700 10:01:15 Link_Srv: Running link(s): 3
+7f0fe6ffd700 10:01:15 Sock_Lib: Listening on 127.0.0.1 9950
+7f0ff5560700 10:01:30 Sock_Lib: Connecting to 127.0.0.1 8840 ...
+7f0ff5560700 10:01:30 Sock_Lib: Connected from port 12814
+7f0ff5560700 10:01:30 ProcLink: WriteRec: 3
+7f0ff5560700 10:01:30 Script  : Start!
+7f0ff5560700 10:01:30 Script  : Engine: XMS Call(s): 44
+7f0ff5560700 10:01:30 XML_Lib : Freeing XML data
+7f0ff5560700 10:01:30 LinkLevl: Level 0 - NONE WriteBuf: 162
+7f0ff5560700 10:01:30 LinkLevl: Dumping Device Write Size: 162
+3C 53 4F 41 50 3A 45 6E 76 65 6C 6F 70 65 3E 3C 53 4F 41 50 <SOAP:Envelope><SOAP
+3A 48 65 61 64 65 72 2F 3E 3C 53 4F 41 50 3A 42 6F 64 79 3E :Header/><SOAP:Body>
+3C 73 71 6C 3A 47 65 74 41 75 74 68 54 61 67 73 3E 3C 43 61 <sql:GetAuthTags><Ca
+72 64 3E 2A 3C 2F 43 61 72 64 3E 3C 54 61 67 73 3E 31 30 49 rd>*</Card><Tags>10I
+3D 42 43 37 45 35 30 35 44 31 38 47 45 54 4D 41 49 4C 3D 39 =BC7E505D18GETMAIL=9
+41 44 44 52 54 4F 3D 41 53 3C 2F 54 61 67 73 3E 3C 2F 73 71 ADDRTO=AS</Tags></sq
+6C 3A 47 65 74 41 75 74 68 54 61 67 73 3E 3C 2F 53 4F 41 50 l:GetAuthTags></SOAP
+3A 42 6F 64 79 3E 3C 2F 53 4F 41 50 3A 45 6E 76 65 6C 6F 70 :Body></SOAP:Envelop
+65 3E                                                       e>
+7f0ff5560700 10:01:30 ProcLink: Encode RC: 162
+7f0ff5560700 10:01:30 CryptAPI: Encrypt HSM (51,162,2,8,1,16)
+7f0ff5560700 10:01:30 HSM_DES : HSM Mode: 2
+7f0ff5560700 10:01:30 HSM_DES : MKS [20220210070115]
+7f0ff5560700 10:01:30 CryptAPI: Cipher: DES Key: 8 Block: 8
+7f0ff5560700 10:01:30 CryptAPI: DES Encrypt: 8
+7f0ff5560700 10:01:30 CryptAPI: Cipher: DES2 Key: 16 Block: 8
+7f0ff5560700 10:01:30 CryptAPI: DES2 CBC Encrypt: 168
+7f0ff5560700 10:01:30 CODEC   : MsgRec sent: 186
+7f0ff5560700 10:01:30 CryptAPI: Decrypt HSM (51,216,2,8,1,16)
+7f0ff5560700 10:01:30 HSM_DES : STS [20220210070130] CTS [20220210070130]
+7f0ff5560700 10:01:30 HSM_DES : Diff: 1644465690-1644465690=0 Guard: 3600
+7f0ff5560700 10:01:30 Obj_Drvr: CallObj(PKCS11): 51 - GetMAC
+7f0ff5560700 10:01:30 Cryptoki: Input len: 8 Output size: 16
+7f0ff5560700 10:01:30 CryptAPI: Cipher: DES Key: 8 Block: 8
+7f0ff5560700 10:01:30 CryptAPI: DES Encrypt: 8
+7f0ff5560700 10:01:30 CryptAPI: Cipher: DES2 Key: 16 Block: 8
+7f0ff5560700 10:01:30 CryptAPI: DES2 CBC Decrypt: 200
+7f0ff5560700 10:01:30 ProcLink: ReadRec
+7f0ff5560700 10:01:30 SCR_Link: ReadCall
+7f0ff5560700 10:01:30 LinkLevl: Level 0 - NONE ReadBuf: 8000
+7f0ff5560700 10:01:30 LinkLevl: DevRead: 8000 Timeout: 1
+7f0ff5560700 10:01:30 LinkLevl: Dumping Device Read Size: 197
+3C 53 4F 41 50 3A 45 6E 76 65 6C 6F 70 65 3E 3C 53 4F 41 50 <SOAP:Envelope><SOAP
+3A 48 65 61 64 65 72 2F 3E 3C 53 4F 41 50 3A 42 6F 64 79 3E :Header/><SOAP:Body>
+3C 73 71 6C 3A 47 65 74 41 75 74 68 54 61 67 73 52 65 73 70 <sql:GetAuthTagsResp
+6F 6E 73 65 3E 3C 52 65 74 43 6F 64 65 3E 30 3C 2F 52 65 74 onse><RetCode>0</Ret
+43 6F 64 65 3E 3C 45 72 72 4D 65 73 67 3E 4F 4B 3C 2F 45 72 Code><ErrMesg>OK</Er
+72 4D 65 73 67 3E 3C 49 6E 66 6F 3E 31 30 49 3D 42 43 37 45 rMesg><Info>10I=BC7E
+35 30 35 44 31 30 43 4F 55 4E 54 4D 53 47 3D 30 3C 2F 49 6E 505D10COUNTMSG=0</In
+66 6F 3E 3C 2F 73 71 6C 3A 47 65 74 41 75 74 68 54 61 67 73 fo></sql:GetAuthTags
+52 65 73 70 6F 6E 73 65 3E 3C 2F 53 4F 41 50 3A 42 6F 64 79 Response></SOAP:Body
+3E 3C 2F 53 4F 41 50 3A 45 6E 76 65 6C 6F 70 65 3E          ></SOAP:Envelope>
+7f0ff5560700 10:01:30 LinkLevl: Level: 0 Read RC: 197
+7f0ff5560700 10:01:30 Script  : Start!
+7f0ff5560700 10:01:30 XML_Lib : Building XML Tree
+7f0ff5560700 10:01:30 Script  : Engine: XMS Call(s): 44
+7f0ff5560700 10:01:30 XML_Lib : Element SOAP:Envelope is matched
+7f0ff5560700 10:01:30 XML_Lib : Element SOAP:Header is matched
+7f0ff5560700 10:01:30 XML_Lib : Element SOAP:Body is matched
+7f0ff5560700 10:01:30 XML_Lib : Element sql:GetAuthTagsResponse is matched
+7f0ff5560700 10:01:30 XML_Lib : Element RetCode is matched
+7f0ff5560700 10:01:30 XML_Lib : Value[1] = 0
+7f0ff5560700 10:01:30 XML_Lib : Element ErrMesg is matched
+7f0ff5560700 10:01:30 XML_Lib : Value[2] = OK
+7f0ff5560700 10:01:30 XML_Lib : Element Info is matched
+7f0ff5560700 10:01:30 XML_Lib : Value[3] = 10I=BC7E505D10COUNTMSG=0
+7f0ff5560700 10:01:30 XML_Lib : Freeing XML data
+7f0ff5560700 10:01:30 ProcLink: Read RC: 0
+7f0ff5560700 10:01:30 CODEC   : MsgRec received: 1
+7f0ff5560700 10:01:30 Sock_Lib: Closing socket: 28 -1
+7f0ff5560700 10:01:30 StrLib  : LTV parsed { COUNTMSG=0; }
+7f0ff5560700 10:01:30 ASMsgBox: Skip process mail. Missing address from
+7f0ff5560700 10:01:30 ASMsgBox: Scheduled event in: 15 sec(s)
+7f0ff5560700 10:01:45 Sock_Lib: Connecting to 127.0.0.1 8840 ...
+7f0ff5560700 10:01:45 Sock_Lib: Connected from port 12878
+7f0ff5560700 10:01:45 ProcLink: WriteRec: 3
+7f0ff5560700 10:01:45 Script  : Start!
+7f0ff5560700 10:01:45 Script  : Engine: XMS Call(s): 44
+7f0ff5560700 10:01:45 XML_Lib : Freeing XML data
+7f0ff5560700 10:01:45 LinkLevl: Level 0 - NONE WriteBuf: 162
+7f0ff5560700 10:01:45 LinkLevl: Dumping Device Write Size: 162
+3C 53 4F 41 50 3A 45 6E 76 65 6C 6F 70 65 3E 3C 53 4F 41 50 <SOAP:Envelope><SOAP
+3A 48 65 61 64 65 72 2F 3E 3C 53 4F 41 50 3A 42 6F 64 79 3E :Header/><SOAP:Body>
+3C 73 71 6C 3A 47 65 74 41 75 74 68 54 61 67 73 3E 3C 43 61 <sql:GetAuthTags><Ca
+72 64 3E 2A 3C 2F 43 61 72 64 3E 3C 54 61 67 73 3E 31 30 49 rd>*</Card><Tags>10I
+3D 42 44 37 45 35 30 35 44 31 38 47 45 54 4D 41 49 4C 3D 39 =BD7E505D18GETMAIL=9
+41 44 44 52 54 4F 3D 41 53 3C 2F 54 61 67 73 3E 3C 2F 73 71 ADDRTO=AS</Tags></sq
+6C 3A 47 65 74 41 75 74 68 54 61 67 73 3E 3C 2F 53 4F 41 50 l:GetAuthTags></SOAP
+3A 42 6F 64 79 3E 3C 2F 53 4F 41 50 3A 45 6E 76 65 6C 6F 70 :Body></SOAP:Envelop
+65 3E                                                       e>
+7f0ff5560700 10:01:45 ProcLink: Encode RC: 162
+7f0ff5560700 10:01:45 CryptAPI: Encrypt HSM (51,162,2,8,1,16)
+7f0ff5560700 10:01:45 HSM_DES : HSM Mode: 2
+7f0ff5560700 10:01:45 HSM_DES : MKS [20220210070115]
+7f0ff5560700 10:01:45 CryptAPI: Cipher: DES Key: 8 Block: 8
+7f0ff5560700 10:01:45 CryptAPI: DES Encrypt: 8
+7f0ff5560700 10:01:45 CryptAPI: Cipher: DES2 Key: 16 Block: 8
+7f0ff5560700 10:01:45 CryptAPI: DES2 CBC Encrypt: 168
+7f0ff5560700 10:01:45 CODEC   : MsgRec sent: 186
+7f0ff5560700 10:01:45 CryptAPI: Decrypt HSM (51,216,2,8,1,16)
+7f0ff5560700 10:01:45 HSM_DES : STS [20220210070145] CTS [20220210070145]
+7f0ff5560700 10:01:45 HSM_DES : Diff: 1644465705-1644465705=0 Guard: 3600
+7f0ff5560700 10:01:45 Obj_Drvr: CallObj(PKCS11): 51 - GetMAC
+7f0ff5560700 10:01:45 Cryptoki: Input len: 8 Output size: 16
+7f0ff5560700 10:01:45 CryptAPI: Cipher: DES Key: 8 Block: 8
+7f0ff5560700 10:01:45 CryptAPI: DES Encrypt: 8
+7f0ff5560700 10:01:45 CryptAPI: Cipher: DES2 Key: 16 Block: 8
+7f0ff5560700 10:01:45 CryptAPI: DES2 CBC Decrypt: 200
+7f0ff5560700 10:01:45 ProcLink: ReadRec
+7f0ff5560700 10:01:45 SCR_Link: ReadCall
+7f0ff5560700 10:01:45 LinkLevl: Level 0 - NONE ReadBuf: 8000
+7f0ff5560700 10:01:45 LinkLevl: DevRead: 8000 Timeout: 1
+7f0ff5560700 10:01:45 LinkLevl: Dumping Device Read Size: 197
+3C 53 4F 41 50 3A 45 6E 76 65 6C 6F 70 65 3E 3C 53 4F 41 50 <SOAP:Envelope><SOAP
+3A 48 65 61 64 65 72 2F 3E 3C 53 4F 41 50 3A 42 6F 64 79 3E :Header/><SOAP:Body>
+3C 73 71 6C 3A 47 65 74 41 75 74 68 54 61 67 73 52 65 73 70 <sql:GetAuthTagsResp
+6F 6E 73 65 3E 3C 52 65 74 43 6F 64 65 3E 30 3C 2F 52 65 74 onse><RetCode>0</Ret
+43 6F 64 65 3E 3C 45 72 72 4D 65 73 67 3E 4F 4B 3C 2F 45 72 Code><ErrMesg>OK</Er
+72 4D 65 73 67 3E 3C 49 6E 66 6F 3E 31 30 49 3D 42 44 37 45 rMesg><Info>10I=BD7E
+35 30 35 44 31 30 43 4F 55 4E 54 4D 53 47 3D 30 3C 2F 49 6E 505D10COUNTMSG=0</In
+66 6F 3E 3C 2F 73 71 6C 3A 47 65 74 41 75 74 68 54 61 67 73 fo></sql:GetAuthTags
+52 65 73 70 6F 6E 73 65 3E 3C 2F 53 4F 41 50 3A 42 6F 64 79 Response></SOAP:Body
+3E 3C 2F 53 4F 41 50 3A 45 6E 76 65 6C 6F 70 65 3E          ></SOAP:Envelope>
+7f0ff5560700 10:01:45 LinkLevl: Level: 0 Read RC: 197
+7f0ff5560700 10:01:45 Script  : Start!
+7f0ff5560700 10:01:45 XML_Lib : Building XML Tree
+7f0ff5560700 10:01:45 Script  : Engine: XMS Call(s): 44
+7f0ff5560700 10:01:45 XML_Lib : Element SOAP:Envelope is matched
+7f0ff5560700 10:01:45 XML_Lib : Element SOAP:Header is matched
+7f0ff5560700 10:01:45 XML_Lib : Element SOAP:Body is matched
+7f0ff5560700 10:01:45 XML_Lib : Element sql:GetAuthTagsResponse is matched
+7f0ff5560700 10:01:45 XML_Lib : Element RetCode is matched
+7f0ff5560700 10:01:45 XML_Lib : Value[1] = 0
+7f0ff5560700 10:01:45 XML_Lib : Element ErrMesg is matched
+7f0ff5560700 10:01:45 XML_Lib : Value[2] = OK
+7f0ff5560700 10:01:45 XML_Lib : Element Info is matched
+7f0ff5560700 10:01:45 XML_Lib : Value[3] = 10I=BD7E505D10COUNTMSG=0
+7f0ff5560700 10:01:45 XML_Lib : Freeing XML data
+7f0ff5560700 10:01:45 ProcLink: Read RC: 0
+7f0ff5560700 10:01:45 CODEC   : MsgRec received: 1
+7f0ff5560700 10:01:45 Sock_Lib: Closing socket: 28 -1
+7f0ff5560700 10:01:45 StrLib  : LTV parsed { COUNTMSG=0; }
+7f0ff5560700 10:01:45 ASMsgBox: Skip process mail. Missing address from
+7f0ff5560700 10:01:45 ASMsgBox: Scheduled event in: 15 sec(s)
+7f0ff5560700 10:02:00 Sock_Lib: Connecting to 127.0.0.1 8840 ...
+7f0ff5560700 10:02:00 Sock_Lib: Connected from port 12918
+7f0ff5560700 10:02:00 ProcLink: WriteRec: 3
+7f0ff5560700 10:02:00 Script  : Start!
+7f0ff5560700 10:02:00 Script  : Engine: XMS Call(s): 44
+7f0ff5560700 10:02:00 XML_Lib : Freeing XML data
+7f0ff5560700 10:02:00 LinkLevl: Level 0 - NONE WriteBuf: 162
+7f0ff5560700 10:02:00 LinkLevl: Dumping Device Write Size: 162
+3C 53 4F 41 50 3A 45 6E 76 65 6C 6F 70 65 3E 3C 53 4F 41 50 <SOAP:Envelope><SOAP
+3A 48 65 61 64 65 72 2F 3E 3C 53 4F 41 50 3A 42 6F 64 79 3E :Header/><SOAP:Body>
+3C 73 71 6C 3A 47 65 74 41 75 74 68 54 61 67 73 3E 3C 43 61 <sql:GetAuthTags><Ca
+72 64 3E 2A 3C 2F 43 61 72 64 3E 3C 54 61 67 73 3E 31 30 49 rd>*</Card><Tags>10I
+3D 42 45 37 45 35 30 35 44 31 38 47 45 54 4D 41 49 4C 3D 39 =BE7E505D18GETMAIL=9
+41 44 44 52 54 4F 3D 41 53 3C 2F 54 61 67 73 3E 3C 2F 73 71 ADDRTO=AS</Tags></sq
+6C 3A 47 65 74 41 75 74 68 54 61 67 73 3E 3C 2F 53 4F 41 50 l:GetAuthTags></SOAP
+3A 42 6F 64 79 3E 3C 2F 53 4F 41 50 3A 45 6E 76 65 6C 6F 70 :Body></SOAP:Envelop
+65 3E                                                       e>
+7f0ff5560700 10:02:00 ProcLink: Encode RC: 162
+7f0ff5560700 10:02:00 CryptAPI: Encrypt HSM (51,162,2,8,1,16)
+7f0ff5560700 10:02:00 HSM_DES : HSM Mode: 2
+7f0ff5560700 10:02:00 HSM_DES : MKS [20220210070115]
+7f0ff5560700 10:02:00 HSM_DES : New MK stamp: 20220210070200
+7f0ff5560700 10:02:00 Obj_Drvr: CallObj(PKCS11): 51 - GetMAC
+7f0ff5560700 10:02:00 Cryptoki: Input len: 8 Output size: 16
+7f0ff5560700 10:02:01 CryptAPI: Cipher: DES Key: 8 Block: 8
+7f0ff5560700 10:02:01 CryptAPI: DES Encrypt: 8
+7f0ff5560700 10:02:01 CryptAPI: Cipher: DES2 Key: 16 Block: 8
+7f0ff5560700 10:02:01 CryptAPI: DES2 CBC Encrypt: 168
+7f0ff5560700 10:02:01 CODEC   : MsgRec sent: 186
+7f0ff5560700 10:02:01 CryptAPI: Decrypt HSM (51,360,2,8,1,16)
+7f0ff5560700 10:02:01 HSM_DES : STS [20220210070201] CTS [20220210070201]
+7f0ff5560700 10:02:01 HSM_DES : Diff: 1644465721-1644465721=0 Guard: 3600
+7f0ff5560700 10:02:01 Obj_Drvr: CallObj(PKCS11): 51 - GetMAC
+7f0ff5560700 10:02:01 Cryptoki: Input len: 8 Output size: 16
+7f0ff5560700 10:02:01 CryptAPI: Cipher: DES Key: 8 Block: 8
+7f0ff5560700 10:02:01 CryptAPI: DES Encrypt: 8
+7f0ff5560700 10:02:01 CryptAPI: Cipher: DES2 Key: 16 Block: 8
+7f0ff5560700 10:02:01 CryptAPI: DES2 CBC Decrypt: 344
+7f0ff5560700 10:02:01 ProcLink: ReadRec
+7f0ff5560700 10:02:01 SCR_Link: ReadCall
+7f0ff5560700 10:02:01 LinkLevl: Level 0 - NONE ReadBuf: 8000
+7f0ff5560700 10:02:01 LinkLevl: DevRead: 8000 Timeout: 1
+7f0ff5560700 10:02:01 LinkLevl: Dumping Device Read Size: 342
+3C 53 4F 41 50 3A 45 6E 76 65 6C 6F 70 65 3E 3C 53 4F 41 50 <SOAP:Envelope><SOAP
+3A 48 65 61 64 65 72 2F 3E 3C 53 4F 41 50 3A 42 6F 64 79 3E :Header/><SOAP:Body>
+3C 73 71 6C 3A 47 65 74 41 75 74 68 54 61 67 73 52 65 73 70 <sql:GetAuthTagsResp
+6F 6E 73 65 3E 3C 52 65 74 43 6F 64 65 3E 30 3C 2F 52 65 74 onse><RetCode>0</Ret
+43 6F 64 65 3E 3C 45 72 72 4D 65 73 67 3E 4F 4B 3C 2F 45 72 Code><ErrMesg>OK</Er
+72 4D 65 73 67 3E 3C 49 6E 66 6F 3E 31 30 49 3D 42 45 37 45 rMesg><Info>10I=BE7E
+35 30 35 44 31 31 41 44 44 52 46 52 4F 4D 3D 50 44 31 30 4D 505D11ADDRFROM=PD10M
+54 59 50 45 3D 41 53 52 51 32 35 52 44 41 54 45 3D 32 30 32 TYPE=ASRQ25RDATE=202
+32 2D 30 32 2D 31 30 20 31 30 3A 30 31 3A 34 38 39 31 42 55 2-02-10 10:01:4891BU
+46 3D 31 32 43 4D 44 3D 47 45 4E 54 53 50 49 4E 38 49 44 54 F=12CMD=GENTSPIN8IDT
+3D 43 41 52 44 32 30 55 49 44 3D 31 32 31 32 31 32 30 30 30 =CARD20UID=121212000
+30 30 30 30 31 39 38 38 45 58 50 3D 35 31 30 39 31 33 50 48 00001988EXP=510913PH
+4F 4E 45 3D 37 37 37 37 37 37 37 31 36 43 46 47 4F 42 4A 3D ONE=777777716CFGOBJ=
+54 53 5F 47 45 4E 50 49 4E 31 30 43 4F 55 4E 54 4D 53 47 3D TS_GENPIN10COUNTMSG=
+30 3C 2F 49 6E 66 6F 3E 3C 2F 73 71 6C 3A 47 65 74 41 75 74 0</Info></sql:GetAut
+68 54 61 67 73 52 65 73 70 6F 6E 73 65 3E 3C 2F 53 4F 41 50 hTagsResponse></SOAP
+3A 42 6F 64 79 3E 3C 2F 53 4F 41 50 3A 45 6E 76 65 6C 6F 70 :Body></SOAP:Envelop
+65 3E                                                       e>
+7f0ff5560700 10:02:01 LinkLevl: Level: 0 Read RC: 342
+7f0ff5560700 10:02:01 Script  : Start!
+7f0ff5560700 10:02:01 XML_Lib : Building XML Tree
+7f0ff5560700 10:02:01 Script  : Engine: XMS Call(s): 44
+7f0ff5560700 10:02:01 XML_Lib : Element SOAP:Envelope is matched
+7f0ff5560700 10:02:01 XML_Lib : Element SOAP:Header is matched
+7f0ff5560700 10:02:01 XML_Lib : Element SOAP:Body is matched
+7f0ff5560700 10:02:01 XML_Lib : Element sql:GetAuthTagsResponse is matched
+7f0ff5560700 10:02:01 XML_Lib : Element RetCode is matched
+7f0ff5560700 10:02:01 XML_Lib : Value[1] = 0
+7f0ff5560700 10:02:01 XML_Lib : Element ErrMesg is matched
+7f0ff5560700 10:02:01 XML_Lib : Value[2] = OK
+7f0ff5560700 10:02:01 XML_Lib : Element Info is matched
+7f0ff5560700 10:02:01 XML_Lib : Value[3] = 10I=BE7E505D11ADDRFROM=PD10MTYPE=ASRQ25RDATE=2022-02-10 10:01:4891BUF=12CMD=GENTSPIN8IDT=CARD20UID=12121200000001988EXP=510913PHONE=777777716CFGOBJ=TS_GENPIN10COUNTMSG=0
+7f0ff5560700 10:02:01 XML_Lib : Freeing XML data
+7f0ff5560700 10:02:01 ProcLink: Read RC: 0
+7f0ff5560700 10:02:01 CODEC   : MsgRec received: 1
+7f0ff5560700 10:02:01 Sock_Lib: Closing socket: 28 -1
+7f0ff5560700 10:02:01 StrLib  : LTV parsed { ADDRFROM=PD; BUF=12CMD=GENTSPIN8IDT=CARD20UID=12121200000001988EXP=510913PHONE=777777716CFGOBJ=TS_GENPIN; COUNTMSG=0; MTYPE=ASRQ; RDATE=2022-02-10 10:01:48; }
+7f0ff5560700 10:02:01 StrLib  : LTV parsed { CFGOBJ=TS_GENPIN; CMD=GENTSPIN; EXP=5109; IDT=CARD; PHONE=7777777; UID=1212120000000198; }
+7f0ff5560700 10:02:01 Obj_Drvr: CallObj(BINLEN4): 10 - Open
+7f0ff5560700 10:02:01 Obj_Drvr: CallObj(SOCKET): 10 - Open
+7f0ff5560700 10:02:01 Sock_Lib: Connecting to 127.0.0.1 48095 ...
+7f0ff5560700 10:02:01 Sock_Lib: Connected from port 25983
+7f0ff5560700 10:02:01 BinLen4 : Dumping WriteBuf Size: 286
+3C 53 3A 45 6E 76 65 6C 6F 70 65 20 78 6D 6C 6E 73 3A 53 3D <S:Envelope xmlns:S=
+22 68 74 74 70 3A 2F 2F 73 63 68 65 6D 61 73 2E 78 6D 6C 73 "http://schemas.xmls
+6F 61 70 2E 6F 72 67 2F 73 6F 61 70 2F 65 6E 76 65 6C 6F 70 oap.org/soap/envelop
+65 2F 22 3E 3C 53 3A 42 6F 64 79 3E 3C 47 65 6E 65 72 61 74 e/"><S:Body><Generat
+65 50 69 6E 42 79 50 41 4E 52 65 71 20 78 6D 6C 6E 73 3D 22 ePinByPANReq xmlns="
+68 74 74 70 3A 2F 2F 77 77 77 2E 6F 70 65 6E 77 61 79 67 72 http://www.openwaygr
+6F 75 70 2E 63 6F 6D 2F 70 69 6E 73 65 74 22 3E 3C 50 41 4E oup.com/pinset"><PAN
+3E 31 32 31 32 31 32 30 30 30 30 30 30 30 31 39 38 3C 2F 50 >1212120000000198</P
+41 4E 3E 3C 45 58 50 3E 35 31 30 39 3C 2F 45 58 50 3E 3C 50 AN><EXP>5109</EXP><P
+68 6F 6E 65 3E 37 37 37 37 37 37 37 3C 2F 50 68 6F 6E 65 3E hone>7777777</Phone>
+3C 55 73 65 72 41 75 74 68 65 6E 74 69 63 61 74 65 64 3E 59 <UserAuthenticated>Y
+65 73 3C 2F 55 73 65 72 41 75 74 68 65 6E 74 69 63 61 74 65 es</UserAuthenticate
+64 3E 3C 2F 47 65 6E 65 72 61 74 65 50 69 6E 42 79 50 41 4E d></GeneratePinByPAN
+52 65 71 3E 3C 2F 53 3A 42 6F 64 79 3E 3C 2F 53 3A 45 6E 76 Req></S:Body></S:Env
+65 6C 6F 70 65 3E                                           elope>
+7f0ff5560700 10:02:01 Obj_Drvr: CallObj(BINLEN4): 12 - Write
+7f0ff5560700 10:02:01 Sock_Lib: Dumping WriteBuf Size: 290
+00 00 01 1E 3C 53 3A 45 6E 76 65 6C 6F 70 65 20 78 6D 6C 6E ....<S:Envelope xmln
+73 3A 53 3D 22 68 74 74 70 3A 2F 2F 73 63 68 65 6D 61 73 2E s:S="http://schemas.
+78 6D 6C 73 6F 61 70 2E 6F 72 67 2F 73 6F 61 70 2F 65 6E 76 xmlsoap.org/soap/env
+65 6C 6F 70 65 2F 22 3E 3C 53 3A 42 6F 64 79 3E 3C 47 65 6E elope/"><S:Body><Gen
+65 72 61 74 65 50 69 6E 42 79 50 41 4E 52 65 71 20 78 6D 6C eratePinByPANReq xml
+6E 73 3D 22 68 74 74 70 3A 2F 2F 77 77 77 2E 6F 70 65 6E 77 ns="http://www.openw
+61 79 67 72 6F 75 70 2E 63 6F 6D 2F 70 69 6E 73 65 74 22 3E aygroup.com/pinset">
+3C 50 41 4E 3E 31 32 31 32 31 32 30 30 30 30 30 30 30 31 39 <PAN>121212000000019
+38 3C 2F 50 41 4E 3E 3C 45 58 50 3E 35 31 30 39 3C 2F 45 58 8</PAN><EXP>5109</EX
+50 3E 3C 50 68 6F 6E 65 3E 37 37 37 37 37 37 37 3C 2F 50 68 P><Phone>7777777</Ph
+6F 6E 65 3E 3C 55 73 65 72 41 75 74 68 65 6E 74 69 63 61 74 one><UserAuthenticat
+65 64 3E 59 65 73 3C 2F 55 73 65 72 41 75 74 68 65 6E 74 69 ed>Yes</UserAuthenti
+63 61 74 65 64 3E 3C 2F 47 65 6E 65 72 61 74 65 50 69 6E 42 cated></GeneratePinB
+79 50 41 4E 52 65 71 3E 3C 2F 53 3A 42 6F 64 79 3E 3C 2F 53 yPANReq></S:Body></S
+3A 45 6E 76 65 6C 6F 70 65 3E                               :Envelope>
+7f0ff5560700 10:02:01 Obj_Drvr: CallObj(SOCKET): 12 - Write
+7f0ff5560700 10:02:01 Obj_Drvr: CallObj(BINLEN4): 13 - Read
+7f0ff5560700 10:02:01 Obj_Drvr: CallObj(SOCKET): 13 - Read
+7f0ff5560700 10:02:01 Obj_Drvr: CallObj(BINLEN4): 11 - Close
+7f0ff5560700 10:02:01 Obj_Drvr: CallObj(SOCKET): 11 - Close
+7f0ff5560700 10:02:01 Sock_Lib: Closing socket: 28 -1
+7f0ff5560700 10:02:01 ASMsgBox: Scheduled event in: 15 sec(s)
+7f0ff4d5f700 10:02:01 Sock_Lib: Connection from: 127.0.0.1:9498
+7f0ff4d5f700 10:02:01 BinLen4 : Len: 460 Have: 460
+7f0ff4d5f700 10:02:01 ProcLink: ReadRec
+7f0ff4d5f700 10:02:01 SCR_Link: ReadCall
+7f0ff4d5f700 10:02:01 LinkLevl: Level 0 - NONE ReadBuf: 16000
+7f0ff4d5f700 10:02:01 LinkLevl: DevRead: 16000 Timeout: 1
+7f0ff4d5f700 10:02:01 LinkLevl: Dumping Device Read Size: 460
+3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D 22 31 2E 30 22 20 <?xml version="1.0" 
+65 6E 63 6F 64 69 6E 67 3D 22 55 54 46 2D 38 22 20 73 74 61 encoding="UTF-8" sta
+6E 64 61 6C 6F 6E 65 3D 22 79 65 73 22 3F 3E 0A 3C 41 75 74 ndalone="yes"?>.<Aut
+68 50 72 6F 74 6F 63 6F 6C 20 56 65 72 73 69 6F 6E 3D 22 31 hProtocol Version="1
+2E 34 22 3E 0A 20 20 20 20 3C 41 75 74 68 54 79 70 65 53 65 .4">.    <AuthTypeSe
+6C 65 63 74 52 71 3E 0A 20 20 20 20 20 20 20 20 3C 55 73 65 lectRq>.        <Use
+72 49 64 3E 31 32 31 32 31 32 30 30 30 30 30 30 30 31 39 38 rId>1212120000000198
+3C 2F 55 73 65 72 49 64 3E 0A 20 20 20 20 20 20 20 20 3C 55 </UserId>.        <U
+73 65 72 49 64 54 79 70 65 3E 43 41 52 44 3C 2F 55 73 65 72 serIdType>CARD</User
+49 64 54 79 70 65 3E 0A 20 20 20 20 20 20 20 20 3C 53 65 72 IdType>.        <Ser
+76 69 63 65 3E 50 49 4E 5F 53 45 54 55 50 3C 2F 53 65 72 76 vice>PIN_SETUP</Serv
+69 63 65 3E 0A 20 20 20 20 20 20 20 20 3C 41 75 74 68 54 79 ice>.        <AuthTy
+70 65 3E 53 4D 53 5F 50 49 4E 3C 2F 41 75 74 68 54 79 70 65 pe>SMS_PIN</AuthType
+3E 0A 20 20 20 20 20 20 20 20 3C 41 75 74 68 44 61 74 61 3E >.        <AuthData>
+0A 20 20 20 20 20 20 20 20 20 20 20 20 3C 50 61 72 61 6D 20 .            <Param 
+4E 61 6D 65 3D 22 50 48 4F 4E 45 22 3E 37 37 37 37 37 37 37 Name="PHONE">7777777
+3C 2F 50 61 72 61 6D 3E 0A 20 20 20 20 20 20 20 20 3C 2F 41 </Param>.        </A
+75 74 68 44 61 74 61 3E 0A 20 20 20 20 20 20 20 20 3C 41 75 uthData>.        <Au
+74 68 54 6F 6B 65 6E 3E 30 33 32 30 32 32 30 32 31 30 30 37 thToken>032022021007
+30 32 30 31 37 34 33 45 33 32 45 46 38 37 42 43 42 30 38 45 0201743E32EF87BCB08E
+53 4D 53 5F 50 49 4E 3C 2F 41 75 74 68 54 6F 6B 65 6E 3E 0A SMS_PIN</AuthToken>.
+20 20 20 20 3C 2F 41 75 74 68 54 79 70 65 53 65 6C 65 63 74     </AuthTypeSelect
+52 71 3E 0A 3C 2F 41 75 74 68 50 72 6F 74 6F 63 6F 6C 3E 0A Rq>.</AuthProtocol>.
+7f0ff4d5f700 10:02:01 LinkLevl: Level: 0 Read RC: 460
+7f0ff4d5f700 10:02:01 Script  : Start!
+7f0ff4d5f700 10:02:01 XML_Lib : Building XML Tree
+7f0ff4d5f700 10:02:01 Script  : Engine: XMS Call(s): 44
+7f0ff4d5f700 10:02:01 XML_Lib : Element AuthProtocol is matched
+7f0ff4d5f700 10:02:01 XML_Lib : Attribute Version='1.4' is found
+7f0ff4d5f700 10:02:01 XML_Lib : Element AuthTypeSelectRq is matched
+7f0ff4d5f700 10:02:01 XML_Lib : Element UserId is matched
+7f0ff4d5f700 10:02:01 XML_Lib : Value[7] = 1212120000000198
+7f0ff4d5f700 10:02:01 XML_Lib : Element UserIdType is matched
+7f0ff4d5f700 10:02:01 XML_Lib : Value[8] = CARD
+7f0ff4d5f700 10:02:01 XML_Lib : Element Service is matched
+7f0ff4d5f700 10:02:01 XML_Lib : Value[3] = PIN_SETUP
+7f0ff4d5f700 10:02:01 XML_Lib : Element AuthType is matched
+7f0ff4d5f700 10:02:01 XML_Lib : Value[5] = SMS_PIN
+7f0ff4d5f700 10:02:01 XML_Lib : Element AuthToken is matched
+7f0ff4d5f700 10:02:01 XML_Lib : Value[15] = 0320220210070201743E32EF87BCB08ESMS_PIN
+7f0ff4d5f700 10:02:01 XML_Lib : Element AuthData is matched
+7f0ff4d5f700 10:02:01 XML_Lib : Record Param Match: 0
+7f0ff4d5f700 10:02:01 XML_Lib : Attribute Name='PHONE' is found
+7f0ff4d5f700 10:02:01 XML_Lib : Value[1] = 7777777
+7f0ff4d5f700 10:02:01 XML_Lib : Freeing XML data
+7f0ff4d5f700 10:02:01 ProcLink: Read RC: 0
+7f0ff4d5f700 10:02:01 OpHealth: Start Operation [AS.Select] Id [499FA88EAB6BC405D06BA8255DB8CB85]
+7f0ff4d5f700 10:02:01 CryptAPI: HMAC_SHA1 Encrypt: 58
+7f0ff4d5f700 10:02:01 AuthServ: AuthOpen UserId: 1212********0198 IdType: CARD Service: PIN_SETUP
+7f0ff4d5f700 10:02:01 AuthServ: AuthMethod: SMS_PIN
+7f0ff4d5f700 10:02:01 Sock_Lib: Connecting to 127.0.0.1 8840 ...
+7f0ff4d5f700 10:02:01 Sock_Lib: Connected from port 12924
+7f0ff4d5f700 10:02:01 ProcLink: WriteRec: 3
+7f0ff4d5f700 10:02:01 Script  : Start!
+7f0ff4d5f700 10:02:01 Script  : Engine: XMS Call(s): 44
+7f0ff4d5f700 10:02:01 XML_Lib : Freeing XML data
+7f0ff4d5f700 10:02:01 LinkLevl: Level 0 - NONE WriteBuf: 196
+7f0ff4d5f700 10:02:01 LinkLevl: Dumping Device Write Size: 196
+3C 53 4F 41 50 3A 45 6E 76 65 6C 6F 70 65 3E 3C 53 4F 41 50 <SOAP:Envelope><SOAP
+3A 48 65 61 64 65 72 2F 3E 3C 53 4F 41 50 3A 42 6F 64 79 3E :Header/><SOAP:Body>
+3C 73 71 6C 3A 47 65 74 41 75 74 68 54 61 67 73 3E 3C 43 61 <sql:GetAuthTags><Ca
+72 64 3E 2A 3C 2F 43 61 72 64 3E 3C 54 61 67 73 3E 31 30 49 rd>*</Card><Tags>10I
+3D 42 46 37 45 35 30 35 44 32 30 55 49 44 3D 31 32 31 32 31 =BF7E505D20UID=12121
+32 30 30 30 30 30 30 30 31 39 38 38 49 44 54 3D 43 41 52 44 200000001988IDT=CARD
+31 37 53 45 52 56 49 43 45 3D 50 49 4E 5F 53 45 54 55 50 33 17SERVICE=PIN_SETUP3
+41 4D 4C 3C 2F 54 61 67 73 3E 3C 2F 73 71 6C 3A 47 65 74 41 AML</Tags></sql:GetA
+75 74 68 54 61 67 73 3E 3C 2F 53 4F 41 50 3A 42 6F 64 79 3E uthTags></SOAP:Body>
+3C 2F 53 4F 41 50 3A 45 6E 76 65 6C 6F 70 65 3E             </SOAP:Envelope>
+7f0ff4d5f700 10:02:01 ProcLink: Encode RC: 196
+7f0ff4d5f700 10:02:01 CryptAPI: Encrypt HSM (51,196,2,8,1,16)
+7f0ff4d5f700 10:02:01 HSM_DES : HSM Mode: 2
+7f0ff4d5f700 10:02:01 HSM_DES : MKS [20220210070200]
+7f0ff4d5f700 10:02:01 CryptAPI: Cipher: DES Key: 8 Block: 8
+7f0ff4d5f700 10:02:01 CryptAPI: DES Encrypt: 8
+7f0ff4d5f700 10:02:01 CryptAPI: Cipher: DES2 Key: 16 Block: 8
+7f0ff4d5f700 10:02:01 CryptAPI: DES2 CBC Encrypt: 200
+7f0ff4d5f700 10:02:01 CODEC   : MsgRec sent: 218
+7f0ff4d5f700 10:02:01 CryptAPI: Decrypt HSM (51,224,2,8,1,16)
+7f0ff4d5f700 10:02:01 HSM_DES : STS [20220210070201] CTS [20220210070201]
+7f0ff4d5f700 10:02:01 HSM_DES : Diff: 1644465721-1644465721=0 Guard: 3600
+7f0ff4d5f700 10:02:01 Obj_Drvr: CallObj(PKCS11): 51 - GetMAC
+7f0ff4d5f700 10:02:01 Cryptoki: Input len: 8 Output size: 16
+7f0ff4d5f700 10:02:01 CryptAPI: Cipher: DES Key: 8 Block: 8
+7f0ff4d5f700 10:02:01 CryptAPI: DES Encrypt: 8
+7f0ff4d5f700 10:02:01 CryptAPI: Cipher: DES2 Key: 16 Block: 8
+7f0ff4d5f700 10:02:01 CryptAPI: DES2 CBC Decrypt: 208
+7f0ff4d5f700 10:02:01 ProcLink: ReadRec
+7f0ff4d5f700 10:02:01 SCR_Link: ReadCall
+7f0ff4d5f700 10:02:01 LinkLevl: Level 0 - NONE ReadBuf: 8000
+7f0ff4d5f700 10:02:01 LinkLevl: DevRead: 8000 Timeout: 1
+7f0ff4d5f700 10:02:01 LinkLevl: Dumping Device Read Size: 206
+3C 53 4F 41 50 3A 45 6E 76 65 6C 6F 70 65 3E 3C 53 4F 41 50 <SOAP:Envelope><SOAP
+3A 48 65 61 64 65 72 2F 3E 3C 53 4F 41 50 3A 42 6F 64 79 3E :Header/><SOAP:Body>
+3C 73 71 6C 3A 47 65 74 41 75 74 68 54 61 67 73 52 65 73 70 <sql:GetAuthTagsResp
+6F 6E 73 65 3E 3C 52 65 74 43 6F 64 65 3E 30 3C 2F 52 65 74 onse><RetCode>0</Ret
+43 6F 64 65 3E 3C 45 72 72 4D 65 73 67 3E 4F 4B 3C 2F 45 72 Code><ErrMesg>OK</Er
+72 4D 65 73 67 3E 3C 49 6E 66 6F 3E 31 30 49 3D 42 46 37 45 rMesg><Info>10I=BF7E
+35 30 35 44 31 39 41 4D 4C 3D 4F 54 50 5F 53 4D 53 2C 53 4D 505D19AML=OTP_SMS,SM
+53 5F 50 49 4E 3C 2F 49 6E 66 6F 3E 3C 2F 73 71 6C 3A 47 65 S_PIN</Info></sql:Ge
+74 41 75 74 68 54 61 67 73 52 65 73 70 6F 6E 73 65 3E 3C 2F tAuthTagsResponse></
+53 4F 41 50 3A 42 6F 64 79 3E 3C 2F 53 4F 41 50 3A 45 6E 76 SOAP:Body></SOAP:Env
+65 6C 6F 70 65 3E                                           elope>
+7f0ff4d5f700 10:02:01 LinkLevl: Level: 0 Read RC: 206
+7f0ff4d5f700 10:02:01 Script  : Start!
+7f0ff4d5f700 10:02:01 XML_Lib : Building XML Tree
+7f0ff4d5f700 10:02:01 Script  : Engine: XMS Call(s): 44
+7f0ff4d5f700 10:02:01 XML_Lib : Element SOAP:Envelope is matched
+7f0ff4d5f700 10:02:01 XML_Lib : Element SOAP:Header is matched
+7f0ff4d5f700 10:02:01 XML_Lib : Element SOAP:Body is matched
+7f0ff4d5f700 10:02:01 XML_Lib : Element sql:GetAuthTagsResponse is matched
+7f0ff4d5f700 10:02:01 XML_Lib : Element RetCode is matched
+7f0ff4d5f700 10:02:01 XML_Lib : Value[1] = 0
+7f0ff4d5f700 10:02:01 XML_Lib : Element ErrMesg is matched
+7f0ff4d5f700 10:02:01 XML_Lib : Value[2] = OK
+7f0ff4d5f700 10:02:01 XML_Lib : Element Info is matched
+7f0ff4d5f700 10:02:01 XML_Lib : Value[3] = 10I=BF7E505D19AML=OTP_SMS,SMS_PIN
+7f0ff4d5f700 10:02:01 XML_Lib : Freeing XML data
+7f0ff4d5f700 10:02:01 ProcLink: Read RC: 0
+7f0ff4d5f700 10:02:01 CODEC   : MsgRec received: 1
+7f0ff4d5f700 10:02:01 Sock_Lib: Closing socket: 29 -1
+7f0ff4d5f700 10:02:01 StrLib  : LTV parsed { AML=OTP_SMS,SMS_PIN; }
+7f0ff4d5f700 10:02:01 Sock_Lib: Connecting to 127.0.0.1 8840 ...
+7f0ff4d5f700 10:02:01 Sock_Lib: Connected from port 12926
+7f0ff4d5f700 10:02:01 ProcLink: WriteRec: 3
+7f0ff4d5f700 10:02:01 Script  : Start!
+7f0ff4d5f700 10:02:01 Script  : Engine: XMS Call(s): 44
+7f0ff4d5f700 10:02:01 XML_Lib : Freeing XML data
+7f0ff4d5f700 10:02:01 LinkLevl: Level 0 - NONE WriteBuf: 208
+7f0ff4d5f700 10:02:01 LinkLevl: Dumping Device Write Size: 208
+3C 53 4F 41 50 3A 45 6E 76 65 6C 6F 70 65 3E 3C 53 4F 41 50 <SOAP:Envelope><SOAP
+3A 48 65 61 64 65 72 2F 3E 3C 53 4F 41 50 3A 42 6F 64 79 3E :Header/><SOAP:Body>
+3C 73 71 6C 3A 47 65 74 41 75 74 68 54 61 67 73 3E 3C 43 61 <sql:GetAuthTags><Ca
+72 64 3E 2A 3C 2F 43 61 72 64 3E 3C 54 61 67 73 3E 31 30 49 rd>*</Card><Tags>10I
+3D 43 30 37 45 35 30 35 44 32 30 55 49 44 3D 31 32 31 32 31 =C07E505D20UID=12121
+32 30 30 30 30 30 30 30 31 39 38 38 49 44 54 3D 43 41 52 44 200000001988IDT=CARD
+31 37 53 45 52 56 49 43 45 3D 50 49 4E 5F 53 45 54 55 50 31 17SERVICE=PIN_SETUP1
+34 47 45 54 53 43 48 3D 53 4D 53 5F 50 49 4E 3C 2F 54 61 67 4GETSCH=SMS_PIN</Tag
+73 3E 3C 2F 73 71 6C 3A 47 65 74 41 75 74 68 54 61 67 73 3E s></sql:GetAuthTags>
+3C 2F 53 4F 41 50 3A 42 6F 64 79 3E 3C 2F 53 4F 41 50 3A 45 </SOAP:Body></SOAP:E
+6E 76 65 6C 6F 70 65 3E                                     nvelope>
+7f0ff4d5f700 10:02:01 ProcLink: Encode RC: 208
+7f0ff4d5f700 10:02:01 CryptAPI: Encrypt HSM (51,208,2,8,1,16)
+7f0ff4d5f700 10:02:01 HSM_DES : HSM Mode: 2
+7f0ff4d5f700 10:02:01 HSM_DES : MKS [20220210070200]
+7f0ff4d5f700 10:02:01 CryptAPI: Cipher: DES Key: 8 Block: 8
+7f0ff4d5f700 10:02:01 CryptAPI: DES Encrypt: 8
+7f0ff4d5f700 10:02:01 CryptAPI: Cipher: DES2 Key: 16 Block: 8
+7f0ff4d5f700 10:02:01 CryptAPI: DES2 CBC Encrypt: 216
+7f0ff4d5f700 10:02:01 CODEC   : MsgRec sent: 234
+7f0ff4d5f700 10:02:01 CryptAPI: Decrypt HSM (51,240,2,8,1,16)
+7f0ff4d5f700 10:02:01 HSM_DES : STS [20220210070201] CTS [20220210070201]
+7f0ff4d5f700 10:02:01 HSM_DES : Diff: 1644465721-1644465721=0 Guard: 3600
+7f0ff4d5f700 10:02:01 Obj_Drvr: CallObj(PKCS11): 51 - GetMAC
+7f0ff4d5f700 10:02:01 Cryptoki: Input len: 8 Output size: 16
+7f0ff4d5f700 10:02:01 CryptAPI: Cipher: DES Key: 8 Block: 8
+7f0ff4d5f700 10:02:01 CryptAPI: DES Encrypt: 8
+7f0ff4d5f700 10:02:01 CryptAPI: Cipher: DES2 Key: 16 Block: 8
+7f0ff4d5f700 10:02:01 CryptAPI: DES2 CBC Decrypt: 224
+7f0ff4d5f700 10:02:01 ProcLink: ReadRec
+7f0ff4d5f700 10:02:01 SCR_Link: ReadCall
+7f0ff4d5f700 10:02:01 LinkLevl: Level 0 - NONE ReadBuf: 8000
+7f0ff4d5f700 10:02:01 LinkLevl: DevRead: 8000 Timeout: 1
+7f0ff4d5f700 10:02:01 LinkLevl: Dumping Device Read Size: 216
+3C 53 4F 41 50 3A 45 6E 76 65 6C 6F 70 65 3E 3C 53 4F 41 50 <SOAP:Envelope><SOAP
+3A 48 65 61 64 65 72 2F 3E 3C 53 4F 41 50 3A 42 6F 64 79 3E :Header/><SOAP:Body>
+3C 73 71 6C 3A 47 65 74 41 75 74 68 54 61 67 73 52 65 73 70 <sql:GetAuthTagsResp
+6F 6E 73 65 3E 3C 52 65 74 43 6F 64 65 3E 30 3C 2F 52 65 74 onse><RetCode>0</Ret
+43 6F 64 65 3E 3C 45 72 72 4D 65 73 67 3E 4F 4B 3C 2F 45 72 Code><ErrMesg>OK</Er
+72 4D 65 73 67 3E 3C 49 6E 66 6F 3E 31 30 49 3D 43 30 37 45 rMesg><Info>10I=C07E
+35 30 35 44 31 34 41 55 54 48 5F 44 41 54 41 3D 4E 6F 6E 65 505D14AUTH_DATA=None
+31 33 41 55 54 48 5F 4F 50 54 3D 43 41 52 44 3C 2F 49 6E 66 13AUTH_OPT=CARD</Inf
+6F 3E 3C 2F 73 71 6C 3A 47 65 74 41 75 74 68 54 61 67 73 52 o></sql:GetAuthTagsR
+65 73 70 6F 6E 73 65 3E 3C 2F 53 4F 41 50 3A 42 6F 64 79 3E esponse></SOAP:Body>
+3C 2F 53 4F 41 50 3A 45 6E 76 65 6C 6F 70 65 3E             </SOAP:Envelope>
+7f0ff4d5f700 10:02:01 LinkLevl: Level: 0 Read RC: 216
+7f0ff4d5f700 10:02:01 Script  : Start!
+7f0ff4d5f700 10:02:01 XML_Lib : Building XML Tree
+7f0ff4d5f700 10:02:01 Script  : Engine: XMS Call(s): 44
+7f0ff4d5f700 10:02:01 XML_Lib : Element SOAP:Envelope is matched
+7f0ff4d5f700 10:02:01 XML_Lib : Element SOAP:Header is matched
+7f0ff4d5f700 10:02:01 XML_Lib : Element SOAP:Body is matched
+7f0ff4d5f700 10:02:01 XML_Lib : Element sql:GetAuthTagsResponse is matched
+7f0ff4d5f700 10:02:01 XML_Lib : Element RetCode is matched
+7f0ff4d5f700 10:02:01 XML_Lib : Value[1] = 0
+7f0ff4d5f700 10:02:01 XML_Lib : Element ErrMesg is matched
+7f0ff4d5f700 10:02:01 XML_Lib : Value[2] = OK
+7f0ff4d5f700 10:02:01 XML_Lib : Element Info is matched
+7f0ff4d5f700 10:02:01 XML_Lib : Value[3] = 10I=C07E505D14AUTH_DATA=None13AUTH_OPT=CARD
+7f0ff4d5f700 10:02:01 XML_Lib : Freeing XML data
+7f0ff4d5f700 10:02:01 ProcLink: Read RC: 0
+7f0ff4d5f700 10:02:01 CODEC   : MsgRec received: 1
+7f0ff4d5f700 10:02:01 Sock_Lib: Closing socket: 29 -1
+7f0ff4d5f700 10:02:01 Cryptoki: Using mechanism: DES3_ECB (00000132)
+7f0ff4d5f700 10:02:01 Cryptoki: Slot(s) found: 17
+7f0ff4d5f700 10:02:01 Cryptoki: Slot: "ProtectServer Orange:80421" Manufacturer: "ERACOM Pty. Ltd." Flags: 5 HW: 71.0 FW: 2.0
+7f0ff4d5f700 10:02:01 Cryptoki: Token: "3D" Manufacturer: "ERACOM Pty. Ltd." Model: "PSO:PL450" Serial: "1306:80421" Flags: 649
+7f0ff4d5f700 10:02:01 Cryptoki: Slot: "ProtectServer Orange:00152" Manufacturer: "ERACOM Pty. Ltd." Flags: 5 HW: 71.0 FW: 2.0
+7f0ff4d5f700 10:02:01 Cryptoki: Token: "PDSMS" Manufacturer: "ERACOM Pty. Ltd." Model: "PSO:PL450" Serial: "1306:00152" Flags: 30649
+7f0ff4d5f700 10:02:01 Cryptoki: Slot: "ProtectServer Orange:13110" Manufacturer: "ERACOM Pty. Ltd." Flags: 5 HW: 71.0 FW: 2.0
+7f0ff4d5f700 10:02:01 Cryptoki: Token: "3D_MI_MIC" Manufacturer: "ERACOM Pty. Ltd." Model: "PSO:PL450" Serial: "1306:13110" Flags: 649
+7f0ff4d5f700 10:02:02 Cryptoki: Slot: "ProtectServer Orange:65123" Manufacturer: "ERACOM Pty. Ltd." Flags: 5 HW: 71.0 FW: 2.0
+7f0ff4d5f700 10:02:02 Cryptoki: Token: "ePIN" Manufacturer: "ERACOM Pty. Ltd." Model: "PSO:PL450" Serial: "1306:65123" Flags: 649
+7f0ff4d5f700 10:02:02 Cryptoki: Session is OK, Slot: 3
+7f0ff4d5f700 10:02:02 Cryptoki: Searching objects for: MIZPK
+7f0ff4d5f700 10:02:02 Cryptoki: Object handles: 8
+7f0ff4d5f700 10:02:02 Cryptoki: Class: 0x4 (Secret Key) Token: 1 Private: 0 Label: ZPK
+7f0ff4d5f700 10:02:02 Cryptoki: Class: 0x4 (Secret Key) Token: 1 Private: 0 Label: ZPK
+7f0ff4d5f700 10:02:02 Cryptoki: Class: 0x4 (Secret Key) Token: 1 Private: 1 Label: ZMK
+7f0ff4d5f700 10:02:02 Cryptoki: Class: 0x4 (Secret Key) Token: 1 Private: 1 Label: DWK
+7f0ff4d5f700 10:02:02 Cryptoki: Class: 0x1 (Certificate) Token: 1 Private: 0 Label: PD_CERT_26
+7f0ff4d5f700 10:02:02 Cryptoki: Cert type: 0 Trusted: 0 Id: C0CCE4750ECD9A3B3BBED7547178DB6553801288
+7f0ff4d5f700 10:02:02 Cryptoki: Class: 0x4 (Secret Key) Token: 1 Private: 1 Label: MIZMK
+7f0ff4d5f700 10:02:02 Cryptoki: Class: 0x4 (Secret Key) Token: 1 Private: 1 Label: MIDWK
+7f0ff4d5f700 10:02:02 Cryptoki: Class: 0x4 (Secret Key) Token: 1 Private: 1 Label: MIZPK
+7f0ff4d5f700 10:02:02 Cryptoki: Key type: 20 Local: 0 Id: 
+7f0ff4d5f700 10:02:02 Cryptoki: Secret key found
+7f0ff4d5f700 10:02:02 Cryptoki: Key found
+7f0ff4d5f700 10:02:02 Cryptoki: Token mechanisms: RSA_PKCS_KEY_PAIR_GEN, RSA_PKCS, RSA_9796, RSA_X_509, MD2_RSA_PKCS, MD5_RSA_PKCS, SHA1_RSA_PKCS, RIPEMD128_RSA_PKCS, RIPEMD160_RSA_PKCS, RSA_PKCS_OAEP, RSA_X9_31_KEY_PAIR_GEN, DSA_KEY_PAIR_GEN, DSA, DSA_SHA1, DH_PKCS_KEY_PAIR_GEN, DH_PKCS_DERIVE, SHA256_RSA_PKCS, SHA384_RSA_PKCS, SHA512_RSA_PKCS, RC2_KEY_GEN, RC2_ECB, RC2_CBC, RC2_MAC, RC2_MAC_GENERAL, RC2_CBC_PAD, RC4_KEY_GEN, RC4, DES_KEY_GEN, DES_ECB, DES_CBC, DES_MAC, DES_MAC_GENERAL, DES_CBC_PAD, DES2_KEY_GEN, DES3_KEY_GEN, DES3_ECB, DES3_CBC, DES3_MAC, DES3_MAC_GENERAL, DES3_CBC_PAD, MD2, MD2_HMAC, MD2_HMAC_GENERAL, MD5, MD5_HMAC, MD5_HMAC_GENERAL, SHA_1, SHA_1_HMAC, SHA_1_HMAC_GENERAL, RIPEMD128, RIPEMD128_HMAC, RIPEMD128_HMAC_GENERAL, RIPEMD160, RIPEMD160_HMAC, RIPEMD160_HMAC_GENERAL, SHA256, SHA256_HMAC, SHA256_HMAC_GENERAL, SHA384, SHA384_HMAC, SHA384_HMAC_GENERAL, SHA512, SHA512_HMAC, SHA512_HMAC_GENERAL, CAST128_KEY_GEN, CAST128_ECB, CAST128_CBC, CAST128_MAC, CAST128_MAC_GENERAL, CAST128_CBC_PAD, IDEA_KEY_GEN, IDEA_ECB, IDEA_CBC, IDEA_MAC, IDEA_MAC_GENERAL, IDEA_CBC_PAD, GENERIC_SECRET_KEY_GEN, CONCATENATE_BASE_AND_KEY, CONCATENATE_BASE_AND_DATA, CONCATENATE_DATA_AND_BASE, XOR_BASE_AND_DATA, EXTRACT_KEY_FROM_KEY, SSL3_PRE_MASTER_KEY_GEN, SSL3_MASTER_KEY_DERIVE, SSL3_KEY_AND_MAC_DERIVE, SSL3_MD5_MAC, SSL3_SHA1_MAC, MD5_KEY_DERIVATION, MD2_KEY_DERIVATION, SHA1_KEY_DERIVATION, SHA256_KEY_DERIVATION, SHA384_KEY_DERIVATION, SHA512_KEY_DERIVATION, PBE_MD2_DES_CBC, PBE_MD5_DES_CBC, PBE_MD5_CAST128_CBC, PBE_SHA1_CAST128_CBC, PBE_SHA1_RC4_128, PBE_SHA1_RC4_40, PBE_SHA1_DES3_EDE_CBC, PBE_SHA1_DES2_EDE_CBC, PBE_SHA1_RC2_128_CBC, PBE_SHA1_RC2_40_CBC, PBA_SHA1_WITH_SHA1_HMAC, KEY_WRAP_SET_OAEP, ECDSA_KEY_PAIR_GEN, ECDSA, ECDSA_SHA1, AES_KEY_GEN, AES_ECB, AES_CBC, AES_MAC, AES_MAC_GENERAL, AES_CBC_PAD, DSA_PARAMETER_GEN, DH_PKCS_PARAMETER_GEN, 80000013, 80000101, 80000121, 80000132, X9.19_MAC, X9.19_MAC_GENERAL, 80000200, 80000321, 80000341, 80000364, KEY_ZMK_ATALLA, 80000501, 80000502, 80000503, 80000510, EMV_SESSION_KEY_DERIVE, 80000935, 80000940, 80000941, 80000950, 80000951, 80000952, 80000953, 80000954, 80000955, 80000961, 80000962, 80000964, 800009a0, 800009b0, 800009c0, 800009d0, 800009d1, 800009d2, 800009d3, 800009d4, 800009d5, 800009d6, 800009e0, 800009f0, 800009f1, 800009f2, 800009f3, VERIFY_DIN, CREATE_ADK, MMA_OTP, CREATE_PIN, CREATE_PSF, VERIFY_EPIN, HCE_GENERATE_UDK, HCE_VERIFY_MSD, HCE_VERIFY_EMV, HCE_GET_VERSION, HCE_GENERATE_MAC, HCE_GENERATE_DSK, TRANSLATE_PB, c000a410, c000a411, c000a412, c000a413, c000a414, c000a415, c000a416, c000a417, c000a418, c000a419, c000a420, c000a41a
+7f0ff4d5f700 10:02:02 Cryptoki: Using mechanism: DES3_ECB (00000132)
+7f0ff4d5f700 10:02:02 StrLib  : LTV parsed { AUTH_DATA=None; AUTH_OPT=CARD; }
+7f0ff4d5f700 10:02:02 Sock_Lib: Connecting to 127.0.0.1 8840 ...
+7f0ff4d5f700 10:02:02 Sock_Lib: Connected from port 12930
+7f0ff4d5f700 10:02:02 ProcLink: WriteRec: 3
+7f0ff4d5f700 10:02:02 Script  : Start!
+7f0ff4d5f700 10:02:02 Script  : Engine: XMS Call(s): 44
+7f0ff4d5f700 10:02:02 XML_Lib : Freeing XML data
+7f0ff4d5f700 10:02:02 LinkLevl: Level 0 - NONE WriteBuf: 196
+7f0ff4d5f700 10:02:02 LinkLevl: Dumping Device Write Size: 196
+3C 53 4F 41 50 3A 45 6E 76 65 6C 6F 70 65 3E 3C 53 4F 41 50 <SOAP:Envelope><SOAP
+3A 48 65 61 64 65 72 2F 3E 3C 53 4F 41 50 3A 42 6F 64 79 3E :Header/><SOAP:Body>
+3C 73 71 6C 3A 47 65 74 41 75 74 68 54 61 67 73 3E 3C 43 61 <sql:GetAuthTags><Ca
+72 64 3E 2A 3C 2F 43 61 72 64 3E 3C 54 61 67 73 3E 31 30 49 rd>*</Card><Tags>10I
+3D 43 31 37 45 35 30 35 44 32 30 55 49 44 3D 31 32 31 32 31 =C17E505D20UID=12121
+32 30 30 30 30 30 30 30 31 39 38 38 49 44 54 3D 43 41 52 44 200000001988IDT=CARD
+31 37 53 45 52 56 49 43 45 3D 50 49 4E 5F 53 45 54 55 50 33 17SERVICE=PIN_SETUP3
+41 4D 4C 3C 2F 54 61 67 73 3E 3C 2F 73 71 6C 3A 47 65 74 41 AML</Tags></sql:GetA
+75 74 68 54 61 67 73 3E 3C 2F 53 4F 41 50 3A 42 6F 64 79 3E uthTags></SOAP:Body>
+3C 2F 53 4F 41 50 3A 45 6E 76 65 6C 6F 70 65 3E             </SOAP:Envelope>
+7f0ff4d5f700 10:02:02 ProcLink: Encode RC: 196
+7f0ff4d5f700 10:02:02 CryptAPI: Encrypt HSM (51,196,2,8,1,16)
+7f0ff4d5f700 10:02:02 HSM_DES : HSM Mode: 2
+7f0ff4d5f700 10:02:02 HSM_DES : MKS [20220210070200]
+7f0ff4d5f700 10:02:02 CryptAPI: Cipher: DES Key: 8 Block: 8
+7f0ff4d5f700 10:02:02 CryptAPI: DES Encrypt: 8
+7f0ff4d5f700 10:02:02 CryptAPI: Cipher: DES2 Key: 16 Block: 8
+7f0ff4d5f700 10:02:02 CryptAPI: DES2 CBC Encrypt: 200
+7f0ff4d5f700 10:02:02 CODEC   : MsgRec sent: 218
+7f0ff4d5f700 10:02:02 CryptAPI: Decrypt HSM (51,224,2,8,1,16)
+7f0ff4d5f700 10:02:02 HSM_DES : STS [20220210070202] CTS [20220210070202]
+7f0ff4d5f700 10:02:02 HSM_DES : Diff: 1644465722-1644465722=0 Guard: 3600
+7f0ff4d5f700 10:02:02 Obj_Drvr: CallObj(PKCS11): 51 - GetMAC
+7f0ff4d5f700 10:02:02 Cryptoki: Input len: 8 Output size: 16
+7f0ff4d5f700 10:02:02 CryptAPI: Cipher: DES Key: 8 Block: 8
+7f0ff4d5f700 10:02:02 CryptAPI: DES Encrypt: 8
+7f0ff4d5f700 10:02:02 CryptAPI: Cipher: DES2 Key: 16 Block: 8
+7f0ff4d5f700 10:02:02 CryptAPI: DES2 CBC Decrypt: 208
+7f0ff4d5f700 10:02:02 ProcLink: ReadRec
+7f0ff4d5f700 10:02:02 SCR_Link: ReadCall
+7f0ff4d5f700 10:02:02 LinkLevl: Level 0 - NONE ReadBuf: 8000
+7f0ff4d5f700 10:02:02 LinkLevl: DevRead: 8000 Timeout: 1
+7f0ff4d5f700 10:02:02 LinkLevl: Dumping Device Read Size: 206
+3C 53 4F 41 50 3A 45 6E 76 65 6C 6F 70 65 3E 3C 53 4F 41 50 <SOAP:Envelope><SOAP
+3A 48 65 61 64 65 72 2F 3E 3C 53 4F 41 50 3A 42 6F 64 79 3E :Header/><SOAP:Body>
+3C 73 71 6C 3A 47 65 74 41 75 74 68 54 61 67 73 52 65 73 70 <sql:GetAuthTagsResp
+6F 6E 73 65 3E 3C 52 65 74 43 6F 64 65 3E 30 3C 2F 52 65 74 onse><RetCode>0</Ret
+43 6F 64 65 3E 3C 45 72 72 4D 65 73 67 3E 4F 4B 3C 2F 45 72 Code><ErrMesg>OK</Er
+72 4D 65 73 67 3E 3C 49 6E 66 6F 3E 31 30 49 3D 43 31 37 45 rMesg><Info>10I=C17E
+35 30 35 44 31 39 41 4D 4C 3D 4F 54 50 5F 53 4D 53 2C 53 4D 505D19AML=OTP_SMS,SM
+53 5F 50 49 4E 3C 2F 49 6E 66 6F 3E 3C 2F 73 71 6C 3A 47 65 S_PIN</Info></sql:Ge
+74 41 75 74 68 54 61 67 73 52 65 73 70 6F 6E 73 65 3E 3C 2F tAuthTagsResponse></
+53 4F 41 50 3A 42 6F 64 79 3E 3C 2F 53 4F 41 50 3A 45 6E 76 SOAP:Body></SOAP:Env
+65 6C 6F 70 65 3E                                           elope>
+7f0ff4d5f700 10:02:02 LinkLevl: Level: 0 Read RC: 206
+7f0ff4d5f700 10:02:02 Script  : Start!
+7f0ff4d5f700 10:02:02 XML_Lib : Building XML Tree
+7f0ff4d5f700 10:02:02 Script  : Engine: XMS Call(s): 44
+7f0ff4d5f700 10:02:02 XML_Lib : Element SOAP:Envelope is matched
+7f0ff4d5f700 10:02:02 XML_Lib : Element SOAP:Header is matched
+7f0ff4d5f700 10:02:02 XML_Lib : Element SOAP:Body is matched
+7f0ff4d5f700 10:02:02 XML_Lib : Element sql:GetAuthTagsResponse is matched
+7f0ff4d5f700 10:02:02 XML_Lib : Element RetCode is matched
+7f0ff4d5f700 10:02:02 XML_Lib : Value[1] = 0
+7f0ff4d5f700 10:02:02 XML_Lib : Element ErrMesg is matched
+7f0ff4d5f700 10:02:02 XML_Lib : Value[2] = OK
+7f0ff4d5f700 10:02:02 XML_Lib : Element Info is matched
+7f0ff4d5f700 10:02:02 XML_Lib : Value[3] = 10I=C17E505D19AML=OTP_SMS,SMS_PIN
+7f0ff4d5f700 10:02:02 XML_Lib : Freeing XML data
+7f0ff4d5f700 10:02:02 ProcLink: Read RC: 0
+7f0ff4d5f700 10:02:02 CODEC   : MsgRec received: 1
+7f0ff4d5f700 10:02:02 Sock_Lib: Closing socket: 29 -1
+7f0ff4d5f700 10:02:02 StrLib  : LTV parsed { AML=OTP_SMS,SMS_PIN; }
+7f0ff4d5f700 10:02:02 Sock_Lib: Connecting to 127.0.0.1 8840 ...
+7f0ff4d5f700 10:02:02 Sock_Lib: Connected from port 12934
+7f0ff4d5f700 10:02:02 ProcLink: WriteRec: 3
+7f0ff4d5f700 10:02:02 Script  : Start!
+7f0ff4d5f700 10:02:02 Script  : Engine: XMS Call(s): 44
+7f0ff4d5f700 10:02:02 XML_Lib : Freeing XML data
+7f0ff4d5f700 10:02:02 LinkLevl: Level 0 - NONE WriteBuf: 208
+7f0ff4d5f700 10:02:02 LinkLevl: Dumping Device Write Size: 208
+3C 53 4F 41 50 3A 45 6E 76 65 6C 6F 70 65 3E 3C 53 4F 41 50 <SOAP:Envelope><SOAP
+3A 48 65 61 64 65 72 2F 3E 3C 53 4F 41 50 3A 42 6F 64 79 3E :Header/><SOAP:Body>
+3C 73 71 6C 3A 47 65 74 41 75 74 68 54 61 67 73 3E 3C 43 61 <sql:GetAuthTags><Ca
+72 64 3E 2A 3C 2F 43 61 72 64 3E 3C 54 61 67 73 3E 31 30 49 rd>*</Card><Tags>10I
+3D 43 32 37 45 35 30 35 44 32 30 55 49 44 3D 31 32 31 32 31 =C27E505D20UID=12121
+32 30 30 30 30 30 30 30 31 39 38 38 49 44 54 3D 43 41 52 44 200000001988IDT=CARD
+31 37 53 45 52 56 49 43 45 3D 50 49 4E 5F 53 45 54 55 50 31 17SERVICE=PIN_SETUP1
+34 47 45 54 53 43 48 3D 4F 54 50 5F 53 4D 53 3C 2F 54 61 67 4GETSCH=OTP_SMS</Tag
+73 3E 3C 2F 73 71 6C 3A 47 65 74 41 75 74 68 54 61 67 73 3E s></sql:GetAuthTags>
+3C 2F 53 4F 41 50 3A 42 6F 64 79 3E 3C 2F 53 4F 41 50 3A 45 </SOAP:Body></SOAP:E
+6E 76 65 6C 6F 70 65 3E                                     nvelope>
+7f0ff4d5f700 10:02:02 ProcLink: Encode RC: 208
+7f0ff4d5f700 10:02:02 CryptAPI: Encrypt HSM (51,208,2,8,1,16)
+7f0ff4d5f700 10:02:02 HSM_DES : HSM Mode: 2
+7f0ff4d5f700 10:02:02 HSM_DES : MKS [20220210070200]
+7f0ff4d5f700 10:02:02 CryptAPI: Cipher: DES Key: 8 Block: 8
+7f0ff4d5f700 10:02:02 CryptAPI: DES Encrypt: 8
+7f0ff4d5f700 10:02:02 CryptAPI: Cipher: DES2 Key: 16 Block: 8
+7f0ff4d5f700 10:02:02 CryptAPI: DES2 CBC Encrypt: 216
+7f0ff4d5f700 10:02:02 CODEC   : MsgRec sent: 234
+7f0ff4d5f700 10:02:02 CryptAPI: Decrypt HSM (51,224,2,8,1,16)
+7f0ff4d5f700 10:02:02 HSM_DES : STS [20220210070202] CTS [20220210070202]
+7f0ff4d5f700 10:02:02 HSM_DES : Diff: 1644465722-1644465722=0 Guard: 3600
+7f0ff4d5f700 10:02:02 Obj_Drvr: CallObj(PKCS11): 51 - GetMAC
+7f0ff4d5f700 10:02:02 Cryptoki: Input len: 8 Output size: 16
+7f0ff4d5f700 10:02:02 CryptAPI: Cipher: DES Key: 8 Block: 8
+7f0ff4d5f700 10:02:02 CryptAPI: DES Encrypt: 8
+7f0ff4d5f700 10:02:02 CryptAPI: Cipher: DES2 Key: 16 Block: 8
+7f0ff4d5f700 10:02:02 CryptAPI: DES2 CBC Decrypt: 208
+7f0ff4d5f700 10:02:02 ProcLink: ReadRec
+7f0ff4d5f700 10:02:02 SCR_Link: ReadCall
+7f0ff4d5f700 10:02:02 LinkLevl: Level 0 - NONE ReadBuf: 8000
+7f0ff4d5f700 10:02:02 LinkLevl: DevRead: 8000 Timeout: 1
+7f0ff4d5f700 10:02:02 LinkLevl: Dumping Device Read Size: 204
+3C 53 4F 41 50 3A 45 6E 76 65 6C 6F 70 65 3E 3C 53 4F 41 50 <SOAP:Envelope><SOAP
+3A 48 65 61 64 65 72 2F 3E 3C 53 4F 41 50 3A 42 6F 64 79 3E :Header/><SOAP:Body>
+3C 73 71 6C 3A 47 65 74 41 75 74 68 54 61 67 73 52 65 73 70 <sql:GetAuthTagsResp
+6F 6E 73 65 3E 3C 52 65 74 43 6F 64 65 3E 30 3C 2F 52 65 74 onse><RetCode>0</Ret
+43 6F 64 65 3E 3C 45 72 72 4D 65 73 67 3E 4F 4B 3C 2F 45 72 Code><ErrMesg>OK</Er
+72 4D 65 73 67 3E 3C 49 6E 66 6F 3E 31 30 49 3D 43 32 37 45 rMesg><Info>10I=C27E
+35 30 35 44 31 37 50 48 4F 4E 45 4C 49 53 54 3D 37 37 37 37 505D17PHONELIST=7777
+37 37 37 3C 2F 49 6E 66 6F 3E 3C 2F 73 71 6C 3A 47 65 74 41 777</Info></sql:GetA
+75 74 68 54 61 67 73 52 65 73 70 6F 6E 73 65 3E 3C 2F 53 4F uthTagsResponse></SO
+41 50 3A 42 6F 64 79 3E 3C 2F 53 4F 41 50 3A 45 6E 76 65 6C AP:Body></SOAP:Envel
+6F 70 65 3E                                                 ope>
+7f0ff4d5f700 10:02:02 LinkLevl: Level: 0 Read RC: 204
+7f0ff4d5f700 10:02:02 Script  : Start!
+7f0ff4d5f700 10:02:02 XML_Lib : Building XML Tree
+7f0ff4d5f700 10:02:02 Script  : Engine: XMS Call(s): 44
+7f0ff4d5f700 10:02:02 XML_Lib : Element SOAP:Envelope is matched
+7f0ff4d5f700 10:02:02 XML_Lib : Element SOAP:Header is matched
+7f0ff4d5f700 10:02:02 XML_Lib : Element SOAP:Body is matched
+7f0ff4d5f700 10:02:02 XML_Lib : Element sql:GetAuthTagsResponse is matched
+7f0ff4d5f700 10:02:02 XML_Lib : Element RetCode is matched
+7f0ff4d5f700 10:02:02 XML_Lib : Value[1] = 0
+7f0ff4d5f700 10:02:02 XML_Lib : Element ErrMesg is matched
+7f0ff4d5f700 10:02:02 XML_Lib : Value[2] = OK
+7f0ff4d5f700 10:02:02 XML_Lib : Element Info is matched
+7f0ff4d5f700 10:02:02 XML_Lib : Value[3] = 10I=C27E505D17PHONELIST=7777777
+7f0ff4d5f700 10:02:02 XML_Lib : Freeing XML data
+7f0ff4d5f700 10:02:02 ProcLink: Read RC: 0
+7f0ff4d5f700 10:02:02 CODEC   : MsgRec received: 1
+7f0ff4d5f700 10:02:02 Sock_Lib: Closing socket: 29 -1
+7f0ff4d5f700 10:02:02 StrLib  : LTV parsed { PHONELIST=7777777; }
+7f0ff4d5f700 10:02:02 StrLib  : LTV parsed { PHONELIST=7777777; }
+7f0ff4d5f700 10:02:02 LinkLevl: Device [INTERNAL]
+7f0ff4d5f700 10:02:02 LinkLevl: Level: 0 Protocol: NONE
+7f0ff4d5f700 10:02:02 LinkLevl: Link is configured
+7f0ff4d5f700 10:02:02 Script  : Engine [XMS]
+7f0ff4d5f700 10:02:02 Script  : Code: 163 Vars: 59
+7f0ff4d5f700 10:02:02 Script  : About to read 230 byte(s)
+7f0ff4d5f700 10:02:02 Script  : Engine [XMS]
+7f0ff4d5f700 10:02:02 Script  : Code: 44 Vars: 17
+7f0ff4d5f700 10:02:02 Script  : About to read 81 byte(s)
+7f0ff4d5f700 10:02:02 LinkLevl: DevOpen = 0
+7f0ff4d5f700 10:02:02 LinkLevl: Open Level: 0 RC: 0
+7f0ff4d5f700 10:02:02 StrLib  : LTV parsed { AUTH_DATA=None; AUTH_OPT=CARD; }
+7f0ff4d5f700 10:02:02 Auth_Log: Checking AuthPool
+7f0ff4d5f700 10:02:02 Auth_Log: Waiting: 1 Dropped: 0
+7f0ff4d5f700 10:02:02 AuthServ: StepId: (null) SID: B6AB838FF10AEF09E52C08344DAECDB3
+7f0ff4d5f700 10:02:02 Auth_Log: Parm: PHONE mapped to: 31
+7f0ff4d5f700 10:02:02 SMSPINmd: Card [CARD:1212120000000198]
+7f0ff4d5f700 10:02:02 Obj_Drvr: CallObj(PKCS11): 11016 - Generate PIN
+7f0ff4d5f700 10:02:02 AuthServ: AuthStep RC: 1
+7f0ff4d5f700 10:02:02 AuthServ: PutParms: 1
+7f0ff4d5f700 10:02:02 AuthServ: PutParm: PB = D9DA67AA0B982816 to: 0
+7f0ff4d5f700 10:02:02 StrLib  : ClrField: 10 (2)
+7f0ff4d5f700 10:02:02 OpHealth: End Operation [AS.Select] Id [499FA88EAB6BC405D06BA8255DB8CB85] Result [OK] Elapsed [1472.216] ms
+7f0ff4d5f700 10:02:02 GLinkSrv: Destination RetCode: 0 Time: 1
+7f0ff4d5f700 10:02:02 ProcLink: WriteRec: 40
+7f0ff4d5f700 10:02:02 Script  : Start!
+7f0ff4d5f700 10:02:02 Script  : Engine: XMS Call(s): 44
+7f0ff4d5f700 10:02:02 XML_Lib : Value[1] = OK
+7f0ff4d5f700 10:02:02 XML_Lib : Value[30] = 3
+7f0ff4d5f700 10:02:02 XML_Lib : Freeing XML data
+7f0ff4d5f700 10:02:02 LinkLevl: Level 0 - NONE WriteBuf: 283
+7f0ff4d5f700 10:02:02 LinkLevl: Dumping Device Write Size: 283
+3C 41 75 74 68 50 72 6F 74 6F 63 6F 6C 20 56 65 72 73 69 6F <AuthProtocol Versio
+6E 3D 22 31 2E 34 22 3E 0A 20 3C 41 75 74 68 54 79 70 65 53 n="1.4">. <AuthTypeS
+65 6C 65 63 74 52 73 3E 0A 20 20 3C 53 74 61 74 75 73 3E 0A electRs>.  <Status>.
+20 20 20 3C 53 74 61 74 75 73 43 6F 64 65 3E 4F 4B 3C 2F 53    <StatusCode>OK</S
+74 61 74 75 73 43 6F 64 65 3E 0A 20 20 3C 2F 53 74 61 74 75 tatusCode>.  </Statu
+73 3E 0A 20 20 3C 53 49 44 3E 42 36 41 42 38 33 38 46 46 31 s>.  <SID>B6AB838FF1
+30 41 45 46 30 39 45 35 32 43 30 38 33 34 34 44 41 45 43 44 0AEF09E52C08344DAECD
+42 33 3C 2F 53 49 44 3E 0A 20 20 3C 4E 65 78 74 53 74 65 70 B3</SID>.  <NextStep
+3E 33 3C 2F 4E 65 78 74 53 74 65 70 3E 0A 20 20 3C 41 75 74 >3</NextStep>.  <Aut
+68 44 61 74 61 3E 0A 20 20 20 3C 50 61 72 61 6D 20 4E 61 6D hData>.   <Param Nam
+65 3D 22 50 42 22 3E 44 39 44 41 36 37 41 41 30 42 39 38 32 e="PB">D9DA67AA0B982
+38 31 36 3C 2F 50 61 72 61 6D 3E 0A 20 20 3C 2F 41 75 74 68 816</Param>.  </Auth
+44 61 74 61 3E 0A 20 3C 2F 41 75 74 68 54 79 70 65 53 65 6C Data>. </AuthTypeSel
+65 63 74 52 73 3E 0A 3C 2F 41 75 74 68 50 72 6F 74 6F 63 6F ectRs>.</AuthProtoco
+6C 3E 0A                                                    l>.
+7f0ff4d5f700 10:02:02 ProcLink: Encode RC: 283
+7f0ff4d5f700 10:02:02 StrLib  : ClrField: 10 (2)
+7f0ff4d5f700 10:02:03 BinLen4 : Len: 305 Have: 305
+7f0ff4d5f700 10:02:03 ProcLink: ReadRec
+7f0ff4d5f700 10:02:03 SCR_Link: ReadCall
+7f0ff4d5f700 10:02:03 LinkLevl: Level 0 - NONE ReadBuf: 16000
+7f0ff4d5f700 10:02:03 LinkLevl: DevRead: 16000 Timeout: 1
+7f0ff4d5f700 10:02:03 LinkLevl: Dumping Device Read Size: 305
+3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D 22 31 2E 30 22 20 <?xml version="1.0" 
+65 6E 63 6F 64 69 6E 67 3D 22 55 54 46 2D 38 22 20 73 74 61 encoding="UTF-8" sta
+6E 64 61 6C 6F 6E 65 3D 22 79 65 73 22 3F 3E 0A 3C 41 75 74 ndalone="yes"?>.<Aut
+68 50 72 6F 74 6F 63 6F 6C 20 56 65 72 73 69 6F 6E 3D 22 31 hProtocol Version="1
+2E 34 22 3E 0A 20 20 20 20 3C 41 75 74 68 53 65 73 73 69 6F .4">.    <AuthSessio
+6E 53 74 65 70 52 71 3E 0A 20 20 20 20 20 20 20 20 3C 53 49 nStepRq>.        <SI
+44 3E 42 36 41 42 38 33 38 46 46 31 30 41 45 46 30 39 45 35 D>B6AB838FF10AEF09E5
+32 43 30 38 33 34 34 44 41 45 43 44 42 33 3C 2F 53 49 44 3E 2C08344DAECDB3</SID>
+0A 20 20 20 20 20 20 20 20 3C 53 74 65 70 3E 33 3C 2F 53 74 .        <Step>3</St
+65 70 3E 0A 20 20 20 20 20 20 20 20 3C 41 75 74 68 44 61 74 ep>.        <AuthDat
+61 3E 0A 20 20 20 20 20 20 20 20 20 20 20 20 3C 50 61 72 61 a>.            <Para
+6D 20 4E 61 6D 65 3D 22 50 53 53 22 3E 4F 4B 3C 2F 50 61 72 m Name="PSS">OK</Par
+61 6D 3E 0A 20 20 20 20 20 20 20 20 3C 2F 41 75 74 68 44 61 am>.        </AuthDa
+74 61 3E 0A 20 20 20 20 3C 2F 41 75 74 68 53 65 73 73 69 6F ta>.    </AuthSessio
+6E 53 74 65 70 52 71 3E 0A 3C 2F 41 75 74 68 50 72 6F 74 6F nStepRq>.</AuthProto
+63 6F 6C 3E 0A                                              col>.
+7f0ff4d5f700 10:02:03 LinkLevl: Level: 0 Read RC: 305
+7f0ff4d5f700 10:02:03 Script  : Start!
+7f0ff4d5f700 10:02:03 XML_Lib : Building XML Tree
+7f0ff4d5f700 10:02:03 Script  : Engine: XMS Call(s): 44
+7f0ff4d5f700 10:02:03 XML_Lib : Element AuthProtocol is matched
+7f0ff4d5f700 10:02:03 XML_Lib : Attribute Version='1.4' is found
+7f0ff4d5f700 10:02:03 XML_Lib : Element AuthSessionStepRq is matched
+7f0ff4d5f700 10:02:03 XML_Lib : Element SID is matched
+7f0ff4d5f700 10:02:03 XML_Lib : HexVal[4] = B6AB838FF10AEF09E52C08344DAECDB3
+7f0ff4d5f700 10:02:03 XML_Lib : Element Step is matched
+7f0ff4d5f700 10:02:03 XML_Lib : Value[30] = 3
+7f0ff4d5f700 10:02:03 XML_Lib : Element AuthData is matched
+7f0ff4d5f700 10:02:03 XML_Lib : Record Param Match: 0
+7f0ff4d5f700 10:02:03 XML_Lib : Attribute Name='PSS' is found
+7f0ff4d5f700 10:02:03 XML_Lib : Value[1] = OK
+7f0ff4d5f700 10:02:03 XML_Lib : Freeing XML data
+7f0ff4d5f700 10:02:03 ProcLink: Read RC: 0
+7f0ff4d5f700 10:02:03 OpHealth: Start Operation [AS.Step] Id [B6AB838FF10AEF09E52C08344DAECDB3]
+7f0ff4d5f700 10:02:03 Auth_Log: Checking AuthPool
+7f0ff4d5f700 10:02:03 Auth_Log: Waiting: 1 Dropped: 0
+7f0ff4d5f700 10:02:03 AuthServ: StepId: 3 SID: B6AB838FF10AEF09E52C08344DAECDB3
+7f0ff4d5f700 10:02:03 Obj_Drvr: CallObj(PKCS11): 11016 - Generate PIN
+7f0ff4d5f700 10:02:03 Sock_Lib: Connecting to 127.0.0.1 9900 ...
+7f0ff4d5f700 10:02:03 Sock_Lib: Connected from port 20292
+7f0ff4d5f700 10:02:03 ProcLink: WriteRec: 10
+7f0ff4d5f700 10:02:03 Script  : Start!
+7f0ff4d5f700 10:02:03 Script  : Engine: XMS Call(s): 44
+7f0ff4d5f700 10:02:03 UUID_Lib: Node = 00:0c:29:c3:77:61
+7f0ff4d5f700 10:02:03 XML_Lib : Freeing XML data
+7f0ff4d5f700 10:02:03 LinkLevl: Level 0 - NONE WriteBuf: 255
+7f0ff4d5f700 10:02:03 LinkLevl: Dumping Device Write Size: 255
+3C 43 43 6F 6D 4D 73 67 20 6D 73 67 5F 74 79 70 65 3D 22 4F <CComMsg msg_type="O
+75 74 67 6F 69 6E 67 22 20 64 69 72 65 63 74 69 6F 6E 3D 22 utgoing" direction="
+52 71 22 20 76 65 72 73 69 6F 6E 3D 22 31 2E 30 22 3E 3C 4D Rq" version="1.0"><M
+73 67 49 64 3E 35 39 39 38 62 64 33 39 2D 38 61 33 66 2D 31 sgId>5998bd39-8a3f-1
+31 65 63 2D 38 30 30 30 2D 30 30 30 63 32 39 63 33 37 37 36 1ec-8000-000c29c3776
+31 3C 2F 4D 73 67 49 64 3E 3C 4D 73 67 44 61 74 61 3E 3C 53 1</MsgId><MsgData><S
+76 63 54 79 70 65 3E 73 6D 73 3C 2F 53 76 63 54 79 70 65 3E vcType>sms</SvcType>
+3C 54 6F 3E 37 37 37 37 37 37 37 3C 2F 54 6F 3E 3C 53 75 62 <To>7777777</To><Sub
+6A 65 63 74 3E 4F 54 50 5F 53 4D 53 3C 2F 53 75 62 6A 65 63 ject>OTP_SMS</Subjec
+74 3E 3C 43 6F 6E 74 65 6E 74 3E 3C 54 79 70 65 3E 54 65 78 t><Content><Type>Tex
+74 3C 2F 54 79 70 65 3E 3C 54 65 78 74 3E 33 31 36 35 3C 2F t</Type><Text>3165</
+54 65 78 74 3E 3C 2F 43 6F 6E 74 65 6E 74 3E 3C 2F 4D 73 67 Text></Content></Msg
+44 61 74 61 3E 3C 2F 43 43 6F 6D 4D 73 67 3E                Data></CComMsg>
+7f0ff4d5f700 10:02:03 ProcLink: Encode RC: 255
+7f0ff4d5f700 10:02:03 CODEC   : MsgRec sent: 259
+7f0ff4d5f700 10:02:03 BinLen4 : Len: 168 Have: 168
+7f0ff4d5f700 10:02:03 ProcLink: ReadRec
+7f0ff4d5f700 10:02:03 SCR_Link: ReadCall
+7f0ff4d5f700 10:02:03 LinkLevl: Level 0 - NONE ReadBuf: 4000
+7f0ff4d5f700 10:02:03 LinkLevl: DevRead: 4000 Timeout: 1
+7f0ff4d5f700 10:02:03 LinkLevl: Dumping Device Read Size: 168
+3C 43 43 6F 6D 4D 73 67 20 64 69 72 65 63 74 69 6F 6E 3D 22 <CComMsg direction="
+52 73 22 20 6D 73 67 5F 74 79 70 65 3D 22 4F 75 74 67 6F 69 Rs" msg_type="Outgoi
+6E 67 22 20 72 65 73 70 5F 63 6F 64 65 3D 22 30 22 20 76 65 ng" resp_code="0" ve
+72 73 69 6F 6E 3D 22 31 2E 30 22 3E 3C 4D 73 67 44 61 74 61 rsion="1.0"><MsgData
+3E 4D 65 73 73 61 67 65 20 44 65 6C 69 76 65 72 79 3C 2F 4D >Message Delivery</M
+73 67 44 61 74 61 3E 3C 4D 73 67 49 64 3E 35 39 39 38 62 64 sgData><MsgId>5998bd
+33 39 2D 38 61 33 66 2D 31 31 65 63 2D 38 30 30 30 2D 30 30 39-8a3f-11ec-8000-00
+30 63 32 39 63 33 37 37 36 31 3C 2F 4D 73 67 49 64 3E 3C 2F 0c29c37761</MsgId></
+43 43 6F 6D 4D 73 67 3E                                     CComMsg>
+7f0ff4d5f700 10:02:03 LinkLevl: Level: 0 Read RC: 168
+7f0ff4d5f700 10:02:03 Script  : Start!
+7f0ff4d5f700 10:02:03 XML_Lib : Building XML Tree
+7f0ff4d5f700 10:02:03 Script  : Engine: XMS Call(s): 44
+7f0ff4d5f700 10:02:03 XML_Lib : Element CComMsg is matched
+7f0ff4d5f700 10:02:03 XML_Lib : Attribute msg_type='Outgoing' is found
+7f0ff4d5f700 10:02:03 XML_Lib : Attribute direction='Rs' is found
+7f0ff4d5f700 10:02:03 XML_Lib : Attribute resp_code='0' is found
+7f0ff4d5f700 10:02:03 XML_Lib : Element MsgId is matched
+7f0ff4d5f700 10:02:03 XML_Lib : Freeing XML data
+7f0ff4d5f700 10:02:03 ProcLink: Read RC: 0
+7f0ff4d5f700 10:02:03 CODEC   : MsgRec received: 1
+7f0ff4d5f700 10:02:03 Sock_Lib: Closing socket: 29 -1
+7f0ff4d5f700 10:02:03 Sock_Lib: Connecting to 127.0.0.1 8840 ...
+7f0ff4d5f700 10:02:03 Sock_Lib: Connected from port 12940
+7f0ff4d5f700 10:02:03 ProcLink: WriteRec: 3
+7f0ff4d5f700 10:02:03 Script  : Start!
+7f0ff4d5f700 10:02:03 Script  : Engine: XMS Call(s): 44
+7f0ff4d5f700 10:02:03 XML_Lib : Freeing XML data
+7f0ff4d5f700 10:02:03 LinkLevl: Level 0 - NONE WriteBuf: 209
+7f0ff4d5f700 10:02:03 LinkLevl: Dumping Device Write Size: 209
+3C 53 4F 41 50 3A 45 6E 76 65 6C 6F 70 65 3E 3C 53 4F 41 50 <SOAP:Envelope><SOAP
+3A 48 65 61 64 65 72 2F 3E 3C 53 4F 41 50 3A 42 6F 64 79 3E :Header/><SOAP:Body>
+3C 73 71 6C 3A 47 65 74 41 75 74 68 54 61 67 73 3E 3C 43 61 <sql:GetAuthTags><Ca
+72 64 3E 2A 3C 2F 43 61 72 64 3E 3C 54 61 67 73 3E 31 30 49 rd>*</Card><Tags>10I
+3D 43 33 37 45 35 30 35 44 32 30 55 49 44 3D 31 32 31 32 31 =C37E505D20UID=12121
+32 30 30 30 30 30 30 30 31 39 38 38 49 44 54 3D 43 41 52 44 200000001988IDT=CARD
+31 37 53 45 52 56 49 43 45 3D 50 49 4E 5F 53 45 54 55 50 31 17SERVICE=PIN_SETUP1
+35 47 52 41 4E 54 45 44 3D 53 4D 53 5F 50 49 4E 3C 2F 54 61 5GRANTED=SMS_PIN</Ta
+67 73 3E 3C 2F 73 71 6C 3A 47 65 74 41 75 74 68 54 61 67 73 gs></sql:GetAuthTags
+3E 3C 2F 53 4F 41 50 3A 42 6F 64 79 3E 3C 2F 53 4F 41 50 3A ></SOAP:Body></SOAP:
+45 6E 76 65 6C 6F 70 65 3E                                  Envelope>
+7f0ff4d5f700 10:02:03 ProcLink: Encode RC: 209
+7f0ff4d5f700 10:02:03 CryptAPI: Encrypt HSM (51,209,2,8,1,16)
+7f0ff4d5f700 10:02:03 HSM_DES : HSM Mode: 2
+7f0ff4d5f700 10:02:03 HSM_DES : MKS [20220210070200]
+7f0ff4d5f700 10:02:03 CryptAPI: Cipher: DES Key: 8 Block: 8
+7f0ff4d5f700 10:02:03 CryptAPI: DES Encrypt: 8
+7f0ff4d5f700 10:02:03 CryptAPI: Cipher: DES2 Key: 16 Block: 8
+7f0ff4d5f700 10:02:03 CryptAPI: DES2 CBC Encrypt: 216
+7f0ff4d5f700 10:02:03 CODEC   : MsgRec sent: 234
+7f0ff4d5f700 10:02:03 CryptAPI: Decrypt HSM (51,232,2,8,1,16)
+7f0ff4d5f700 10:02:03 HSM_DES : STS [20220210070203] CTS [20220210070203]
+7f0ff4d5f700 10:02:03 HSM_DES : Diff: 1644465723-1644465723=0 Guard: 3600
+7f0ff4d5f700 10:02:03 Obj_Drvr: CallObj(PKCS11): 51 - GetMAC
+7f0ff4d5f700 10:02:03 Cryptoki: Input len: 8 Output size: 16
+7f0ff4d5f700 10:02:03 CryptAPI: Cipher: DES Key: 8 Block: 8
+7f0ff4d5f700 10:02:03 CryptAPI: DES Encrypt: 8
+7f0ff4d5f700 10:02:03 CryptAPI: Cipher: DES2 Key: 16 Block: 8
+7f0ff4d5f700 10:02:03 CryptAPI: DES2 CBC Decrypt: 216
+7f0ff4d5f700 10:02:03 ProcLink: ReadRec
+7f0ff4d5f700 10:02:03 SCR_Link: ReadCall
+7f0ff4d5f700 10:02:03 LinkLevl: Level 0 - NONE ReadBuf: 8000
+7f0ff4d5f700 10:02:03 LinkLevl: DevRead: 8000 Timeout: 1
+7f0ff4d5f700 10:02:03 LinkLevl: Dumping Device Read Size: 208
+3C 53 4F 41 50 3A 45 6E 76 65 6C 6F 70 65 3E 3C 53 4F 41 50 <SOAP:Envelope><SOAP
+3A 48 65 61 64 65 72 2F 3E 3C 53 4F 41 50 3A 42 6F 64 79 3E :Header/><SOAP:Body>
+3C 73 71 6C 3A 47 65 74 41 75 74 68 54 61 67 73 52 65 73 70 <sql:GetAuthTagsResp
+6F 6E 73 65 3E 3C 52 65 74 43 6F 64 65 3E 30 3C 2F 52 65 74 onse><RetCode>0</Ret
+43 6F 64 65 3E 3C 45 72 72 4D 65 73 67 3E 4F 4B 3C 2F 45 72 Code><ErrMesg>OK</Er
+72 4D 65 73 67 3E 3C 49 6E 66 6F 3E 31 30 49 3D 43 33 37 45 rMesg><Info>10I=C37E
+35 30 35 44 32 31 43 41 52 44 3D 31 32 31 32 31 32 30 30 30 505D21CARD=121212000
+30 30 30 30 31 39 38 3C 2F 49 6E 66 6F 3E 3C 2F 73 71 6C 3A 0000198</Info></sql:
+47 65 74 41 75 74 68 54 61 67 73 52 65 73 70 6F 6E 73 65 3E GetAuthTagsResponse>
+3C 2F 53 4F 41 50 3A 42 6F 64 79 3E 3C 2F 53 4F 41 50 3A 45 </SOAP:Body></SOAP:E
+6E 76 65 6C 6F 70 65 3E                                     nvelope>
+7f0ff4d5f700 10:02:03 LinkLevl: Level: 0 Read RC: 208
+7f0ff4d5f700 10:02:03 Script  : Start!
+7f0ff4d5f700 10:02:03 XML_Lib : Building XML Tree
+7f0ff4d5f700 10:02:03 Script  : Engine: XMS Call(s): 44
+7f0ff4d5f700 10:02:03 XML_Lib : Element SOAP:Envelope is matched
+7f0ff4d5f700 10:02:03 XML_Lib : Element SOAP:Header is matched
+7f0ff4d5f700 10:02:03 XML_Lib : Element SOAP:Body is matched
+7f0ff4d5f700 10:02:03 XML_Lib : Element sql:GetAuthTagsResponse is matched
+7f0ff4d5f700 10:02:03 XML_Lib : Element RetCode is matched
+7f0ff4d5f700 10:02:03 XML_Lib : Value[1] = 0
+7f0ff4d5f700 10:02:03 XML_Lib : Element ErrMesg is matched
+7f0ff4d5f700 10:02:03 XML_Lib : Value[2] = OK
+7f0ff4d5f700 10:02:03 XML_Lib : Element Info is matched
+7f0ff4d5f700 10:02:03 XML_Lib : Value[3] = 10I=C37E505D21CARD=1212120000000198
+7f0ff4d5f700 10:02:03 XML_Lib : Freeing XML data
+7f0ff4d5f700 10:02:03 ProcLink: Read RC: 0
+7f0ff4d5f700 10:02:03 CODEC   : MsgRec received: 1
+7f0ff4d5f700 10:02:03 Sock_Lib: Closing socket: 29 -1
+7f0ff4d5f700 10:02:03 AuthServ: AuthStep RC: 0
+7f0ff4d5f700 10:02:03 StrLib  : LTV parsed { CARD=1212120000000198; }
+7f0ff4d5f700 10:02:03 AuthServ: Count: 0 Key: CARD Val: 1212120000000198
+7f0ff4d5f700 10:02:03 StrLib  : ClrField: 10 (2)
+7f0ff4d5f700 10:02:03 Auth_Log: Drop context by ref
+7f0ff4d5f700 10:02:03 Obj_Drvr: Releasing object: PKCS11
+7f0ff4d5f700 10:02:03 Cryptoki: Session closed
+7f0ff4d5f700 10:02:03 SCR_Link: Closed
+7f0ff4d5f700 10:02:03 LinkLevl: Releasing link data
+7f0ff4d5f700 10:02:03 Script  : Cleanup
+7f0ff4d5f700 10:02:03 Script  : FreeVars: 17
+7f0ff4d5f700 10:02:03 Script  : Cleanup
+7f0ff4d5f700 10:02:03 Script  : FreeVars: 59
+7f0ff4d5f700 10:02:03 ProcLink: Link closed: 1
+7f0ff4d5f700 10:02:03 OpHealth: End Operation [AS.Step] Id [B6AB838FF10AEF09E52C08344DAECDB3] Result [AUTH_OK] Elapsed [328.006] ms
+7f0ff4d5f700 10:02:03 GLinkSrv: Destination RetCode: 0 Time: 0
+7f0ff4d5f700 10:02:03 ProcLink: WriteRec: 12
+7f0ff4d5f700 10:02:03 Script  : Start!
+7f0ff4d5f700 10:02:03 Script  : Engine: XMS Call(s): 44
+7f0ff4d5f700 10:02:03 XML_Lib : Value[1] = OK
+7f0ff4d5f700 10:02:03 XML_Lib : Freeing XML data
+7f0ff4d5f700 10:02:03 LinkLevl: Level 0 - NONE WriteBuf: 262
+7f0ff4d5f700 10:02:03 LinkLevl: Dumping Device Write Size: 262
+3C 41 75 74 68 50 72 6F 74 6F 63 6F 6C 20 56 65 72 73 69 6F <AuthProtocol Versio
+6E 3D 22 31 2E 34 22 3E 0A 20 3C 41 75 74 68 53 65 73 73 69 n="1.4">. <AuthSessi
+6F 6E 53 74 65 70 52 73 3E 0A 20 20 3C 53 74 61 74 75 73 3E onStepRs>.  <Status>
+0A 20 20 20 3C 53 74 61 74 75 73 43 6F 64 65 3E 4F 4B 3C 2F .   <StatusCode>OK</
+53 74 61 74 75 73 43 6F 64 65 3E 0A 20 20 3C 2F 53 74 61 74 StatusCode>.  </Stat
+75 73 3E 0A 20 20 3C 53 49 44 3E 42 36 41 42 38 33 38 46 46 us>.  <SID>B6AB838FF
+31 30 41 45 46 30 39 45 35 32 43 30 38 33 34 34 44 41 45 43 10AEF09E52C08344DAEC
+44 42 33 3C 2F 53 49 44 3E 0A 20 20 3C 41 75 74 68 44 61 74 DB3</SID>.  <AuthDat
+61 3E 0A 20 20 20 3C 50 61 72 61 6D 20 4E 61 6D 65 3D 22 43 a>.   <Param Name="C
+41 52 44 22 3E 31 32 31 32 31 32 30 30 30 30 30 30 30 31 39 ARD">121212000000019
+38 3C 2F 50 61 72 61 6D 3E 0A 20 20 3C 2F 41 75 74 68 44 61 8</Param>.  </AuthDa
+74 61 3E 0A 20 3C 2F 41 75 74 68 53 65 73 73 69 6F 6E 53 74 ta>. </AuthSessionSt
+65 70 52 73 3E 0A 3C 2F 41 75 74 68 50 72 6F 74 6F 63 6F 6C epRs>.</AuthProtocol
+3E 0A                                                       >.
+7f0ff4d5f700 10:02:03 ProcLink: Encode RC: 262
+7f0ff4d5f700 10:02:03 StrLib  : ClrField: 10 (2)
+7f0ff4d5f700 10:02:13 Sock_Lib: Connection closed
+7f0ff4d5f700 10:02:13 Sock_Lib: Closing socket: 28 -1
+7f0ff4d5f700 10:02:13 Sock_Lib: Listening on 127.0.0.1 9950
+7f0ff5560700 10:02:16 Sock_Lib: Connecting to 127.0.0.1 8840 ...
+7f0ff5560700 10:02:16 Sock_Lib: Connected from port 12978
+7f0ff5560700 10:02:16 ProcLink: WriteRec: 3
+7f0ff5560700 10:02:16 Script  : Start!
+7f0ff5560700 10:02:16 Script  : Engine: XMS Call(s): 44
+7f0ff5560700 10:02:16 XML_Lib : Freeing XML data
+7f0ff5560700 10:02:16 LinkLevl: Level 0 - NONE WriteBuf: 162
+7f0ff5560700 10:02:16 LinkLevl: Dumping Device Write Size: 162
+3C 53 4F 41 50 3A 45 6E 76 65 6C 6F 70 65 3E 3C 53 4F 41 50 <SOAP:Envelope><SOAP
+3A 48 65 61 64 65 72 2F 3E 3C 53 4F 41 50 3A 42 6F 64 79 3E :Header/><SOAP:Body>
+3C 73 71 6C 3A 47 65 74 41 75 74 68 54 61 67 73 3E 3C 43 61 <sql:GetAuthTags><Ca
+72 64 3E 2A 3C 2F 43 61 72 64 3E 3C 54 61 67 73 3E 31 30 49 rd>*</Card><Tags>10I
+3D 43 34 37 45 35 30 35 44 31 38 47 45 54 4D 41 49 4C 3D 39 =C47E505D18GETMAIL=9
+41 44 44 52 54 4F 3D 41 53 3C 2F 54 61 67 73 3E 3C 2F 73 71 ADDRTO=AS</Tags></sq
+6C 3A 47 65 74 41 75 74 68 54 61 67 73 3E 3C 2F 53 4F 41 50 l:GetAuthTags></SOAP
+3A 42 6F 64 79 3E 3C 2F 53 4F 41 50 3A 45 6E 76 65 6C 6F 70 :Body></SOAP:Envelop
+65 3E                                                       e>
+7f0ff5560700 10:02:16 ProcLink: Encode RC: 162
+7f0ff5560700 10:02:16 CryptAPI: Encrypt HSM (51,162,2,8,1,16)
+7f0ff5560700 10:02:16 HSM_DES : HSM Mode: 2
+7f0ff5560700 10:02:16 HSM_DES : MKS [20220210070200]
+7f0ff5560700 10:02:16 CryptAPI: Cipher: DES Key: 8 Block: 8
+7f0ff5560700 10:02:16 CryptAPI: DES Encrypt: 8
+7f0ff5560700 10:02:16 CryptAPI: Cipher: DES2 Key: 16 Block: 8
+7f0ff5560700 10:02:16 CryptAPI: DES2 CBC Encrypt: 168
+7f0ff5560700 10:02:16 CODEC   : MsgRec sent: 186
+7f0ff5560700 10:02:16 CryptAPI: Decrypt HSM (51,216,2,8,1,16)
+7f0ff5560700 10:02:16 HSM_DES : STS [20220210070216] CTS [20220210070216]
+7f0ff5560700 10:02:16 HSM_DES : Diff: 1644465736-1644465736=0 Guard: 3600
+7f0ff5560700 10:02:16 Obj_Drvr: CallObj(PKCS11): 51 - GetMAC
+7f0ff5560700 10:02:16 Cryptoki: Input len: 8 Output size: 16
+7f0ff5560700 10:02:16 CryptAPI: Cipher: DES Key: 8 Block: 8
+7f0ff5560700 10:02:16 CryptAPI: DES Encrypt: 8
+7f0ff5560700 10:02:16 CryptAPI: Cipher: DES2 Key: 16 Block: 8
+7f0ff5560700 10:02:16 CryptAPI: DES2 CBC Decrypt: 200
+7f0ff5560700 10:02:16 ProcLink: ReadRec
+7f0ff5560700 10:02:16 SCR_Link: ReadCall
+7f0ff5560700 10:02:16 LinkLevl: Level 0 - NONE ReadBuf: 8000
+7f0ff5560700 10:02:16 LinkLevl: DevRead: 8000 Timeout: 1
+7f0ff5560700 10:02:16 LinkLevl: Dumping Device Read Size: 197
+3C 53 4F 41 50 3A 45 6E 76 65 6C 6F 70 65 3E 3C 53 4F 41 50 <SOAP:Envelope><SOAP
+3A 48 65 61 64 65 72 2F 3E 3C 53 4F 41 50 3A 42 6F 64 79 3E :Header/><SOAP:Body>
+3C 73 71 6C 3A 47 65 74 41 75 74 68 54 61 67 73 52 65 73 70 <sql:GetAuthTagsResp
+6F 6E 73 65 3E 3C 52 65 74 43 6F 64 65 3E 30 3C 2F 52 65 74 onse><RetCode>0</Ret
+43 6F 64 65 3E 3C 45 72 72 4D 65 73 67 3E 4F 4B 3C 2F 45 72 Code><ErrMesg>OK</Er
+72 4D 65 73 67 3E 3C 49 6E 66 6F 3E 31 30 49 3D 43 34 37 45 rMesg><Info>10I=C47E
+35 30 35 44 31 30 43 4F 55 4E 54 4D 53 47 3D 30 3C 2F 49 6E 505D10COUNTMSG=0</In
+66 6F 3E 3C 2F 73 71 6C 3A 47 65 74 41 75 74 68 54 61 67 73 fo></sql:GetAuthTags
+52 65 73 70 6F 6E 73 65 3E 3C 2F 53 4F 41 50 3A 42 6F 64 79 Response></SOAP:Body
+3E 3C 2F 53 4F 41 50 3A 45 6E 76 65 6C 6F 70 65 3E          ></SOAP:Envelope>
+7f0ff5560700 10:02:16 LinkLevl: Level: 0 Read RC: 197
+7f0ff5560700 10:02:16 Script  : Start!
+7f0ff5560700 10:02:16 XML_Lib : Building XML Tree
+7f0ff5560700 10:02:16 Script  : Engine: XMS Call(s): 44
+7f0ff5560700 10:02:16 XML_Lib : Element SOAP:Envelope is matched
+7f0ff5560700 10:02:16 XML_Lib : Element SOAP:Header is matched
+7f0ff5560700 10:02:16 XML_Lib : Element SOAP:Body is matched
+7f0ff5560700 10:02:16 XML_Lib : Element sql:GetAuthTagsResponse is matched
+7f0ff5560700 10:02:16 XML_Lib : Element RetCode is matched
+7f0ff5560700 10:02:16 XML_Lib : Value[1] = 0
+7f0ff5560700 10:02:16 XML_Lib : Element ErrMesg is matched
+7f0ff5560700 10:02:16 XML_Lib : Value[2] = OK
+7f0ff5560700 10:02:16 XML_Lib : Element Info is matched
+7f0ff5560700 10:02:16 XML_Lib : Value[3] = 10I=C47E505D10COUNTMSG=0
+7f0ff5560700 10:02:16 XML_Lib : Freeing XML data
+7f0ff5560700 10:02:16 ProcLink: Read RC: 0
+7f0ff5560700 10:02:16 CODEC   : MsgRec received: 1
+7f0ff5560700 10:02:16 Sock_Lib: Closing socket: 28 -1
+7f0ff5560700 10:02:16 StrLib  : LTV parsed { COUNTMSG=0; }
+7f0ff5560700 10:02:16 ASMsgBox: Skip process mail. Missing address from
+7f0ff5560700 10:02:16 ASMsgBox: Scheduled event in: 15 sec(s)
