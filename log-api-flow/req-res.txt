@@ -1,0 +1,22 @@
+Request
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+  <S:Body>
+    <GeneratePinByPANReq xmlns="http://www.openwaygroup.com/pinset">
+      <PAN>1000040155112109</PAN>
+      <EXP>2012</EXP>
+      <CVC2>217</CVC2>
+      <Phone>89112875367</Phone>
+      <UserAuthenticated>Yes</UserAuthenticated>
+    </GeneratePinByPANReq>
+  </S:Body>
+</S:Envelope>
+
+Response
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <ns2:GeneratePinByPANRes xmlns:ns2="http://www.openwaygroup.com/pinset">
+      <ns2:RetCode>0</ns2:RetCode>
+      <ns2:RetMsg>OK</ns2:RetMsg>
+    </ns2:GeneratePinByPANRes>
+  </s:Body>
+</s:Envelope>

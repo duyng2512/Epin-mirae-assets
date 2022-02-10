@@ -1,0 +1,577 @@
+  
+   Printed by Clerk  -   Errors for All Docs Not Safe
+  ID    Message Title                                                           Type    Date       Object
+                                                                                        2/9/22
+  8025..1960: Continue Request[0] finished                                      Timing  1:01:12 PM DOC
+  
+  8025..1960: Phase Processed                                                   Timing  2/9/22     DOC
+                                                                                        1:01:12 PM
+                                                                                        2/9/22
+  8025..1960: Message Processing Done                                           Timing  1:01:12 PM DOC
+  
+                                                                                        2/9/22
+  8025..1950: Put Fin Doc                                                       Timing  1:01:12 PM DOC
+  
+  8025..1950: Get balance info                                                  Timing  2/9/22     DOC
+                                                                                        1:01:12 PM
+                                                                                        2/9/22
+  8025..1940: Change PIN                                                        Timing  1:01:12 PM DOC
+  
+  8025..1890: Reading of Target Service Done                                    Timing  2/9/22     DOC
+                                                                                        1:01:12 PM
+                                                                                        2/9/22
+  8025..1890: Channel Data Generated                                            Timing  1:01:12 PM DOC
+  
+  8025..1890: STIP Done                                                         Timing  2/9/22     DOC
+                                                                                        1:01:12 PM
+  
+  8025..1890: Standard Phase Process Done                                       Timing  2/9/22     DOC
+                                                                                        1:01:12 PM
+                                                                                        2/9/22
+  8025..1890: Update Doc                                                        Timing  1:01:12 PM DOC
+  
+  8025..1880: Post Doc                                                          Timing  2/9/22     DOC
+                                                                                        1:01:12 PM
+                                                                                        2/9/22
+  8025..1790: Check Card Contract                                               Timing  1:01:12 PM DOC
+  
+  8025..20: Chip Offline Data                                                   Timing  2/9/22     DOC
+                                                                                        1:01:12 PM
+                                                                                        2/9/22
+  8025..10: Custom Phase Process Done                                           Timing  1:01:12 PM DOC
+  
+                                                                                        2/9/22
+  8025..10: Read Invoice Parties                                                Timing  1:01:12 PM DOC
+  
+  
+  9 Feb 2022 17:11:16
+  
+  
+  
+   ..Object ID
+  
+     25860
+  
+     25860
+  
+  
+     25860
+  
+  
+     25860
+  
+     25860
+  
+  
+     25860
+  
+     25860
+  
+  
+     25860
+  
+     25860
+  
+  
+     25860
+  
+  
+     25860
+  
+     25860
+  
+  
+     25860
+  
+     25860
+  
+  
+     25860
+  
+  
+     25860
+  
+  
+                                                                                              Page 1 of 6
+  
+  
+   Printed by Clerk  -   Errors for All Docs Not Safe
+  ID    Message Title                                                           Type    Date       Object
+                                                                                        2/9/22
+  8025..10: Read Doc                                                            Timing  1:01:12 PM DOC
+  
+  8025..0: Continue Request[0] started                                          Timing  2/9/22     DOC
+                                                                                        1:01:12 PM
+                                                                                        2/9/22
+  8025..Routine Continue Request was running 1960 ms instead of 1000 ms.        Timing  1:01:12 PM DOC
+  
+                                                                                        2/9/22
+  8025..|   Search Event: AUTH_X_Q: Event type is not configured                Trace   1:01:12 PM DOC
+  
+  8025..|   END USG:  RC = 0                                                    Trace   2/9/22     DOC
+                                                                                        1:01:12 PM
+        |   USG:  UsageType = Negative RC ( Contract=121212______0107 (Epin             2/9/22
+  8025..Client) )                                                               Trace   1:01:12 PM DOC
+  
+  8025..|   END USG:  RC = 0                                                    Trace   2/9/22     DOC
+                                                                                        1:01:12 PM
+                                                                                        2/9/22
+  8025..|   USG:  UsageType = Negative RC ( Contract=716167094327 )             Trace   1:01:12 PM DOC
+  
+  8025..|   END GET_BAL_STR:  TrnAmntStr=[020;010;910;]; TrnCurr=704;           Trace   2/9/22     DOC
+        StlAmntStr=[020;010;910;]; StlCurr=704; FXRateType=M;                           1:01:12 PM
+        AuthConfMode=[ACTIVITY_DELAY=360;BAL_TYPE_1=02;BAL_TYPE_2=01;BAL_TYPE_3=91;DAYS_TO_RENEW=61;DAYS_T
+  
+  8025..|   GET_BAL_STR:  RequestCategory=Request;                              Trace   2/9/22     DOC
+        TargetContract=121212______0107 (Epin Client);                                  1:01:12 PM
+        DocDsc=[RCAT=Q;BCURR=UNKNOWN;PINM=REQUEST;PRODUCT_ID=PRIVATE;SRCCC=VNM;CIID=3430;CVC2R=M;FX_S_N=38
+  
+  8025..PIN actualized                                                          Infor ..2/9/22     DOC
+                                                                                        1:01:12 PM
+        |   END PROCESS_AUTH:  RequestCategory=Request; DocRC=0;
+  8025..PostingStatus=Closed; OutwardStatus=Not for Export;                     Trace   2/9/22     DOC
+        IsAuthorisation=Auth; AuthCode=370700;                                          1:01:11 PM
+  
+  8025..|   |   Search Event: CHANGE_PIN: Not Available                         Trace   2/9/22     DOC
+                                                                                        1:01:11 PM
+                                                                                        2/9/22
+  8025..|   |   END SET_BLK:  AuthCode=370700                                   Trace   1:01:11 PM DOC
+  
+  8025..|   |   |   PUT_BLOCK: CreditType=Additional Online Service;            Trace   2/9/22     DOC
+        CreditStatus=Closed; CreditAmount=0 (VND); BalanceType=;                        1:01:11 PM
+  
+  9 Feb 2022 17:11:16
+  
+  
+  
+   ..Object ID
+  
+     25860
+  
+     25860
+  
+  
+     25860
+  
+  
+     25860
+  
+     25860
+  
+  
+     25860
+  
+     25860
+  
+  
+     25860
+  
+     25860
+  
+  
+  
+     25860
+  
+  
+  
+     25860
+  
+  
+     25860
+  
+  
+     25860
+  
+  
+     25860
+  
+     25860
+  
+  
+                                                                                              Page 2 of 6
+  
+  
+   Printed by Clerk  -   Errors for All Docs Not Safe
+  ID    Message Title                                                           Type    Date       Object
+        |   |   SET_BLK:  NApplyRules=0 ( Contract=121212______0107 (Epin               2/9/22
+  8025..Client) )                                                               Trace   1:01:11 PM DOC
+  
+  8025..|   |   END CHECK_AVAILABLE                                             Trace   2/9/22     DOC
+                                                                                        1:01:11 PM
+                                                                                        2/9/22
+  8025..|   |   |   END AUTH RULE                                               Trace   1:01:11 PM DOC
+  
+                                                                                        2/9/22
+  8025..|   |   |   AUTH RULE:  NCheckRules=0                                   Trace   1:01:11 PM DOC
+  
+  8025..|   |   CHECK_AVAILABLE                                                 Trace   2/9/22     DOC
+                                                                                        1:01:11 PM
+                                                                                        2/9/22
+  8025..|   |   Search Event: : Event type is not configured                    Trace   1:01:11 PM DOC
+  
+  8025..|   |   END USG:  RC = 0                                                Trace   2/9/22     DOC
+                                                                                        1:01:11 PM
+                                                                                        2/9/22
+  8025..|   |   |   END USG_LIM:  IsActive = Inactive                           Trace   1:01:11 PM DOC
+  
+  8025..|   |   |   |   END USG_ACTIVITY_CHCK:  Condition mismatch              Trace   2/9/22     DOC
+                                                                                        1:01:11 PM
+  
+  8025..|   |   |   |   |   END USG_CONDITION_CHCK:  Transaction Type mismatch  Trace   2/9/22     DOC
+                                                                                        1:01:11 PM
+        |   |   |   |   |   USG_CONDITION_CHCK ( Contract=121212______0107              2/9/22
+  8025..(Epin Client) )                                                         Trace   1:01:11 PM DOC
+  
+  8025..|   |   |   |   USG_ACTIVITY_CHCK:  Risk Rule.USG_TRG_CVV2 (            Trace   2/9/22     DOC
+        Contract=121212______0107 (Epin Client) )                                       1:01:11 PM
+        |   |   |   USG_LIM:  Risk Rule.USG_TRG_CVV2 (                                  2/9/22
+  8025..Contract=121212______0107 (Epin Client) )                               Trace   1:01:11 PM DOC
+  
+  8025..|   |   |   END USAGE_PRECHECK:  No precheck for tariff-less usage      Trace   2/9/22     DOC
+                                                                                        1:01:11 PM
+        |   |   |   USAGE_PRECHECK:  Risk Rule.USG_TRG_CVV2 (                           2/9/22
+  8025..Contract=121212______0107 (Epin Client) )                               Trace   1:01:11 PM DOC
+  
+        |   |   USG:  UsageType = Risk Rule ( Contract=121212______0107 (Epin           2/9/22
+  8025..Client) )                                                               Trace   1:01:11 PM DOC
+  
+  
+  9 Feb 2022 17:11:16
+  
+  
+  
+   ..Object ID
+  
+     25860
+  
+     25860
+  
+  
+     25860
+  
+  
+     25860
+  
+     25860
+  
+  
+     25860
+  
+     25860
+  
+  
+     25860
+  
+     25860
+  
+  
+     25860
+  
+  
+     25860
+  
+     25860
+  
+  
+     25860
+  
+     25860
+  
+  
+     25860
+  
+  
+     25860
+  
+  
+                                                                                              Page 3 of 6
+  
+  
+   Printed by Clerk  -   Errors for All Docs Not Safe
+  ID    Message Title                                                           Type    Date       Object
+                                                                                        2/9/22
+  8025..|   |   END USG:  RC = 0                                                Trace   1:01:11 PM DOC
+  
+  8025..|   |   USG:  UsageType = Risk Rule ( Contract=716167094327 )           Trace   2/9/22     DOC
+                                                                                        1:01:11 PM
+                                                                                        2/9/22
+  8025..|   |   END USG:  RC = 0                                                Trace   1:01:11 PM DOC
+  
+        |   |   USG:  UsageType = Add Service ( Contract=121212______0107 (Epin         2/9/22
+  8025.. Client) )                                                              Trace   1:01:11 PM DOC
+  
+  8025..|   |   END USG:  RC = 0                                                Trace   2/9/22     DOC
+                                                                                        1:01:11 PM
+                                                                                        2/9/22
+  8025..|   |   USG:  UsageType = Add Service ( Contract=716167094327 )         Trace   1:01:11 PM DOC
+  
+  8025..|   |   END VALIDATE_CARD:  Doc RC=0                                    Trace   2/9/22     DOC
+                                                                                        1:01:11 PM
+                                                                                        2/9/22
+  8025..|   |   |   END CHECK_CARD_EXPIRE                                       Trace   1:01:11 PM DOC
+  
+  8025..|   |   |   |   Found Plastic record=3430; Used Plastic data:Incoming   Trace   2/9/22     DOC
+        expiry data=5109; Found expiry data=5109; Used search options:Plastic           1:01:11 PM
+        can missing=N; Plastic can be Expired=C;
+  8025..|   |   |   |   Received expiry date to validate: 5109                  Trace   2/9/22     DOC
+                                                                                        1:01:11 PM
+        |   |   |   CHECK_CARD_EXPIRE:  CardExpire=5109; CardSeqvN=;
+  8025..TransDate=09.02.2022; StartCode=0; glob.ClosePrevPlastic=A;  (          Trace   2/9/22     DOC
+        Contract=121212______0107 (Epin Client) )                                       1:01:11 PM
+  
+  8025..|   |   |   END PIN_ATTEMPTS_VALIDATION                                 Trace   2/9/22     DOC
+                                                                                        1:01:11 PM
+                                                                                        2/9/22
+  8025..|   |   |   |   Search Event: F_PBT: Event type is not configured       Trace   1:01:11 PM DOC
+  
+  8025..|   |   |   |   Card unlocked                                           Trace   2/9/22     DOC
+                                                                                        1:01:11 PM
+        |   |   |   |   Search Event: CARD_UNLOCK_NCEPIN: Event type is not             2/9/22
+  8025..configured                                                              Trace   1:01:11 PM DOC
+  
+  8025..|   |   |   |   END POST_EVENT                                          Trace   2/9/22     DOC
+                                                                                        1:01:11 PM
+  
+  9 Feb 2022 17:11:16
+  
+  
+  
+   ..Object ID
+  
+     25860
+  
+     25860
+  
+  
+     25860
+  
+  
+     25860
+  
+     25860
+  
+  
+     25860
+  
+     25860
+  
+  
+     25860
+  
+     25860
+  
+  
+     25860
+  
+  
+     25860
+  
+  
+     25860
+  
+  
+     25860
+  
+     25860
+  
+  
+     25860
+  
+     25860
+  
+  
+                                                                                              Page 4 of 6
+  
+  
+   Printed by Clerk  -   Errors for All Docs Not Safe
+  ID    Message Title                                                           Type    Date       Object
+        |   |   |   |   POST_EVENT:  Card Unlock (Pre-Defined Code)                     2/9/22
+  8025..(CARD_UNLOCK) ( Contract=121212______0107 (Epin Client) )               Trace   1:01:11 PM DOC
+  
+  8025..|   |   |   |   LOAD_EVENT: 121212______0107 (Epin Client) : Card       Trace   2/9/22     DOC
+        Unlock (Pre-Defined Code) (CARD_UNLOCK)                                         1:01:11 PM
+                                                                                        2/9/22
+  8025..|   |   |   |   Unlocking plastic id: 3430                              Trace   1:01:10 PM DOC
+  
+                                                                                        2/9/22
+  8025..|   |   |   |   Card should be unlocked                                 Trace   1:01:10 PM DOC
+  
+  8025..|   |   |   |   U_PBT; on Contract Subtype                              Trace   2/9/22     DOC
+                                                                                        1:01:10 PM
+        |   |   |   |   OnLine PIN RC=; OffLine PIN RC=; PIN Attempts                   2/9/22
+  8025..Counter=0; Pin Attempts Exceeded=N; Chip PIN Try Limit Exceeded=;       Trace   1:01:10 PM DOC
+        Production Status=Locked;
+        DocData=[RCAT=Q;BCURR=UNKNOWN;PINM=REQUEST;PRODUCT_ID=PRIVATE;SRCCC=VNM;CIID=3430;CVC2R=M;FX_S_N=3
+  
+        |   |   |   PIN_ATTEMPTS_VALIDATION ( Contract=121212______0107 (Epin           2/9/22
+  8025..Client) )                                                               Trace   1:01:10 PM DOC
+  
+  8025..|   |   VALIDATE_CARD                                                   Trace   2/9/22     DOC
+                                                                                        1:01:10 PM
+                                                                                        2/9/22
+  8025..|   |   END GET_SOURCE_TARGET                                           Trace   1:01:10 PM DOC
+  
+  8025..|   |   GET_SOURCE_TARGET                                               Trace   2/9/22     DOC
+                                                                                        1:01:10 PM
+  
+  8025..|   |   POST_REQ_ADD_SERV is processing...                              Trace   2/9/22     DOC
+                                                                                        1:01:10 PM
+                                                                                        2/9/22
+  8025..|   |   CHK_ATC: ATC=; IsValid=;                                        Trace   1:01:10 PM DOC
+  
+  8025..|   |   OFFLINE_SCRIPT_RESULT: Card=121212______0107 (Epin Client);     Trace   2/9/22     DOC
+        CardInfoID=3430; PMParmsID=1470;                                                1:01:10 PM
+        |   PROCESS_AUTH:  RequestCategory=Request; StartCode=0;                        2/9/22
+  8025..ServiceClass=Additional Online Service;                                 Trace   1:01:10 PM DOC
+        DocDsc=[RCAT=Q;BCURR=UNKNOWN;PINM=REQUEST;PRODUCT_ID=PRIVATE;SRCCC=VNM;CIID=3430;CVC2R=M;];
+  
+                                                                                        2/9/22
+  8025..|   |   NextPhase: IR_SV_VALIDATION_OWN                                 Trace   1:01:09 PM DOC
+  
+  9 Feb 2022 17:11:16
+  
+  
+  
+   ..Object ID
+  
+     25860
+  
+     25860
+  
+  
+     25860
+  
+  
+     25860
+  
+     25860
+  
+  
+     25860
+  
+  
+  
+  
+     25860
+  
+     25860
+  
+  
+     25860
+  
+     25860
+  
+  
+     25860
+  
+  
+     25860
+  
+     25860
+  
+  
+     25860
+  
+  
+  
+     25860
+  
+                                                                                              Page 5 of 6
+  
+  
+   Printed by Clerk  -   Errors for All Docs Not Safe
+  ID    Message Title                                                           Type    Date       Object
+                                                                                        2/9/22
+  8025..|   |   Result security values list: CVC2,                              Trace   1:01:09 PM DOC
+  
+  8025..|   |   Card parms RC: 0                                                Trace   2/9/22     DOC
+                                                                                        1:01:09 PM
+        |   GET_CARD_PARMS:  CardNumber = 121212______0107; CardExpire = 5109;          2/9/22
+  8025..CardSeqvN = ; AddData =                                                 Trace   1:01:09 PM DOC
+        CHANGE_PIN=Y;RCAT=Q;BCURR=UNKNOWN;GET_CARD_INFO=Y;PINM=REQUEST; (
+        Contract=121212______0107 (Epin Client) )
+        |   Security validation mode=OWN; Security values to check=CVC2,;               2/9/22
+  8025..SVList=; oSVLst=; Target is our=Y; Target Category=C;                   Trace   1:01:09 PM DOC
+  
+                                                                                        2/9/22
+  8025..|   Incoming security values list: CVC2,                                Trace   1:01:09 PM DOC
+  
+  8025..|   END GET_SOURCE_TARGET                                               Trace   2/9/22     DOC
+                                                                                        1:01:09 PM
+                                                                                        2/9/22
+  8025..|   |   OnUsSource : PINSETUP                                           Trace   1:01:09 PM DOC
+  
+  8025..|   |   Target contract found: Contract=121212______0107 (Epin Client); Trace   2/9/22     DOC
+                                                                                        1:01:09 PM
+                                                                                        2/9/22
+  8024..|   GET_SOURCE_TARGET                                                   Trace   1:01:09 PM DOC
+  
+  8024..|   END PARSE_MESSAGE:  SourceCode=CHANGE_PIN; ServiceClass=Additional  Trace   2/9/22     DOC
+        Online Service; TransType=; RequestCategory=Request; IsAuth=Auth;               1:01:09 PM
+        AddInfo=[RCAT=Q;BCURR=UNKNOWN;PINM=REQUEST;]PostingStatus=Waiting;
+        RC=0; ;
+  8024..|   PARSE_MESSAGE:  SourceChannel=; RequestCategory=Request;            Trace   2/9/22     DOC
+        ServiceClass=Additional Online Service; StartCode=0;                            1:01:09 PM
+        MessCode=CHANGE_PIN;
+  8024..|   END MESSAGE_TYPE:  Result: MessageServiceClass=Additional Online    Trace   2/9/22     DOC
+        Service; TransactionType=; RequestCategory=Request; IsAuth=Auth;                1:01:09 PM
+        IsRepeat=No; MessageDetails=; MsgTypeID=;
+  8024..|   |   Message Code Mask: CHANGE_PIN                                   Trace   2/9/22     DOC
+                                                                                        1:01:09 PM
+        |   MESSAGE_TYPE:  Input Parameters: MessageCode=CHANGE_PIN;
+  8024..MessageChannel=; ServiceClass=Additional Online Service;                Trace   2/9/22     DOC
+        TransactionType=; RequestCategory=; IsAuth=Auth;                                1:01:09 PM
+  
+  
+  
+  9 Feb 2022 17:11:16
+  
+  
+  
+   ..Object ID
+  
+     25860
+  
+     25860
+  
+  
+     25860
+  
+  
+  
+     25860
+  
+  
+     25860
+  
+     25860
+  
+  
+     25860
+  
+     25860
+  
+  
+     25860
+  
+     25860
+  
+  
+  
+     25860
+  
+  
+     25860
+  
+  
+     25860
+  
+  
+     25860
+  
+  
+  
+  
+                                                                                              Page 6 of 6
+  
+

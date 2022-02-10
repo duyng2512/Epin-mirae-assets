@@ -1,0 +1,1191 @@
+sens-sms 2.8.963
+Startup time: 2022-02-08 11:56:57.904
+Host: localhost (127.0.0.1)
+Java: Java Version: 8.0.261; Vendor: Oracle Corporation; JVM Type: Java HostSpot(TM) [1.8.0_261-b25]; Compatibility: compatible [1.0.577]; JCE Unlimited Strength Jurisdiction Policy Status: installed; Path: /opt/jdk/1.8/jre (Java HotSpot(TM) 64-Bit Server VM) in /opt/jdk/1.8/jre
+OS: Linux(amd64) 3.10.0-1127.19.1.el7.x86_64
+User: appserv
+Current Dir: /local/way4/appserv/appserver/applications/sens-sms
+User Home Dir: /local/way4/appserv
+Max Heap Size: 512 Mb
+Processors: 2
+Telnet Console Port: 23788
+Java System Properties: application_log_destination=/local/way4/appserv/appserver/applications/sens-sms/logs; application_temp_destination=/local/way4/appserv/appserver/applications/sens-sms/temp; catalina.base=/local/way4/appserv/appserver/applications/sens-sms/temp/container; catalina.home=/local/way4/appserv/appserver/tomcat/8; catalina.useNaming=true; common.loader="${catalina.base}/lib","${catalina.base}/lib/*.jar","${catalina.home}/lib","${catalina.home}/lib/*.jar"; hm_enabled=true; java.endorsed.dirs=/opt/jdk/1.8/jre/lib/endorsed; java.io.tmpdir=/local/way4/appserv/appserver/applications/sens-sms/temp/container/temp; java.naming.factory.initial=org.apache.naming.java.javaURLContextFactory; java.naming.factory.url.pkgs=org.apache.naming; java.util.concurrent.ForkJoinPool.common.threadFactory=org.apache.catalina.startup.SafeForkJoinWorkerThreadFactory; java.util.logging.config.file=/local/way4/appserv/appserver/applications/sens-sms/temp/container/conf/logging.properties; java.util.logging.manager=org.apache.juli.ClassLoaderLogManager; jdk.xml.entityExpansionLimit=1; jolokia.agent=http://127.0.0.1:15040/jolokia/; manager_port=15039; package.access=sun.,org.apache.catalina.,org.apache.coyote.,org.apache.jasper.,org.apache.tomcat.; package.definition=sun.,java.,org.apache.catalina.,org.apache.coyote.,org.apache.jasper.,org.apache.naming.,org.apache.tomcat.; rest_api_enabled=true; server.loader=; shared.loader=; tomcat.util.buf.StringCache.byte.enabled=true; tomcat.util.scan.StandardJarScanFilter.jarsToScan=log4j-taglib*.jar,log4j-web*.jar,log4javascript*.jar,slf4j-taglib*.jar; tomcat.util.scan.StandardJarScanFilter.jarsToSkip=annotations-api.jar,ant-junit*.jar,ant-launcher.jar,ant.jar,asm-*.jar,aspectj*.jar,bootstrap.jar,catalina-ant.jar,catalina-ha.jar,catalina-jmx-remote.jar,catalina-storeconfig.jar,catalina-tribes.jar,catalina-ws.jar,catalina.jar,cglib-*.jar,cobertura-*.jar,commons-beanutils*.jar,commons-codec*.jar,commons-collections*.jar,commons-daemon.jar,commons-dbcp*.jar,commons-digester*.jar,commons-fileupload*.jar,commons-httpclient*.jar,commons-io*.jar,commons-lang*.jar,commons-logging*.jar,commons-math*.jar,commons-pool*.jar,dom4j-*.jar,easymock-*.jar,ecj-*.jar,el-api.jar,geronimo-spec-jaxrpc*.jar,h2*.jar,hamcrest-*.jar,hibernate*.jar,httpclient*.jar,icu4j-*.jar,jasper-el.jar,jasper.jar,jaspic-api.jar,jaxb-*.jar,jaxen-*.jar,jdom-*.jar,jetty-*.jar,jmx-tools.jar,jmx.jar,jsp-api.jar,jstl.jar,jta*.jar,junit-*.jar,junit.jar,log4j*.jar,mail*.jar,objenesis-*.jar,oraclepki.jar,oro-*.jar,servlet-api-*.jar,servlet-api.jar,slf4j*.jar,taglibs-standard-spec-*.jar,tagsoup-*.jar,tomcat-api.jar,tomcat-coyote.jar,tomcat-dbcp.jar,tomcat-i18n-*.jar,tomcat-jdbc.jar,tomcat-jni.jar,tomcat-juli-adapters.jar,tomcat-juli.jar,tomcat-util-scan.jar,tomcat-util.jar,tomcat-websocket.jar,tools.jar,websocket-api.jar,wsdl4j*.jar,xercesImpl.jar,xml-apis.jar,xmlParserAPIs-*.jar,xmlParserAPIs.jar,xom-*.jar; user.country=US; user.language=en; user.timezone=Europe/Moscow; 
+Component versions: activation-1.1.jar[manifest:1.1];advappexport-dbinterface-2.2.32-818.jar[manifest:2.2.32-818];annotations-13.0.jar[pom:13.0];ant-1.10.0.jar;ant-launcher-1.8.2.jar;antlr-2.7.7.jar;aopalliance-1.0.jar;appcommon-11.0.20.jar[manifest:11.0.20];appcommonext-11.0.42.jar[manifest:11.0.42];appcontainer.jar[manifest:1.7.1839];appcontainerclient.jar[manifest:1.7.1839];asm-1.0.2.jar[pom:1.0.2];asm-3.3.1.jar[manifest:3.3.1];aspectjrt-1.8.10.jar;aspectjweaver-1.8.4.jar[manifest:1.8.4];authprotocol-1.0.jar;bcpg-jdk15on-1.60.jar[manifest:1.60.0.0];bcpkix-jdk15on-1.57.jar[manifest:1.57.0];bcprov-jdk15on-1.60.jar[manifest:1.60.0];bpmservice-11.0.105.jar[manifest:11.0.105];bpmstepsxmltypes-11.0.105.jar[manifest:11.0.105];bpmutil-11.0.11.jar[manifest:11.0.11];bpmvarmapxmltypes-11.0.105.jar[manifest:11.0.105];c3p0-0.9.5.2.jar[manifest:0.9.5.2];c_api_lib-1.0.83.jar;c_db-1.0.162.jar[manifest:1.0.162];c_platform-1.0.162.jar[manifest:1.0.162];cards-packages-2.2.32-818.jar[manifest:2.2.32-818];cards_packages-3.43.99-0011-pkgj.jar;cardsapi-appl-2.2.32-818.jar[manifest:2.2.32-818];cardsapi-common-2.2.32-818.jar[manifest:2.2.32-818];cardsapi-statement-2.2.32-818.jar[manifest:2.2.32-818];cardsapi-ufx-2.2.32-818.jar[manifest:2.2.32-818];cardstypes-2.2.32-818.jar[manifest:2.2.32-818];castor-core-1.3.jar[manifest:$VERSION$$RELEASE$];castor-xml-1.3.jar[manifest:$VERSION$$RELEASE$];ccomprotocol-1.6.jar;ccomxmltypes-1.30.jar;cglib-2.2.2.jar;com.ibm.mq.allclient-9.0.4.0.jar[manifest:9.0.4.0 - p904-L171030.1];com.ibm.ws.sib.client.thin.jms-7.0.0.jar[manifest:WAS70.IWAS [cf111021.10]];comm-2.0.3.jar;commands.zip;commons-codec-1.10.jar[pom:1.10,manifest:1.10];commons-collections-3.2.2.jar[pom:3.2.2,manifest:3.2.2];commons-email-1.5.jar[pom:1.5,manifest:1.5];commons-io-2.4.jar[pom:2.4,manifest:2.4];commons-jexl-2.1.1.jar[pom:2.1.1,manifest:2.1.1];commons-jxpath-1.3.jar[pom:1.3,manifest:1.3];commons-lang-2.6.jar[pom:2.6,manifest:2.6];commons-lang3-3.4.jar[pom:3.4,manifest:3.4];commons-math-2.2.jar[pom:2.2,manifest:2.2];commons-pool2-2.4.2.jar[pom:2.4.2,manifest:2.4.2];concurrent-1.3.4.jar[manifest:1.3.4 compiled: February 17 2005];connector-api-1.5.jar;cpcommons-2.2.32-818.jar[manifest:2.2.32-818];dbadapter-11.0.99.jar[manifest:11.0.99];dom4j-1.6.1.jar[manifest:1.6.1];ehcache-core-2.6.3.jar[pom:2.6.3];freemarker-2.3.25-incubating.jar[manifest:2.3.25];google-api-client-1.23.0.jar[manifest:1.23.0];google-http-client-1.23.0.jar[manifest:1.23.0];google-http-client-jackson2-1.23.0.jar[manifest:1.23.0];google-oauth-client-1.23.0.jar[manifest:1.23.0];groovy-all-1.8.6.jar[pom:1.2,manifest:1.8.6];gson-2.3.1.jar;guava-18.0.jar;guice-3.0.jar;h2-1.3.172.jar[manifest:1.3.172];hce-et-apple-utils-1.0.28.jar;hibernate-commons-annotations-4.0.5.Final.jar[manifest:4.0.5.Final];hibernate-core-4.3.11.Final.jar[manifest:4.3.11.Final];hibernate-entitymanager-4.3.11.Final.jar[manifest:4.3.11.Final];hibernate-jpa-2.1-api-1.0.0.Final.jar[manifest:1.0.0.Final];hibernate-validator-4.3.2.Final.jar[manifest:4.3.2.Final];httpclient-4.4.1.jar[manifest:4.4.1];httpcore-4.4.1.jar[manifest:4.4.1];httpservice-11.0.21.jar[manifest:11.0.21];ic-core-5.0.1999.jar;ic-w4c-5.0.1999.jar;icu4j-57.1.jar[manifest:57.1];informationservice-dbinterface-2.2.32-818.jar[manifest:2.2.32-818];integrity-utils-1.9.397.jar;intralink_adapter-1.0.13.jar[manifest:1.0.13];intranetadapter-11.0.20.jar;iso8583engine-2.2.13.jar;iso8583xmltypes-11.0.41.jar[manifest:11.0.41];jackson-annotations-2.8.7.jar[pom:2.8.7,manifest:2.8.7];jackson-core-2.8.7.jar[pom:2.8.7,manifest:2.8.7];jackson-databind-2.8.7.jar[pom:2.8.7,manifest:2.8.7];jackson-datatype-joda-2.8.7.jar[pom:2.8.7,manifest:2.8.7];jackson-datatype-jsr310-2.8.7.jar[manifest:2.8.7];jandex-1.1.0.Final.jar[pom:1.1.0.Final,manifest:1.1.0.Final];javaslang-2.0.5.jar;javaslang-match-2.0.5.jar;javassist-3.18.1-GA.jar[pom:3.18.1-GA];javax.inject-1.jar;javax.jms-api-2.0.jar[pom:2.0,manifest:2.0];javax.mail-1.5.6.jar[manifest:1.5.6];javax.mail-api-1.5.6.jar[manifest:1.5.6];javax.servlet-api-3.1.0.jar[pom:3.1.0,manifest:3.1.0];jaxb-api-2.2.12.jar[pom:2.2.12];jaxb-impl-2.1.10.jar[manifest:2.1.10];jaxb1-impl-2.2.5-5.jar[manifest:2.2.5-5];jboss-logging-3.1.3.GA.jar[pom:3.1.3.GA,manifest:3.1.3.GA];jboss-logging-annotations-1.2.0.Beta1.jar[manifest:1.2.0.Beta1];jboss-transaction-api_1.2_spec-1.0.0.Final.jar[pom:1.0.0.Final,manifest:1.0.0.Final];jcl-over-slf4j-1.7.22.jar[manifest:1.7.22];jcxcommon-2.2.32-818.jar[manifest:2.2.32-818];jericho-html-2.6.1.jar[pom:2.6.1,manifest:2.6.1];jgettext-0.13.jar[pom:0.13];jmsadapter-1.332.jar;joda-money-0.12.jar[pom:0.12,manifest:0.12];joda-time-2.9.7.jar[pom:2.9.7,manifest:2.9.7];jooq-3.11.11.jar;js-1.6R1.jar;json-20090211.jar;json-path-2.0.0.jar[manifest:2.0.0];json-smart-2.1.1.jar[pom:2.1.1];jsonassert-1.2.3.jar[pom:1.2.3];jsr305-1.3.9.jar;jta-1.1.jar;kaptcha-2.3.2.jar[manifest:December 5 2010];kernel_packages-3.43.99-0011-pkgj.jar;kotlin-reflect-1.1.60.jar[manifest:1.1.60-release-55 (1.1.60)];kotlin-stdlib-1.1.60.jar[manifest:1.1.60-release-55 (1.1.60)];kotlin-stdlib-jre7-1.1.60.jar[manifest:1.1.60-release-55 (1.1.60)];kotlin-stdlib-jre8-1.1.60.jar[manifest:1.1.60-release-55 (1.1.60)];kryo-1.0.4.jar;lic-verifier-11.0.29.jar[manifest:11.0.29];liquibase-core-3.5.3.jar;liquibase-slf4j-2.0.0.jar;lm-utils-11.0.31.jar[manifest:11.0.31];lm-utils-xsd-11.0.30.jar[manifest:11.0.30];log4j-over-slf4j-1.7.25.jar[manifest:1.7.25];logback-classic-1.2.3.jar;logback-core-1.2.3.jar;loggerservice-11.0.162.jar;lombok-1.18.6.jar;mailadapter-1.249.jar;mailadapterxmltypes-1.249.jar;mbilling22-xmltypes-1.20.jar;mbilling23-xmltypes-1.33.jar;mbilling24-xmltypes-1.37.jar;mchange-commons-java-0.2.11.jar[manifest:0.2.11];messenger-adapter-2.8.963.jar;monitoring.jar[manifest:1.7.1839];networkadapter-11.0.64.jar;ojdbc8-12.2.0.1-27653480.jar[manifest:12.2.0.1-27653480];oracle.jms-1.2.0.jar;orai18n-12.2.0.1.jar[manifest:12.2.0.1.0-Production__Build-12];org.eclipse.osgi-3.7.1.jar;perf4j-0.9.16.jar[pom:0.9.16,manifest:0.9.16];platform-commons-java-core-1.0.577.jar;responsecodemapperxmltypes-1.30.jar;routingxmltypes-11.0.51.jar[manifest:11.0.51];servletadapter-11.0.116.jar;sha-util-1.0.6.jar;simplelatlng-1.3.1.jar[pom:1.3.1,manifest:1.3.1];slf4j-api-1.7.22.jar[manifest:1.7.22];slf4j-ext-1.7.25.jar[manifest:1.7.25];smppapi-0.3.9.jar[pom:0.3.9,manifest:0.3.9];smsadapter-4.373.jar;smsb-common-2.8.963.jar;snakeyaml-1.17.jar[pom:1.17];spring-aop-4.3.7.RELEASE.jar[manifest:4.3.7.RELEASE];spring-beans-4.3.7.RELEASE.jar[manifest:4.3.7.RELEASE];spring-context-4.3.7.RELEASE.jar[manifest:4.3.7.RELEASE];spring-context-support-4.3.7.RELEASE.jar[manifest:4.3.7.RELEASE];spring-core-4.3.7.RELEASE.jar[manifest:4.3.7.RELEASE];spring-data-commons-1.13.1.RELEASE.jar[pom:1.13.1.RELEASE];spring-data-jpa-1.11.1.RELEASE.jar[pom:1.11.1.RELEASE];spring-expression-4.3.7.RELEASE.jar[manifest:4.3.7.RELEASE];spring-integration-core-4.0.2.RELEASE.jar;spring-integration-ip-4.3.8.RELEASE.jar[manifest:4.3.8.RELEASE];spring-integration-xml-4.3.8.RELEASE.jar[manifest:4.3.8.RELEASE];spring-jdbc-4.3.7.RELEASE.jar[manifest:4.3.7.RELEASE];spring-messaging-4.0.5.RELEASE.jar[manifest:4.0.5.RELEASE];spring-orm-4.3.7.RELEASE.jar[manifest:4.3.7.RELEASE];spring-oxm-4.3.7.RELEASE.jar[manifest:4.3.7.RELEASE];spring-tx-4.3.7.RELEASE.jar[manifest:4.3.7.RELEASE];spring-web-4.3.7.RELEASE.jar[manifest:4.3.7.RELEASE];spring-webmvc-4.3.7.RELEASE.jar[manifest:4.3.7.RELEASE];spring-xml-2.3.0.RELEASE.jar[manifest:2.3.0.RELEASE];statement-dbinterface-2.2.32-818.jar[manifest:2.2.32-818];stax-api-1.0.1.jar[manifest:1.0.1];stax2-api-4.0.0.jar[pom:4.0.0,manifest:4.0.0];svc-officer-application-impl-2.2.32-818.jar[manifest:2.2.32-818];svc-tariff-data-impl-2.2.32-818.jar[manifest:2.2.32-818];syscommon-11.0.115.jar[manifest:11.0.115];syscommonext-11.0.46.jar[manifest:11.0.46];syscommonextibm-11.0.22.jar[manifest:11.0.22];syscommonlegacy-11.0.91.jar[manifest:11.0.91];syscompbase-11.0.91.jar[manifest:11.0.91];syscompengine-11.0.91.jar[manifest:11.0.91];syscomptestlib-11.0.91.jar[manifest:11.0.91];sysdataexchange-11.0.23.jar[manifest:11.0.23];sysdb-11.0.254.jar[manifest:11.0.254];sysdbext-2.0.23.jar;syspipe-1.0.171.jar[syspipe:TCWINAGENT15 1.0.171];sysw4m-11.0.31.jar[manifest:11.0.31];tcpadapter-11.0.17.jar[manifest:11.0.17];ts_common_fp_api-1.1.63.jar[manifest:1.1.63];ts_hsm_api-1.1.63.jar[manifest:1.1.63];ts_hsm_thales_adapter-1.1.63.jar[manifest:1.1.63];ts_platform-1.0.49.jar[manifest:1.0.49];ts_transport-1.0.49.jar[manifest:1.0.49];ufxapplication-2.2.32-818.jar[manifest:2.2.32-818];ufxcommon-2.2.32-818.jar[manifest:2.2.32-818];ufxconfigurationinfo-2.2.32-818.jar[manifest:2.2.32-818];ufxdocument-2.2.32-818.jar[manifest:2.2.32-818];ufxinformation-2.2.32-818.jar[manifest:2.2.32-818];ufxschema-2.2.32-818.jar[manifest:2.2.32-818];ufxschema-const-2.2.32-818.jar[manifest:2.2.32-818];ufxschema-jaxb-2.2.20-156.jar[manifest:2.2.20-156];ufxschema-xmlbeans-2.2.32-818.jar[manifest:2.2.32-818];ufxworkflow-2.2.32-818.jar[manifest:2.2.32-818];ufxworkflowxmltypes-2.2.32-818.jar[manifest:2.2.32-818];usertype.core-4.0.0.GA.jar;usertype.spi-4.0.0.GA.jar;validation-api-1.1.0.Final.jar[pom:1.1.0.Final];wallet_iws-1.0.15.jar;wallet_wsc-1.0.14.jar;way4u-adapter-2.2.32-818.jar[manifest:2.2.32-818];way4u-components-1.30.jar;way4u-tf-api-11.0.11.jar[manifest:11.0.11];way4u2_kernel-11.0.51.jar[manifest:11.0.51];way4umessage-11.1.18.jar;way4umessagecontextxmltypes-11.0.51.jar[manifest:11.0.51];xdb6-12.2.0.1.jar;xml-apis-1.0.b2.jar;xml-builder-1.0.14.jar;xmlbeans-1.0.4.jar;xmlbeans-2.6.0.jar;xmlsec-1.4.2.jar;xmlsec-1.5.3.jar[pom:1.5.3,manifest:1.5.3];
+	Application Version: TCWINAGENT15 1.0.171
+Parameters: appl_log_level=100; application_id=81; application_name=sens-sms; application_site=Unknown Site; bpm_db_connections=10; bpm_db_owner=ows; bpm_db_trace=no; bpm_db_url=jdbc:oracle:thin:@192.168.37.134:1521:orcl; bpm_db_user=ows_w4sms; bpm_log_level=100; bpm_object_pool_file=/workflow/messaging/TerminalPool.xml; ccom_customer_reply_timeout=300s; ccom_inprogress_timeout=300000; ccom_mail_from_address=mail_notifications@bank.com; ccom_outgoing_reply_timeout=40s; ccom_overload_resend_delay=200; ccom_resend_delay=300000; ccom_resending_delay=5m; ccom_resending_interval=1/48 ; ccomserver_header_length=4; ccomserver_log_level=60; ccomserver_max_connections=5; ccomserver_port=9900; ccomserver_reply_timeout=60s; home_directory=/local/way4/appserv/appserver/applications/sens-sms/webapps/sens-sms/WEB-INF/config/home; httpclientadapter_httpcl_def_response_encoding=UTF-8; httpclientadapter_httpcl_error_body=true; httpclientadapter_httpcl_url=http://127.0.0.1:7775/request; ignore_short_pan_missing=no; kernel_component_timeout=3m; kernel_hangup_fatal=1m; kernel_mailadapter_administrator_email=way4uadmin@address; kernel_mailadapter_outgoing_host=????; kernel_mailadapter_outgoing_port=????; kernel_mailadapter_outgoing_protocol=smtp; kernel_mailadapter_outgoing_user=way4u; kernel_process_log_db_owner=ows; kernel_process_log_db_url=jdbc:oracle:thin:@192.168.37.134:1521:orcl; kernel_process_log_db_user=ows_w4sms ; log_clf_enabled=false; log_file_size=10145728; log_filtering_enabled=yes; log_level=100; log_max_files=30; monitoring=yes; node_name=mobile-banking; ows.application.log_transformed_config=yes; ows.application.path=/local/way4/appserv/appserver/applications/sens-sms/webapps/sens-sms/WEB-INF/config/home; ows.application.startup_type=servlet; ows.application.tmp.path=/local/way4/appserv/appserver/applications/sens-sms/webapps/sens-sms/WEB-INF/runtime; ows.application.transform_config_only=no; pan_last_digits=4; pan_list_delimiter=, ; pan_list_prefix=; pan_list_suffix=; pan_resolution_filter_code=CONTRACT_LIST; pan_resolution_main_card_param=SMS_MAIN_CONTRACT; payment_sc_additional_event_code=SC_INFO; saf_bp_domain=SAF; smsdbadapter_config=dbadapter-prioritized.xml; smsdbadapter_content_type=text; smsdbadapter_db_connections=5; smsdbadapter_db_owner=ows; smsdbadapter_db_url=jdbc:oracle:thin:@192.168.37.134:1521:orcl; smsdbadapter_db_user=ows_w4sms; smsdbadapter_delivery_report_timestamp=sysdate; smsdbadapter_institution_id_type=ID; smsdbadapter_log_level=100; smsdbadapter_max_fetch=100; smsdbadapter_max_transaction=3; smsdbadapter_polling_timeout=1s; smsdbadapter_reply_timeout=3m; smsdbadapter_sql_trace=no; smsdbadapter_start_with_connection_errors=no; test_framework_enabled=no; test_framework_port=2390; tmp_translet_dir=/local/way4/appserv/appserver/applications/sens-sms/webapps/sens-sms/WEB-INF/config/home/../../runtime/tmp_translets; use_db_audits=yes; use_kernel_notifications=no; use_sms_resolve_acnt=yes; w4c_advapp_r2=yes; w4c_db_connections=1; w4c_db_owner=ows; w4c_db_trace=no; w4c_db_url=jdbc:oracle:thin:@192.168.37.134:1521:orcl; w4c_db_user=ows_w4sms; w4c_start_with_connection_errors=true; work_directory=/local/way4/appserv/appserver/applications/sens-sms/webapps/sens-sms/WEB-INF/config/work; work_url=file:/local/way4/appserv/appserver/applications/sens-sms/webapps/sens-sms/WEB-INF/config/work;
+License: Sea Bank (1) valid from 2022-02-08 00:00:00 to 2099-11-20 00:00:00
+WAY4U Kernel: R2
+----------------------------------------------------------
+2022-02-08 11:57:03.867	localhost-startStop-1	[ccomserveradapter] opening
+2022-02-08 11:57:03.873	localhost-startStop-1	[ccomserveradapter] common request xslt file: interfaces/CCom/tcpserveradapter/outgoing.xslt
+2022-02-08 11:57:03.873	localhost-startStop-1	[ccomserveradapter] common response xslt file: interfaces/CCom/tcpserveradapter/incoming.xslt
+2022-02-08 11:58:53.075	ccomserveradapter_1	[127.0.0.1] New connection (total connections: 1)
+2022-02-08 11:58:53.105	ccomserveradapter_1	[ccomserveradapter][127.0.0.1] message received:[
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>56ee6b63-88bd-11ec-8001-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg>]
+2022-02-08 11:58:53.240	ccomserveradapter_1	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA62][0000] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 11:58:53.353	ccomserveradapter_1	[127.0.0.1][ccomserveradapter] Message dispatched to [passer_by_service]
+2022-02-08 11:58:53.357	ccomserveradapter_1	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA62][0000] Sending non-blocking request to passer_by_service (timeout=60000ms) 		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="0" is_repeat="0" sys_id="0000" sys_original_message_id="0000002D017ED88CEA62">
+		  <RoutingTable><TableEntry><Target target="passer_by_service"/></TableEntry><TableEntry><Target target="ccomserveradapter" is_reply="1"/></TableEntry></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>56ee6b63-88bd-11ec-8001-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="1"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-08 11:58:53.818	ccomserveradapter_1	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA62][0001] Changing transaction state to TRANSACTION_STATE_RUNNING
+2022-02-08 11:58:54.032	TP_0	[ccomserveradapter][0000002D017ED88CEA62][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 11:58:54.032	TP_0	[ccomserveradapter][0000002D017ED88CEA62][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 11:58:54.033	TP_0	[ccomserveradapter][0000002D017ED88CEA62][0004] Processing response from passer_by_service		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="59345" is_repeat="0" priority="normal" sys_id="0004" sys_original_message_id="0000002D017ED88CEA62">
+		  <RoutingTable><TableEntry><Target target="ccomserveradapter" timeout="59345" is_reply="1" sys_target_node="mobile-banking" sys_original_message_id="0001"/></TableEntry><DefaultErrorTarget target="container"/></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/><HistoryEntry sys_id="0001" target="passer_by_service" timeout="59547"/><HistoryEntry sys_id="0002" target="httpcl" timeout="40000"/><HistoryEntry sys_id="0003" target="passer_by_service" timeout="59352" is_reply="1" sys_original_message_id="0002"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>undefined</MsgId><MsgData>Message Deliveried</MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="1"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-08 11:58:54.036	TP_0	[ccomserveradapter][0000002D017ED88CEA62][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 11:58:54.036	TP_0	[ccomserveradapter][0000002D017ED88CEA62][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 11:58:54.046	TP_0	[ccomserveradapter][0000002D017ED88CEA62][0004] response after outgoing xslt transformation:[
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>undefined</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-08 11:58:54.046	TP_0	[ccomserveradapter][0000002D017ED88CEA62][0004] Sending outgoing response: [
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>undefined</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-08 11:58:54.059	TP_0	[ccomserveradapter][0000002D017ED88CEA62][0004] response sent
+2022-02-08 11:58:54.059	TP_0	[ccomserveradapter][0000002D017ED88CEA62][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 11:58:54.060	TP_0	[ccomserveradapter][0000002D017ED88CEA62][0004] Changing transaction state to TRANSACTION_STATE_FINISHED
+2022-02-08 11:58:54.064	TP_0	[ccomserveradapter][0000002D017ED88CEA62][0004] Changing transaction state to TRANSACTION_STATE_CLOSED
+2022-02-08 11:58:54.065	ccomserveradapter_1	[127.0.0.1][ccomserveradapter] connection finished (total connections: 0)
+2022-02-08 12:01:06.683	ccomserveradapter_2	[127.0.0.1] New connection (total connections: 1)
+2022-02-08 12:01:06.685	ccomserveradapter_2	[ccomserveradapter][127.0.0.1] message received:[
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>a697d6b3-88bd-11ec-8002-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg>]
+2022-02-08 12:01:06.687	ccomserveradapter_2	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA63][0000] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 12:01:06.725	ccomserveradapter_2	[127.0.0.1][ccomserveradapter] Message dispatched to [passer_by_service]
+2022-02-08 12:01:06.726	ccomserveradapter_2	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA63][0000] Sending non-blocking request to passer_by_service (timeout=60000ms) 		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="0" is_repeat="0" sys_id="0000" sys_original_message_id="0000002D017ED88CEA63">
+		  <RoutingTable><TableEntry><Target target="passer_by_service"/></TableEntry><TableEntry><Target target="ccomserveradapter" is_reply="1"/></TableEntry></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>a697d6b3-88bd-11ec-8002-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="2"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-08 12:01:06.726	ccomserveradapter_2	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA63][0001] Changing transaction state to TRANSACTION_STATE_RUNNING
+2022-02-08 12:01:06.826	TP_44	[ccomserveradapter][0000002D017ED88CEA63][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 12:01:06.826	TP_44	[ccomserveradapter][0000002D017ED88CEA63][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 12:01:06.826	TP_44	[ccomserveradapter][0000002D017ED88CEA63][0004] Processing response from passer_by_service		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="59902" is_repeat="0" priority="normal" sys_id="0004" sys_original_message_id="0000002D017ED88CEA63">
+		  <RoutingTable><TableEntry><Target target="ccomserveradapter" timeout="59902" is_reply="1" sys_target_node="mobile-banking" sys_original_message_id="0001"/></TableEntry><DefaultErrorTarget target="container"/></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/><HistoryEntry sys_id="0001" target="passer_by_service" timeout="60000"/><HistoryEntry sys_id="0002" target="httpcl" timeout="40000"/><HistoryEntry sys_id="0003" target="passer_by_service" timeout="59906" is_reply="1" sys_original_message_id="0002"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>undefined</MsgId><MsgData>Message Deliveried</MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="2"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-08 12:01:06.826	TP_44	[ccomserveradapter][0000002D017ED88CEA63][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 12:01:06.826	TP_44	[ccomserveradapter][0000002D017ED88CEA63][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 12:01:06.829	TP_44	[ccomserveradapter][0000002D017ED88CEA63][0004] response after outgoing xslt transformation:[
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>undefined</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-08 12:01:06.829	TP_44	[ccomserveradapter][0000002D017ED88CEA63][0004] Sending outgoing response: [
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>undefined</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-08 12:01:06.830	TP_44	[ccomserveradapter][0000002D017ED88CEA63][0004] response sent
+2022-02-08 12:01:06.830	TP_44	[ccomserveradapter][0000002D017ED88CEA63][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 12:01:06.830	TP_44	[ccomserveradapter][0000002D017ED88CEA63][0004] Changing transaction state to TRANSACTION_STATE_FINISHED
+2022-02-08 12:01:06.830	TP_44	[ccomserveradapter][0000002D017ED88CEA63][0004] Changing transaction state to TRANSACTION_STATE_CLOSED
+2022-02-08 12:01:06.833	ccomserveradapter_2	[127.0.0.1][ccomserveradapter] connection finished (total connections: 0)
+2022-02-08 12:01:50.844	ccomserveradapter_3	[127.0.0.1] New connection (total connections: 1)
+2022-02-08 12:01:50.845	ccomserveradapter_3	[ccomserveradapter][127.0.0.1] message received:[
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>c0ea89d9-88bd-11ec-8003-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg>]
+2022-02-08 12:01:50.847	ccomserveradapter_3	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA64][0000] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 12:01:50.868	ccomserveradapter_3	[127.0.0.1][ccomserveradapter] Message dispatched to [passer_by_service]
+2022-02-08 12:01:50.868	ccomserveradapter_3	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA64][0000] Sending non-blocking request to passer_by_service (timeout=60000ms) 		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="0" is_repeat="0" sys_id="0000" sys_original_message_id="0000002D017ED88CEA64">
+		  <RoutingTable><TableEntry><Target target="passer_by_service"/></TableEntry><TableEntry><Target target="ccomserveradapter" is_reply="1"/></TableEntry></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>c0ea89d9-88bd-11ec-8003-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="3"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-08 12:01:50.869	ccomserveradapter_3	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA64][0001] Changing transaction state to TRANSACTION_STATE_RUNNING
+2022-02-08 12:01:50.980	TP_37	[ccomserveradapter][0000002D017ED88CEA64][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 12:01:50.980	TP_37	[ccomserveradapter][0000002D017ED88CEA64][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 12:01:50.980	TP_37	[ccomserveradapter][0000002D017ED88CEA64][0004] Processing response from passer_by_service		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="59891" is_repeat="0" priority="normal" sys_id="0004" sys_original_message_id="0000002D017ED88CEA64">
+		  <RoutingTable><TableEntry><Target target="ccomserveradapter" timeout="59891" is_reply="1" sys_target_node="mobile-banking" sys_original_message_id="0001"/></TableEntry><DefaultErrorTarget target="container"/></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/><HistoryEntry sys_id="0001" target="passer_by_service" timeout="60000"/><HistoryEntry sys_id="0002" target="httpcl" timeout="40000"/><HistoryEntry sys_id="0003" target="passer_by_service" timeout="59897" is_reply="1" sys_original_message_id="0002"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>undefined</MsgId><MsgData>Message Deliveried</MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="3"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-08 12:01:50.980	TP_37	[ccomserveradapter][0000002D017ED88CEA64][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 12:01:50.981	TP_37	[ccomserveradapter][0000002D017ED88CEA64][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 12:01:50.983	TP_37	[ccomserveradapter][0000002D017ED88CEA64][0004] response after outgoing xslt transformation:[
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>undefined</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-08 12:01:50.983	TP_37	[ccomserveradapter][0000002D017ED88CEA64][0004] Sending outgoing response: [
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>undefined</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-08 12:01:50.984	TP_37	[ccomserveradapter][0000002D017ED88CEA64][0004] response sent
+2022-02-08 12:01:50.984	TP_37	[ccomserveradapter][0000002D017ED88CEA64][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 12:01:50.984	TP_37	[ccomserveradapter][0000002D017ED88CEA64][0004] Changing transaction state to TRANSACTION_STATE_FINISHED
+2022-02-08 12:01:50.984	TP_37	[ccomserveradapter][0000002D017ED88CEA64][0004] Changing transaction state to TRANSACTION_STATE_CLOSED
+2022-02-08 12:01:50.988	ccomserveradapter_3	[127.0.0.1][ccomserveradapter] connection finished (total connections: 0)
+2022-02-08 12:02:36.856	ccomserveradapter_4	[127.0.0.1] New connection (total connections: 1)
+2022-02-08 12:02:36.857	ccomserveradapter_4	[ccomserveradapter][127.0.0.1] message received:[
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>dc5768b3-88bd-11ec-8004-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg>]
+2022-02-08 12:02:36.859	ccomserveradapter_4	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA65][0000] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 12:02:36.883	ccomserveradapter_4	[127.0.0.1][ccomserveradapter] Message dispatched to [passer_by_service]
+2022-02-08 12:02:36.884	ccomserveradapter_4	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA65][0000] Sending non-blocking request to passer_by_service (timeout=60000ms) 		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="0" is_repeat="0" sys_id="0000" sys_original_message_id="0000002D017ED88CEA65">
+		  <RoutingTable><TableEntry><Target target="passer_by_service"/></TableEntry><TableEntry><Target target="ccomserveradapter" is_reply="1"/></TableEntry></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>dc5768b3-88bd-11ec-8004-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="4"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-08 12:02:36.884	ccomserveradapter_4	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA65][0001] Changing transaction state to TRANSACTION_STATE_RUNNING
+2022-02-08 12:02:36.992	TP_31	[ccomserveradapter][0000002D017ED88CEA65][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 12:02:36.992	TP_31	[ccomserveradapter][0000002D017ED88CEA65][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 12:02:36.993	TP_31	[ccomserveradapter][0000002D017ED88CEA65][0004] Processing response from passer_by_service		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="59905" is_repeat="0" priority="normal" sys_id="0004" sys_original_message_id="0000002D017ED88CEA65">
+		  <RoutingTable><TableEntry><Target target="ccomserveradapter" timeout="59905" is_reply="1" sys_target_node="mobile-banking" sys_original_message_id="0001"/></TableEntry><DefaultErrorTarget target="container"/></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/><HistoryEntry sys_id="0001" target="passer_by_service" timeout="60000"/><HistoryEntry sys_id="0002" target="httpcl" timeout="40000"/><HistoryEntry sys_id="0003" target="passer_by_service" timeout="59919" is_reply="1" sys_original_message_id="0002"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>dc5768b3-88bd-11ec-8004-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="4"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-08 12:02:36.993	TP_31	[ccomserveradapter][0000002D017ED88CEA65][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 12:02:36.993	TP_31	[ccomserveradapter][0000002D017ED88CEA65][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 12:02:36.995	TP_31	[ccomserveradapter][0000002D017ED88CEA65][0004] response after outgoing xslt transformation:[
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>dc5768b3-88bd-11ec-8004-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-08 12:02:36.995	TP_31	[ccomserveradapter][0000002D017ED88CEA65][0004] Sending outgoing response: [
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>dc5768b3-88bd-11ec-8004-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-08 12:02:36.995	TP_31	[ccomserveradapter][0000002D017ED88CEA65][0004] response sent
+2022-02-08 12:02:36.995	TP_31	[ccomserveradapter][0000002D017ED88CEA65][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 12:02:36.996	TP_31	[ccomserveradapter][0000002D017ED88CEA65][0004] Changing transaction state to TRANSACTION_STATE_FINISHED
+2022-02-08 12:02:36.996	TP_31	[ccomserveradapter][0000002D017ED88CEA65][0004] Changing transaction state to TRANSACTION_STATE_CLOSED
+2022-02-08 12:02:36.998	ccomserveradapter_4	[127.0.0.1][ccomserveradapter] connection finished (total connections: 0)
+2022-02-08 12:03:18.228	ccomserveradapter_5	[127.0.0.1] New connection (total connections: 1)
+2022-02-08 12:03:18.229	ccomserveradapter_5	[ccomserveradapter][127.0.0.1] message received:[
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>f5004083-88bd-11ec-8005-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg>]
+2022-02-08 12:03:18.238	ccomserveradapter_5	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA66][0000] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 12:03:18.265	ccomserveradapter_5	[127.0.0.1][ccomserveradapter] Message dispatched to [passer_by_service]
+2022-02-08 12:03:18.266	ccomserveradapter_5	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA66][0000] Sending non-blocking request to passer_by_service (timeout=60000ms) 		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="0" is_repeat="0" sys_id="0000" sys_original_message_id="0000002D017ED88CEA66">
+		  <RoutingTable><TableEntry><Target target="passer_by_service"/></TableEntry><TableEntry><Target target="ccomserveradapter" is_reply="1"/></TableEntry></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>f5004083-88bd-11ec-8005-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="5"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-08 12:03:18.267	ccomserveradapter_5	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA66][0001] Changing transaction state to TRANSACTION_STATE_RUNNING
+2022-02-08 12:03:18.359	TP_24	[ccomserveradapter][0000002D017ED88CEA66][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 12:03:18.359	TP_24	[ccomserveradapter][0000002D017ED88CEA66][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 12:03:18.360	TP_24	[ccomserveradapter][0000002D017ED88CEA66][0004] Processing response from passer_by_service		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="59909" is_repeat="0" priority="normal" sys_id="0004" sys_original_message_id="0000002D017ED88CEA66">
+		  <RoutingTable><TableEntry><Target target="ccomserveradapter" timeout="59909" is_reply="1" sys_target_node="mobile-banking" sys_original_message_id="0001"/></TableEntry><DefaultErrorTarget target="container"/></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/><HistoryEntry sys_id="0001" target="passer_by_service" timeout="59999"/><HistoryEntry sys_id="0002" target="httpcl" timeout="40000"/><HistoryEntry sys_id="0003" target="passer_by_service" timeout="59914" is_reply="1" sys_original_message_id="0002"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>f5004083-88bd-11ec-8005-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="5"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-08 12:03:18.360	TP_24	[ccomserveradapter][0000002D017ED88CEA66][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 12:03:18.360	TP_24	[ccomserveradapter][0000002D017ED88CEA66][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 12:03:18.361	TP_24	[ccomserveradapter][0000002D017ED88CEA66][0004] response after outgoing xslt transformation:[
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>f5004083-88bd-11ec-8005-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-08 12:03:18.361	TP_24	[ccomserveradapter][0000002D017ED88CEA66][0004] Sending outgoing response: [
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>f5004083-88bd-11ec-8005-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-08 12:03:18.362	TP_24	[ccomserveradapter][0000002D017ED88CEA66][0004] response sent
+2022-02-08 12:03:18.362	TP_24	[ccomserveradapter][0000002D017ED88CEA66][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 12:03:18.362	TP_24	[ccomserveradapter][0000002D017ED88CEA66][0004] Changing transaction state to TRANSACTION_STATE_FINISHED
+2022-02-08 12:03:18.362	TP_24	[ccomserveradapter][0000002D017ED88CEA66][0004] Changing transaction state to TRANSACTION_STATE_CLOSED
+2022-02-08 12:03:18.365	ccomserveradapter_5	[127.0.0.1][ccomserveradapter] connection finished (total connections: 0)
+2022-02-08 12:04:41.611	ccomserveradapter_6	[127.0.0.1] New connection (total connections: 1)
+2022-02-08 12:04:41.613	ccomserveradapter_6	[ccomserveradapter][127.0.0.1] message received:[
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>26b35c0f-88be-11ec-8006-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg>]
+2022-02-08 12:04:41.615	ccomserveradapter_6	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA67][0000] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 12:04:41.643	ccomserveradapter_6	[127.0.0.1][ccomserveradapter] Message dispatched to [passer_by_service]
+2022-02-08 12:04:41.644	ccomserveradapter_6	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA67][0000] Sending non-blocking request to passer_by_service (timeout=60000ms) 		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="0" is_repeat="0" sys_id="0000" sys_original_message_id="0000002D017ED88CEA67">
+		  <RoutingTable><TableEntry><Target target="passer_by_service"/></TableEntry><TableEntry><Target target="ccomserveradapter" is_reply="1"/></TableEntry></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>26b35c0f-88be-11ec-8006-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="6"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-08 12:04:41.645	ccomserveradapter_6	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA67][0001] Changing transaction state to TRANSACTION_STATE_RUNNING
+2022-02-08 12:04:41.728	TP_17	[ccomserveradapter][0000002D017ED88CEA67][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 12:04:41.728	TP_17	[ccomserveradapter][0000002D017ED88CEA67][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 12:04:41.728	TP_17	[ccomserveradapter][0000002D017ED88CEA67][0004] Processing response from passer_by_service		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="59920" is_repeat="0" priority="normal" sys_id="0004" sys_original_message_id="0000002D017ED88CEA67">
+		  <RoutingTable><TableEntry><Target target="ccomserveradapter" timeout="59920" is_reply="1" sys_target_node="mobile-banking" sys_original_message_id="0001"/></TableEntry><DefaultErrorTarget target="container"/></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/><HistoryEntry sys_id="0001" target="passer_by_service" timeout="60000"/><HistoryEntry sys_id="0002" target="httpcl" timeout="40000"/><HistoryEntry sys_id="0003" target="passer_by_service" timeout="59923" is_reply="1" sys_original_message_id="0002"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>26b35c0f-88be-11ec-8006-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="6"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-08 12:04:41.728	TP_17	[ccomserveradapter][0000002D017ED88CEA67][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 12:04:41.728	TP_17	[ccomserveradapter][0000002D017ED88CEA67][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 12:04:41.733	TP_17	[ccomserveradapter][0000002D017ED88CEA67][0004] response after outgoing xslt transformation:[
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>26b35c0f-88be-11ec-8006-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-08 12:04:41.733	TP_17	[ccomserveradapter][0000002D017ED88CEA67][0004] Sending outgoing response: [
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>26b35c0f-88be-11ec-8006-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-08 12:04:41.733	TP_17	[ccomserveradapter][0000002D017ED88CEA67][0004] response sent
+2022-02-08 12:04:41.733	TP_17	[ccomserveradapter][0000002D017ED88CEA67][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 12:04:41.734	TP_17	[ccomserveradapter][0000002D017ED88CEA67][0004] Changing transaction state to TRANSACTION_STATE_FINISHED
+2022-02-08 12:04:41.734	TP_17	[ccomserveradapter][0000002D017ED88CEA67][0004] Changing transaction state to TRANSACTION_STATE_CLOSED
+2022-02-08 12:04:41.736	ccomserveradapter_6	[127.0.0.1][ccomserveradapter] connection finished (total connections: 0)
+2022-02-08 12:20:36.722	ccomserveradapter_7	[127.0.0.1] New connection (total connections: 1)
+2022-02-08 12:20:36.723	ccomserveradapter_7	[ccomserveradapter][127.0.0.1] message received:[
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>5ffdde75-88c0-11ec-8007-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg>]
+2022-02-08 12:20:36.725	ccomserveradapter_7	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA68][0000] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 12:20:36.750	ccomserveradapter_7	[127.0.0.1][ccomserveradapter] Message dispatched to [passer_by_service]
+2022-02-08 12:20:36.751	ccomserveradapter_7	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA68][0000] Sending non-blocking request to passer_by_service (timeout=60000ms) 		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="0" is_repeat="0" sys_id="0000" sys_original_message_id="0000002D017ED88CEA68">
+		  <RoutingTable><TableEntry><Target target="passer_by_service"/></TableEntry><TableEntry><Target target="ccomserveradapter" is_reply="1"/></TableEntry></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>5ffdde75-88c0-11ec-8007-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="7"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-08 12:20:36.751	ccomserveradapter_7	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA68][0001] Changing transaction state to TRANSACTION_STATE_RUNNING
+2022-02-08 12:20:36.794	TP_9	[ccomserveradapter][0000002D017ED88CEA68][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 12:20:36.794	TP_9	[ccomserveradapter][0000002D017ED88CEA68][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 12:20:36.794	TP_9	[ccomserveradapter][0000002D017ED88CEA68][0004] Processing response from passer_by_service		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="59959" is_repeat="0" priority="normal" sys_id="0004" sys_original_message_id="0000002D017ED88CEA68">
+		  <RoutingTable><TableEntry><Target target="ccomserveradapter" timeout="59959" is_reply="1" sys_target_node="mobile-banking" sys_original_message_id="0001"/></TableEntry><DefaultErrorTarget target="container"/></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/><HistoryEntry sys_id="0001" target="passer_by_service" timeout="59999"/><HistoryEntry sys_id="0002" target="httpcl" timeout="40000"/><HistoryEntry sys_id="0003" target="passer_by_service" timeout="59962" is_reply="1" sys_original_message_id="0002"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>5ffdde75-88c0-11ec-8007-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="7"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-08 12:20:36.794	TP_9	[ccomserveradapter][0000002D017ED88CEA68][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 12:20:36.794	TP_9	[ccomserveradapter][0000002D017ED88CEA68][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 12:20:36.796	TP_9	[ccomserveradapter][0000002D017ED88CEA68][0004] response after outgoing xslt transformation:[
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>5ffdde75-88c0-11ec-8007-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-08 12:20:36.796	TP_9	[ccomserveradapter][0000002D017ED88CEA68][0004] Sending outgoing response: [
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>5ffdde75-88c0-11ec-8007-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-08 12:20:36.796	TP_9	[ccomserveradapter][0000002D017ED88CEA68][0004] response sent
+2022-02-08 12:20:36.796	TP_9	[ccomserveradapter][0000002D017ED88CEA68][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 12:20:36.797	TP_9	[ccomserveradapter][0000002D017ED88CEA68][0004] Changing transaction state to TRANSACTION_STATE_FINISHED
+2022-02-08 12:20:36.797	TP_9	[ccomserveradapter][0000002D017ED88CEA68][0004] Changing transaction state to TRANSACTION_STATE_CLOSED
+2022-02-08 12:20:36.798	ccomserveradapter_7	[127.0.0.1][ccomserveradapter] connection finished (total connections: 0)
+2022-02-08 12:22:03.255	ccomserveradapter_8	[127.0.0.1] New connection (total connections: 1)
+2022-02-08 12:22:03.256	ccomserveradapter_8	[ccomserveradapter][127.0.0.1] message received:[
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>9391b350-88c0-11ec-8000-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg>]
+2022-02-08 12:22:03.258	ccomserveradapter_8	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA69][0000] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 12:22:03.261	ccomserveradapter_8	[127.0.0.1][ccomserveradapter] Message dispatched to [passer_by_service]
+2022-02-08 12:22:03.262	ccomserveradapter_8	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA69][0000] Sending non-blocking request to passer_by_service (timeout=60000ms) 		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="0" is_repeat="0" sys_id="0000" sys_original_message_id="0000002D017ED88CEA69">
+		  <RoutingTable><TableEntry><Target target="passer_by_service"/></TableEntry><TableEntry><Target target="ccomserveradapter" is_reply="1"/></TableEntry></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>9391b350-88c0-11ec-8000-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="8"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-08 12:22:03.262	ccomserveradapter_8	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA69][0001] Changing transaction state to TRANSACTION_STATE_RUNNING
+2022-02-08 12:22:03.289	TP_2	[ccomserveradapter][0000002D017ED88CEA69][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 12:22:03.289	TP_2	[ccomserveradapter][0000002D017ED88CEA69][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 12:22:03.290	TP_2	[ccomserveradapter][0000002D017ED88CEA69][0004] Processing response from passer_by_service		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="59975" is_repeat="0" priority="normal" sys_id="0004" sys_original_message_id="0000002D017ED88CEA69">
+		  <RoutingTable><TableEntry><Target target="ccomserveradapter" timeout="59975" is_reply="1" sys_target_node="mobile-banking" sys_original_message_id="0001"/></TableEntry><DefaultErrorTarget target="container"/></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/><HistoryEntry sys_id="0001" target="passer_by_service" timeout="60000"/><HistoryEntry sys_id="0002" target="httpcl" timeout="40000"/><HistoryEntry sys_id="0003" target="passer_by_service" timeout="59978" is_reply="1" sys_original_message_id="0002"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>9391b350-88c0-11ec-8000-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="8"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-08 12:22:03.290	TP_2	[ccomserveradapter][0000002D017ED88CEA69][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 12:22:03.290	TP_2	[ccomserveradapter][0000002D017ED88CEA69][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 12:22:03.291	TP_2	[ccomserveradapter][0000002D017ED88CEA69][0004] response after outgoing xslt transformation:[
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>9391b350-88c0-11ec-8000-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-08 12:22:03.291	TP_2	[ccomserveradapter][0000002D017ED88CEA69][0004] Sending outgoing response: [
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>9391b350-88c0-11ec-8000-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-08 12:22:03.291	TP_2	[ccomserveradapter][0000002D017ED88CEA69][0004] response sent
+2022-02-08 12:22:03.291	TP_2	[ccomserveradapter][0000002D017ED88CEA69][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 12:22:03.292	TP_2	[ccomserveradapter][0000002D017ED88CEA69][0004] Changing transaction state to TRANSACTION_STATE_FINISHED
+2022-02-08 12:22:03.292	TP_2	[ccomserveradapter][0000002D017ED88CEA69][0004] Changing transaction state to TRANSACTION_STATE_CLOSED
+2022-02-08 12:22:03.294	ccomserveradapter_8	[127.0.0.1][ccomserveradapter] connection finished (total connections: 0)
+2022-02-08 13:07:28.392	ccomserveradapter_9	[127.0.0.1] New connection (total connections: 1)
+2022-02-08 13:07:28.393	ccomserveradapter_9	[ccomserveradapter][127.0.0.1] message received:[
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>ebe07e6e-88c6-11ec-8001-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg>]
+2022-02-08 13:07:28.399	ccomserveradapter_9	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA6A][0000] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 13:07:28.428	ccomserveradapter_9	[127.0.0.1][ccomserveradapter] Message dispatched to [passer_by_service]
+2022-02-08 13:07:28.429	ccomserveradapter_9	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA6A][0000] Sending non-blocking request to passer_by_service (timeout=60000ms) 		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="0" is_repeat="0" sys_id="0000" sys_original_message_id="0000002D017ED88CEA6A">
+		  <RoutingTable><TableEntry><Target target="passer_by_service"/></TableEntry><TableEntry><Target target="ccomserveradapter" is_reply="1"/></TableEntry></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>ebe07e6e-88c6-11ec-8001-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="9"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-08 13:07:28.429	ccomserveradapter_9	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA6A][0001] Changing transaction state to TRANSACTION_STATE_RUNNING
+2022-02-08 13:07:28.487	TP_45	[ccomserveradapter][0000002D017ED88CEA6A][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 13:07:28.487	TP_45	[ccomserveradapter][0000002D017ED88CEA6A][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 13:07:28.487	TP_45	[ccomserveradapter][0000002D017ED88CEA6A][0004] Processing response from passer_by_service		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="59944" is_repeat="0" priority="normal" sys_id="0004" sys_original_message_id="0000002D017ED88CEA6A">
+		  <RoutingTable><TableEntry><Target target="ccomserveradapter" timeout="59944" is_reply="1" sys_target_node="mobile-banking" sys_original_message_id="0001"/></TableEntry><DefaultErrorTarget target="container"/></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/><HistoryEntry sys_id="0001" target="passer_by_service" timeout="60000"/><HistoryEntry sys_id="0002" target="httpcl" timeout="40000"/><HistoryEntry sys_id="0003" target="passer_by_service" timeout="59948" is_reply="1" sys_original_message_id="0002"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>ebe07e6e-88c6-11ec-8001-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="9"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-08 13:07:28.487	TP_45	[ccomserveradapter][0000002D017ED88CEA6A][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 13:07:28.487	TP_45	[ccomserveradapter][0000002D017ED88CEA6A][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 13:07:28.492	TP_45	[ccomserveradapter][0000002D017ED88CEA6A][0004] response after outgoing xslt transformation:[
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>ebe07e6e-88c6-11ec-8001-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-08 13:07:28.492	TP_45	[ccomserveradapter][0000002D017ED88CEA6A][0004] Sending outgoing response: [
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>ebe07e6e-88c6-11ec-8001-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-08 13:07:28.492	TP_45	[ccomserveradapter][0000002D017ED88CEA6A][0004] response sent
+2022-02-08 13:07:28.493	TP_45	[ccomserveradapter][0000002D017ED88CEA6A][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 13:07:28.498	TP_45	[ccomserveradapter][0000002D017ED88CEA6A][0004] Changing transaction state to TRANSACTION_STATE_FINISHED
+2022-02-08 13:07:28.498	TP_45	[ccomserveradapter][0000002D017ED88CEA6A][0004] Changing transaction state to TRANSACTION_STATE_CLOSED
+2022-02-08 13:07:28.499	ccomserveradapter_9	[127.0.0.1][ccomserveradapter] connection finished (total connections: 0)
+2022-02-08 13:13:17.392	ccomserveradapter_10	[127.0.0.1] New connection (total connections: 1)
+2022-02-08 13:13:17.393	ccomserveradapter_10	[ccomserveradapter][127.0.0.1] message received:[
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>bbe5a45e-88c7-11ec-8002-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg>]
+2022-02-08 13:13:17.397	ccomserveradapter_10	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA6B][0000] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 13:13:17.422	ccomserveradapter_10	[127.0.0.1][ccomserveradapter] Message dispatched to [passer_by_service]
+2022-02-08 13:13:17.422	ccomserveradapter_10	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA6B][0000] Sending non-blocking request to passer_by_service (timeout=60000ms) 		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="0" is_repeat="0" sys_id="0000" sys_original_message_id="0000002D017ED88CEA6B">
+		  <RoutingTable><TableEntry><Target target="passer_by_service"/></TableEntry><TableEntry><Target target="ccomserveradapter" is_reply="1"/></TableEntry></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>bbe5a45e-88c7-11ec-8002-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="10"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-08 13:13:17.427	ccomserveradapter_10	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA6B][0001] Changing transaction state to TRANSACTION_STATE_RUNNING
+2022-02-08 13:13:17.503	TP_39	[ccomserveradapter][0000002D017ED88CEA6B][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 13:13:17.503	TP_39	[ccomserveradapter][0000002D017ED88CEA6B][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 13:13:17.504	TP_39	[ccomserveradapter][0000002D017ED88CEA6B][0004] Processing response from passer_by_service		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="59926" is_repeat="0" priority="normal" sys_id="0004" sys_original_message_id="0000002D017ED88CEA6B">
+		  <RoutingTable><TableEntry><Target target="ccomserveradapter" timeout="59926" is_reply="1" sys_target_node="mobile-banking" sys_original_message_id="0001"/></TableEntry><DefaultErrorTarget target="container"/></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/><HistoryEntry sys_id="0001" target="passer_by_service" timeout="59999"/><HistoryEntry sys_id="0002" target="httpcl" timeout="40000"/><HistoryEntry sys_id="0003" target="passer_by_service" timeout="59931" is_reply="1" sys_original_message_id="0002"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>bbe5a45e-88c7-11ec-8002-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="10"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-08 13:13:17.504	TP_39	[ccomserveradapter][0000002D017ED88CEA6B][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 13:13:17.504	TP_39	[ccomserveradapter][0000002D017ED88CEA6B][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 13:13:17.508	TP_39	[ccomserveradapter][0000002D017ED88CEA6B][0004] response after outgoing xslt transformation:[
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>bbe5a45e-88c7-11ec-8002-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-08 13:13:17.508	TP_39	[ccomserveradapter][0000002D017ED88CEA6B][0004] Sending outgoing response: [
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>bbe5a45e-88c7-11ec-8002-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-08 13:13:17.508	TP_39	[ccomserveradapter][0000002D017ED88CEA6B][0004] response sent
+2022-02-08 13:13:17.508	TP_39	[ccomserveradapter][0000002D017ED88CEA6B][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 13:13:17.509	TP_39	[ccomserveradapter][0000002D017ED88CEA6B][0004] Changing transaction state to TRANSACTION_STATE_FINISHED
+2022-02-08 13:13:17.509	TP_39	[ccomserveradapter][0000002D017ED88CEA6B][0004] Changing transaction state to TRANSACTION_STATE_CLOSED
+2022-02-08 13:13:17.510	ccomserveradapter_10	[127.0.0.1][ccomserveradapter] connection finished (total connections: 0)
+2022-02-08 13:15:45.164	ccomserveradapter_11	[127.0.0.1] New connection (total connections: 1)
+2022-02-08 13:15:45.168	ccomserveradapter_11	[ccomserveradapter][127.0.0.1] message received:[
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>13f49fec-88c8-11ec-8003-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg>]
+2022-02-08 13:15:45.182	ccomserveradapter_11	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA6C][0000] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 13:15:45.479	ccomserveradapter_11	[127.0.0.1][ccomserveradapter] Message dispatched to [passer_by_service]
+2022-02-08 13:15:45.482	ccomserveradapter_11	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA6C][0000] Sending non-blocking request to passer_by_service (timeout=60000ms) 		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="0" is_repeat="0" sys_id="0000" sys_original_message_id="0000002D017ED88CEA6C">
+		  <RoutingTable><TableEntry><Target target="passer_by_service"/></TableEntry><TableEntry><Target target="ccomserveradapter" is_reply="1"/></TableEntry></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>13f49fec-88c8-11ec-8003-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="11"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-08 13:15:45.495	ccomserveradapter_11	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA6C][0001] Changing transaction state to TRANSACTION_STATE_RUNNING
+2022-02-08 13:15:45.748	TP_33	[ccomserveradapter][0000002D017ED88CEA6C][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 13:15:45.748	TP_33	[ccomserveradapter][0000002D017ED88CEA6C][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 13:15:45.748	TP_33	[ccomserveradapter][0000002D017ED88CEA6C][0004] Processing response from passer_by_service		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="59751" is_repeat="0" priority="normal" sys_id="0004" sys_original_message_id="0000002D017ED88CEA6C">
+		  <RoutingTable><TableEntry><Target target="ccomserveradapter" timeout="59751" is_reply="1" sys_target_node="mobile-banking" sys_original_message_id="0001"/></TableEntry><DefaultErrorTarget target="container"/></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/><HistoryEntry sys_id="0001" target="passer_by_service" timeout="59999"/><HistoryEntry sys_id="0002" target="httpcl" timeout="40000"/><HistoryEntry sys_id="0003" target="passer_by_service" timeout="59756" is_reply="1" sys_original_message_id="0002"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>13f49fec-88c8-11ec-8003-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="11"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-08 13:15:45.749	TP_33	[ccomserveradapter][0000002D017ED88CEA6C][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 13:15:45.749	TP_33	[ccomserveradapter][0000002D017ED88CEA6C][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 13:15:45.751	TP_33	[ccomserveradapter][0000002D017ED88CEA6C][0004] response after outgoing xslt transformation:[
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>13f49fec-88c8-11ec-8003-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-08 13:15:45.751	TP_33	[ccomserveradapter][0000002D017ED88CEA6C][0004] Sending outgoing response: [
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>13f49fec-88c8-11ec-8003-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-08 13:15:45.752	TP_33	[ccomserveradapter][0000002D017ED88CEA6C][0004] response sent
+2022-02-08 13:15:45.752	TP_33	[ccomserveradapter][0000002D017ED88CEA6C][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 13:15:45.753	TP_33	[ccomserveradapter][0000002D017ED88CEA6C][0004] Changing transaction state to TRANSACTION_STATE_FINISHED
+2022-02-08 13:15:45.753	TP_33	[ccomserveradapter][0000002D017ED88CEA6C][0004] Changing transaction state to TRANSACTION_STATE_CLOSED
+2022-02-08 13:15:45.760	ccomserveradapter_11	[127.0.0.1][ccomserveradapter] connection finished (total connections: 0)
+2022-02-08 13:19:04.986	ccomserveradapter_12	[127.0.0.1] New connection (total connections: 1)
+2022-02-08 13:19:04.993	ccomserveradapter_12	[ccomserveradapter][127.0.0.1] message received:[
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>8b140162-88c8-11ec-8004-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg>]
+2022-02-08 13:19:05.014	ccomserveradapter_12	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA6D][0000] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 13:19:05.056	ccomserveradapter_12	[127.0.0.1][ccomserveradapter] Message dispatched to [passer_by_service]
+2022-02-08 13:19:05.060	ccomserveradapter_12	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA6D][0000] Sending non-blocking request to passer_by_service (timeout=60000ms) 		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="0" is_repeat="0" sys_id="0000" sys_original_message_id="0000002D017ED88CEA6D">
+		  <RoutingTable><TableEntry><Target target="passer_by_service"/></TableEntry><TableEntry><Target target="ccomserveradapter" is_reply="1"/></TableEntry></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>8b140162-88c8-11ec-8004-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="12"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-08 13:19:05.066	ccomserveradapter_12	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA6D][0001] Changing transaction state to TRANSACTION_STATE_RUNNING
+2022-02-08 13:19:05.172	TP_26	[ccomserveradapter][0000002D017ED88CEA6D][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 13:19:05.174	TP_26	[ccomserveradapter][0000002D017ED88CEA6D][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 13:19:05.176	TP_26	[ccomserveradapter][0000002D017ED88CEA6D][0004] Processing response from passer_by_service		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="59900" is_repeat="0" priority="normal" sys_id="0004" sys_original_message_id="0000002D017ED88CEA6D">
+		  <RoutingTable><TableEntry><Target target="ccomserveradapter" timeout="59900" is_reply="1" sys_target_node="mobile-banking" sys_original_message_id="0001"/></TableEntry><DefaultErrorTarget target="container"/></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/><HistoryEntry sys_id="0001" target="passer_by_service" timeout="59998"/><HistoryEntry sys_id="0002" target="httpcl" timeout="40000"/><HistoryEntry sys_id="0003" target="passer_by_service" timeout="59908" is_reply="1" sys_original_message_id="0002"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>8b140162-88c8-11ec-8004-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="12"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-08 13:19:05.176	TP_26	[ccomserveradapter][0000002D017ED88CEA6D][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 13:19:05.177	TP_26	[ccomserveradapter][0000002D017ED88CEA6D][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 13:19:05.181	TP_26	[ccomserveradapter][0000002D017ED88CEA6D][0004] response after outgoing xslt transformation:[
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>8b140162-88c8-11ec-8004-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-08 13:19:05.182	TP_26	[ccomserveradapter][0000002D017ED88CEA6D][0004] Sending outgoing response: [
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>8b140162-88c8-11ec-8004-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-08 13:19:05.182	TP_26	[ccomserveradapter][0000002D017ED88CEA6D][0004] response sent
+2022-02-08 13:19:05.182	TP_26	[ccomserveradapter][0000002D017ED88CEA6D][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 13:19:05.192	ccomserveradapter_12	[127.0.0.1][ccomserveradapter] connection finished (total connections: 0)
+2022-02-08 13:19:05.193	TP_26	[ccomserveradapter][0000002D017ED88CEA6D][0004] Changing transaction state to TRANSACTION_STATE_FINISHED
+2022-02-08 13:19:05.193	TP_26	[ccomserveradapter][0000002D017ED88CEA6D][0004] Changing transaction state to TRANSACTION_STATE_CLOSED
+2022-02-08 14:17:17.351	ccomserveradapter_13	[127.0.0.1] New connection (total connections: 1)
+2022-02-08 14:17:17.352	ccomserveradapter_13	[ccomserveradapter][127.0.0.1] message received:[
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>acb10641-88d0-11ec-8000-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg>]
+2022-02-08 14:17:17.356	ccomserveradapter_13	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA6E][0000] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 14:17:17.393	ccomserveradapter_13	[127.0.0.1][ccomserveradapter] Message dispatched to [passer_by_service]
+2022-02-08 14:17:17.393	ccomserveradapter_13	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA6E][0000] Sending non-blocking request to passer_by_service (timeout=60000ms) 		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="0" is_repeat="0" sys_id="0000" sys_original_message_id="0000002D017ED88CEA6E">
+		  <RoutingTable><TableEntry><Target target="passer_by_service"/></TableEntry><TableEntry><Target target="ccomserveradapter" is_reply="1"/></TableEntry></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>acb10641-88d0-11ec-8000-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="13"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-08 14:17:17.395	ccomserveradapter_13	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA6E][0001] Changing transaction state to TRANSACTION_STATE_RUNNING
+2022-02-08 14:17:17.443	TP_19	[ccomserveradapter][0000002D017ED88CEA6E][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 14:17:17.443	TP_19	[ccomserveradapter][0000002D017ED88CEA6E][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 14:17:17.443	TP_19	[ccomserveradapter][0000002D017ED88CEA6E][0004] Processing response from passer_by_service		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="59954" is_repeat="0" priority="normal" sys_id="0004" sys_original_message_id="0000002D017ED88CEA6E">
+		  <RoutingTable><TableEntry><Target target="ccomserveradapter" timeout="59954" is_reply="1" sys_target_node="mobile-banking" sys_original_message_id="0001"/></TableEntry><DefaultErrorTarget target="container"/></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/><HistoryEntry sys_id="0001" target="passer_by_service" timeout="60000"/><HistoryEntry sys_id="0002" target="httpcl" timeout="40000"/><HistoryEntry sys_id="0003" target="passer_by_service" timeout="59958" is_reply="1" sys_original_message_id="0002"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>acb10641-88d0-11ec-8000-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="13"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-08 14:17:17.443	TP_19	[ccomserveradapter][0000002D017ED88CEA6E][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 14:17:17.444	TP_19	[ccomserveradapter][0000002D017ED88CEA6E][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 14:17:17.445	TP_19	[ccomserveradapter][0000002D017ED88CEA6E][0004] response after outgoing xslt transformation:[
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>acb10641-88d0-11ec-8000-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-08 14:17:17.445	TP_19	[ccomserveradapter][0000002D017ED88CEA6E][0004] Sending outgoing response: [
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>acb10641-88d0-11ec-8000-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-08 14:17:17.445	TP_19	[ccomserveradapter][0000002D017ED88CEA6E][0004] response sent
+2022-02-08 14:17:17.445	TP_19	[ccomserveradapter][0000002D017ED88CEA6E][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-08 14:17:17.445	TP_19	[ccomserveradapter][0000002D017ED88CEA6E][0004] Changing transaction state to TRANSACTION_STATE_FINISHED
+2022-02-08 14:17:17.451	ccomserveradapter_13	[127.0.0.1][ccomserveradapter] connection finished (total connections: 0)
+2022-02-08 14:17:17.452	TP_19	[ccomserveradapter][0000002D017ED88CEA6E][0004] Changing transaction state to TRANSACTION_STATE_CLOSED
+2022-02-09 01:46:05.267	ccomserveradapter_14	[127.0.0.1] New connection (total connections: 1)
+2022-02-09 01:46:05.270	ccomserveradapter_14	[ccomserveradapter][127.0.0.1] message received:[
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>e60c5e28-8930-11ec-8000-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg>]
+2022-02-09 01:46:05.281	ccomserveradapter_14	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA6F][0000] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 01:46:05.318	ccomserveradapter_14	[127.0.0.1][ccomserveradapter] Message dispatched to [passer_by_service]
+2022-02-09 01:46:05.319	ccomserveradapter_14	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA6F][0000] Sending non-blocking request to passer_by_service (timeout=60000ms) 		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="0" is_repeat="0" sys_id="0000" sys_original_message_id="0000002D017ED88CEA6F">
+		  <RoutingTable><TableEntry><Target target="passer_by_service"/></TableEntry><TableEntry><Target target="ccomserveradapter" is_reply="1"/></TableEntry></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>e60c5e28-8930-11ec-8000-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="14"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-09 01:46:05.320	ccomserveradapter_14	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA6F][0001] Changing transaction state to TRANSACTION_STATE_RUNNING
+2022-02-09 01:46:05.402	TP_11	[ccomserveradapter][0000002D017ED88CEA6F][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 01:46:05.402	TP_11	[ccomserveradapter][0000002D017ED88CEA6F][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 01:46:05.402	TP_11	[ccomserveradapter][0000002D017ED88CEA6F][0004] Processing response from passer_by_service		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="59919" is_repeat="0" priority="normal" sys_id="0004" sys_original_message_id="0000002D017ED88CEA6F">
+		  <RoutingTable><TableEntry><Target target="ccomserveradapter" timeout="59919" is_reply="1" sys_target_node="mobile-banking" sys_original_message_id="0001"/></TableEntry><DefaultErrorTarget target="container"/></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/><HistoryEntry sys_id="0001" target="passer_by_service" timeout="59999"/><HistoryEntry sys_id="0002" target="httpcl" timeout="40000"/><HistoryEntry sys_id="0003" target="passer_by_service" timeout="59923" is_reply="1" sys_original_message_id="0002"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>e60c5e28-8930-11ec-8000-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="14"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-09 01:46:05.402	TP_11	[ccomserveradapter][0000002D017ED88CEA6F][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 01:46:05.402	TP_11	[ccomserveradapter][0000002D017ED88CEA6F][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 01:46:05.404	TP_11	[ccomserveradapter][0000002D017ED88CEA6F][0004] response after outgoing xslt transformation:[
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>e60c5e28-8930-11ec-8000-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-09 01:46:05.404	TP_11	[ccomserveradapter][0000002D017ED88CEA6F][0004] Sending outgoing response: [
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>e60c5e28-8930-11ec-8000-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-09 01:46:05.404	TP_11	[ccomserveradapter][0000002D017ED88CEA6F][0004] response sent
+2022-02-09 01:46:05.404	TP_11	[ccomserveradapter][0000002D017ED88CEA6F][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 01:46:05.404	TP_11	[ccomserveradapter][0000002D017ED88CEA6F][0004] Changing transaction state to TRANSACTION_STATE_FINISHED
+2022-02-09 01:46:05.405	TP_11	[ccomserveradapter][0000002D017ED88CEA6F][0004] Changing transaction state to TRANSACTION_STATE_CLOSED
+2022-02-09 01:46:05.410	ccomserveradapter_14	[127.0.0.1][ccomserveradapter] connection finished (total connections: 0)
+2022-02-09 02:09:20.414	ccomserveradapter_15	[127.0.0.1] New connection (total connections: 1)
+2022-02-09 02:09:20.415	ccomserveradapter_15	[ccomserveradapter][127.0.0.1] message received:[
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>259f2686-8934-11ec-8000-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg>]
+2022-02-09 02:09:20.417	ccomserveradapter_15	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA70][0000] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 02:09:20.452	ccomserveradapter_15	[127.0.0.1][ccomserveradapter] Message dispatched to [passer_by_service]
+2022-02-09 02:09:20.453	ccomserveradapter_15	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA70][0000] Sending non-blocking request to passer_by_service (timeout=60000ms) 		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="0" is_repeat="0" sys_id="0000" sys_original_message_id="0000002D017ED88CEA70">
+		  <RoutingTable><TableEntry><Target target="passer_by_service"/></TableEntry><TableEntry><Target target="ccomserveradapter" is_reply="1"/></TableEntry></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>259f2686-8934-11ec-8000-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="15"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-09 02:09:20.453	ccomserveradapter_15	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA70][0001] Changing transaction state to TRANSACTION_STATE_RUNNING
+2022-02-09 02:09:20.501	TP_4	[ccomserveradapter][0000002D017ED88CEA70][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 02:09:20.501	TP_4	[ccomserveradapter][0000002D017ED88CEA70][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 02:09:20.502	TP_4	[ccomserveradapter][0000002D017ED88CEA70][0004] Processing response from passer_by_service		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="59957" is_repeat="0" priority="normal" sys_id="0004" sys_original_message_id="0000002D017ED88CEA70">
+		  <RoutingTable><TableEntry><Target target="ccomserveradapter" timeout="59957" is_reply="1" sys_target_node="mobile-banking" sys_original_message_id="0001"/></TableEntry><DefaultErrorTarget target="container"/></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/><HistoryEntry sys_id="0001" target="passer_by_service" timeout="60000"/><HistoryEntry sys_id="0002" target="httpcl" timeout="40000"/><HistoryEntry sys_id="0003" target="passer_by_service" timeout="59964" is_reply="1" sys_original_message_id="0002"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>259f2686-8934-11ec-8000-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="15"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-09 02:09:20.502	TP_4	[ccomserveradapter][0000002D017ED88CEA70][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 02:09:20.502	TP_4	[ccomserveradapter][0000002D017ED88CEA70][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 02:09:20.503	TP_4	[ccomserveradapter][0000002D017ED88CEA70][0004] response after outgoing xslt transformation:[
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>259f2686-8934-11ec-8000-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-09 02:09:20.503	TP_4	[ccomserveradapter][0000002D017ED88CEA70][0004] Sending outgoing response: [
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>259f2686-8934-11ec-8000-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-09 02:09:20.503	TP_4	[ccomserveradapter][0000002D017ED88CEA70][0004] response sent
+2022-02-09 02:09:20.503	TP_4	[ccomserveradapter][0000002D017ED88CEA70][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 02:09:20.505	TP_4	[ccomserveradapter][0000002D017ED88CEA70][0004] Changing transaction state to TRANSACTION_STATE_FINISHED
+2022-02-09 02:09:20.505	TP_4	[ccomserveradapter][0000002D017ED88CEA70][0004] Changing transaction state to TRANSACTION_STATE_CLOSED
+2022-02-09 02:09:20.510	ccomserveradapter_15	[127.0.0.1][ccomserveradapter] connection finished (total connections: 0)
+2022-02-09 02:45:07.554	ccomserveradapter_16	[127.0.0.1] New connection (total connections: 1)
+2022-02-09 02:45:07.555	ccomserveradapter_16	[ccomserveradapter][127.0.0.1] message received:[
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>256ad20e-8939-11ec-8000-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg>]
+2022-02-09 02:45:07.557	ccomserveradapter_16	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA71][0000] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 02:45:07.592	ccomserveradapter_16	[127.0.0.1][ccomserveradapter] Message dispatched to [passer_by_service]
+2022-02-09 02:45:07.594	ccomserveradapter_16	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA71][0000] Sending non-blocking request to passer_by_service (timeout=60000ms) 		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="0" is_repeat="0" sys_id="0000" sys_original_message_id="0000002D017ED88CEA71">
+		  <RoutingTable><TableEntry><Target target="passer_by_service"/></TableEntry><TableEntry><Target target="ccomserveradapter" is_reply="1"/></TableEntry></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>256ad20e-8939-11ec-8000-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="16"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-09 02:45:07.595	ccomserveradapter_16	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA71][0001] Changing transaction state to TRANSACTION_STATE_RUNNING
+2022-02-09 02:45:07.627	TP_48	[ccomserveradapter][0000002D017ED88CEA71][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 02:45:07.627	TP_48	[ccomserveradapter][0000002D017ED88CEA71][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 02:45:07.627	TP_48	[ccomserveradapter][0000002D017ED88CEA71][0004] Processing response from passer_by_service		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="59970" is_repeat="0" priority="normal" sys_id="0004" sys_original_message_id="0000002D017ED88CEA71">
+		  <RoutingTable><TableEntry><Target target="ccomserveradapter" timeout="59970" is_reply="1" sys_target_node="mobile-banking" sys_original_message_id="0001"/></TableEntry><DefaultErrorTarget target="container"/></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/><HistoryEntry sys_id="0001" target="passer_by_service" timeout="59999"/><HistoryEntry sys_id="0002" target="httpcl" timeout="40000"/><HistoryEntry sys_id="0003" target="passer_by_service" timeout="59975" is_reply="1" sys_original_message_id="0002"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>256ad20e-8939-11ec-8000-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="16"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-09 02:45:07.627	TP_48	[ccomserveradapter][0000002D017ED88CEA71][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 02:45:07.627	TP_48	[ccomserveradapter][0000002D017ED88CEA71][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 02:45:07.628	TP_48	[ccomserveradapter][0000002D017ED88CEA71][0004] response after outgoing xslt transformation:[
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>256ad20e-8939-11ec-8000-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-09 02:45:07.628	TP_48	[ccomserveradapter][0000002D017ED88CEA71][0004] Sending outgoing response: [
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>256ad20e-8939-11ec-8000-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-09 02:45:07.629	TP_48	[ccomserveradapter][0000002D017ED88CEA71][0004] response sent
+2022-02-09 02:45:07.629	TP_48	[ccomserveradapter][0000002D017ED88CEA71][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 02:45:07.629	TP_48	[ccomserveradapter][0000002D017ED88CEA71][0004] Changing transaction state to TRANSACTION_STATE_FINISHED
+2022-02-09 02:45:07.629	TP_48	[ccomserveradapter][0000002D017ED88CEA71][0004] Changing transaction state to TRANSACTION_STATE_CLOSED
+2022-02-09 02:45:07.634	ccomserveradapter_16	[127.0.0.1][ccomserveradapter] connection finished (total connections: 0)
+2022-02-09 02:56:15.427	ccomserveradapter_17	[127.0.0.1] New connection (total connections: 1)
+2022-02-09 02:56:15.428	ccomserveradapter_17	[ccomserveradapter][127.0.0.1] message received:[
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>b3801a6d-893a-11ec-8000-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg>]
+2022-02-09 02:56:15.430	ccomserveradapter_17	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA72][0000] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 02:56:15.468	ccomserveradapter_17	[127.0.0.1][ccomserveradapter] Message dispatched to [passer_by_service]
+2022-02-09 02:56:15.469	ccomserveradapter_17	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA72][0000] Sending non-blocking request to passer_by_service (timeout=60000ms) 		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="0" is_repeat="0" sys_id="0000" sys_original_message_id="0000002D017ED88CEA72">
+		  <RoutingTable><TableEntry><Target target="passer_by_service"/></TableEntry><TableEntry><Target target="ccomserveradapter" is_reply="1"/></TableEntry></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>b3801a6d-893a-11ec-8000-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="17"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-09 02:56:15.469	ccomserveradapter_17	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA72][0001] Changing transaction state to TRANSACTION_STATE_RUNNING
+2022-02-09 02:56:15.519	TP_41	[ccomserveradapter][0000002D017ED88CEA72][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 02:56:15.519	TP_41	[ccomserveradapter][0000002D017ED88CEA72][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 02:56:15.519	TP_41	[ccomserveradapter][0000002D017ED88CEA72][0004] Processing response from passer_by_service		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="59953" is_repeat="0" priority="normal" sys_id="0004" sys_original_message_id="0000002D017ED88CEA72">
+		  <RoutingTable><TableEntry><Target target="ccomserveradapter" timeout="59953" is_reply="1" sys_target_node="mobile-banking" sys_original_message_id="0001"/></TableEntry><DefaultErrorTarget target="container"/></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/><HistoryEntry sys_id="0001" target="passer_by_service" timeout="60000"/><HistoryEntry sys_id="0002" target="httpcl" timeout="40000"/><HistoryEntry sys_id="0003" target="passer_by_service" timeout="59958" is_reply="1" sys_original_message_id="0002"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>b3801a6d-893a-11ec-8000-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="17"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-09 02:56:15.519	TP_41	[ccomserveradapter][0000002D017ED88CEA72][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 02:56:15.519	TP_41	[ccomserveradapter][0000002D017ED88CEA72][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 02:56:15.521	TP_41	[ccomserveradapter][0000002D017ED88CEA72][0004] response after outgoing xslt transformation:[
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>b3801a6d-893a-11ec-8000-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-09 02:56:15.521	TP_41	[ccomserveradapter][0000002D017ED88CEA72][0004] Sending outgoing response: [
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>b3801a6d-893a-11ec-8000-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-09 02:56:15.522	TP_41	[ccomserveradapter][0000002D017ED88CEA72][0004] response sent
+2022-02-09 02:56:15.522	TP_41	[ccomserveradapter][0000002D017ED88CEA72][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 02:56:15.522	TP_41	[ccomserveradapter][0000002D017ED88CEA72][0004] Changing transaction state to TRANSACTION_STATE_FINISHED
+2022-02-09 02:56:15.522	TP_41	[ccomserveradapter][0000002D017ED88CEA72][0004] Changing transaction state to TRANSACTION_STATE_CLOSED
+2022-02-09 02:56:15.535	ccomserveradapter_17	[127.0.0.1][ccomserveradapter] connection finished (total connections: 0)
+2022-02-09 05:22:38.992	ccomserveradapter_18	[127.0.0.1] New connection (total connections: 1)
+2022-02-09 05:22:38.995	ccomserveradapter_18	[ccomserveradapter][127.0.0.1] message received:[
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>26e997a3-894f-11ec-8000-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg>]
+2022-02-09 05:22:39.008	ccomserveradapter_18	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA73][0000] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 05:22:39.021	ccomserveradapter_18	[127.0.0.1][ccomserveradapter] Message dispatched to [passer_by_service]
+2022-02-09 05:22:39.022	ccomserveradapter_18	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA73][0000] Sending non-blocking request to passer_by_service (timeout=60000ms) 		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="0" is_repeat="0" sys_id="0000" sys_original_message_id="0000002D017ED88CEA73">
+		  <RoutingTable><TableEntry><Target target="passer_by_service"/></TableEntry><TableEntry><Target target="ccomserveradapter" is_reply="1"/></TableEntry></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>26e997a3-894f-11ec-8000-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="18"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-09 05:22:39.022	ccomserveradapter_18	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA73][0001] Changing transaction state to TRANSACTION_STATE_RUNNING
+2022-02-09 05:22:39.102	TP_34	[ccomserveradapter][0000002D017ED88CEA73][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 05:22:39.102	TP_34	[ccomserveradapter][0000002D017ED88CEA73][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 05:22:39.103	TP_34	[ccomserveradapter][0000002D017ED88CEA73][0004] Processing response from passer_by_service		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="59922" is_repeat="0" priority="normal" sys_id="0004" sys_original_message_id="0000002D017ED88CEA73">
+		  <RoutingTable><TableEntry><Target target="ccomserveradapter" timeout="59922" is_reply="1" sys_target_node="mobile-banking" sys_original_message_id="0001"/></TableEntry><DefaultErrorTarget target="container"/></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/><HistoryEntry sys_id="0001" target="passer_by_service" timeout="60000"/><HistoryEntry sys_id="0002" target="httpcl" timeout="40000"/><HistoryEntry sys_id="0003" target="passer_by_service" timeout="59926" is_reply="1" sys_original_message_id="0002"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>26e997a3-894f-11ec-8000-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="18"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-09 05:22:39.103	TP_34	[ccomserveradapter][0000002D017ED88CEA73][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 05:22:39.103	TP_34	[ccomserveradapter][0000002D017ED88CEA73][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 05:22:39.104	TP_34	[ccomserveradapter][0000002D017ED88CEA73][0004] response after outgoing xslt transformation:[
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>26e997a3-894f-11ec-8000-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-09 05:22:39.104	TP_34	[ccomserveradapter][0000002D017ED88CEA73][0004] Sending outgoing response: [
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>26e997a3-894f-11ec-8000-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-09 05:22:39.105	TP_34	[ccomserveradapter][0000002D017ED88CEA73][0004] response sent
+2022-02-09 05:22:39.105	TP_34	[ccomserveradapter][0000002D017ED88CEA73][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 05:22:39.105	TP_34	[ccomserveradapter][0000002D017ED88CEA73][0004] Changing transaction state to TRANSACTION_STATE_FINISHED
+2022-02-09 05:22:39.105	TP_34	[ccomserveradapter][0000002D017ED88CEA73][0004] Changing transaction state to TRANSACTION_STATE_CLOSED
+2022-02-09 05:22:39.107	ccomserveradapter_18	[127.0.0.1][ccomserveradapter] connection finished (total connections: 0)
+2022-02-09 06:09:39.566	ccomserveradapter_19	[127.0.0.1] New connection (total connections: 1)
+2022-02-09 06:09:39.567	ccomserveradapter_19	[ccomserveradapter][127.0.0.1] message received:[
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>b81afaa9-8955-11ec-8001-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg>]
+2022-02-09 06:09:39.569	ccomserveradapter_19	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA74][0000] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 06:09:39.572	ccomserveradapter_19	[127.0.0.1][ccomserveradapter] Message dispatched to [passer_by_service]
+2022-02-09 06:09:39.572	ccomserveradapter_19	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA74][0000] Sending non-blocking request to passer_by_service (timeout=60000ms) 		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="0" is_repeat="0" sys_id="0000" sys_original_message_id="0000002D017ED88CEA74">
+		  <RoutingTable><TableEntry><Target target="passer_by_service"/></TableEntry><TableEntry><Target target="ccomserveradapter" is_reply="1"/></TableEntry></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>b81afaa9-8955-11ec-8001-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="19"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-09 06:09:39.573	ccomserveradapter_19	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA74][0001] Changing transaction state to TRANSACTION_STATE_RUNNING
+2022-02-09 06:09:39.608	TP_27	[ccomserveradapter][0000002D017ED88CEA74][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 06:09:39.608	TP_27	[ccomserveradapter][0000002D017ED88CEA74][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 06:09:39.608	TP_27	[ccomserveradapter][0000002D017ED88CEA74][0004] Processing response from passer_by_service		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="59967" is_repeat="0" priority="normal" sys_id="0004" sys_original_message_id="0000002D017ED88CEA74">
+		  <RoutingTable><TableEntry><Target target="ccomserveradapter" timeout="59967" is_reply="1" sys_target_node="mobile-banking" sys_original_message_id="0001"/></TableEntry><DefaultErrorTarget target="container"/></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/><HistoryEntry sys_id="0001" target="passer_by_service" timeout="60000"/><HistoryEntry sys_id="0002" target="httpcl" timeout="40000"/><HistoryEntry sys_id="0003" target="passer_by_service" timeout="59971" is_reply="1" sys_original_message_id="0002"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>b81afaa9-8955-11ec-8001-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="19"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-09 06:09:39.609	TP_27	[ccomserveradapter][0000002D017ED88CEA74][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 06:09:39.609	TP_27	[ccomserveradapter][0000002D017ED88CEA74][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 06:09:39.610	TP_27	[ccomserveradapter][0000002D017ED88CEA74][0004] response after outgoing xslt transformation:[
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>b81afaa9-8955-11ec-8001-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-09 06:09:39.610	TP_27	[ccomserveradapter][0000002D017ED88CEA74][0004] Sending outgoing response: [
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>b81afaa9-8955-11ec-8001-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-09 06:09:39.610	TP_27	[ccomserveradapter][0000002D017ED88CEA74][0004] response sent
+2022-02-09 06:09:39.610	TP_27	[ccomserveradapter][0000002D017ED88CEA74][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 06:09:39.610	TP_27	[ccomserveradapter][0000002D017ED88CEA74][0004] Changing transaction state to TRANSACTION_STATE_FINISHED
+2022-02-09 06:09:39.610	TP_27	[ccomserveradapter][0000002D017ED88CEA74][0004] Changing transaction state to TRANSACTION_STATE_CLOSED
+2022-02-09 06:09:39.614	ccomserveradapter_19	[127.0.0.1][ccomserveradapter] connection finished (total connections: 0)
+2022-02-09 06:31:54.957	ccomserveradapter_20	[127.0.0.1] New connection (total connections: 1)
+2022-02-09 06:31:54.959	ccomserveradapter_20	[ccomserveradapter][127.0.0.1] message received:[
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>d40f9732-8958-11ec-8000-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg>]
+2022-02-09 06:31:54.961	ccomserveradapter_20	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA75][0000] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 06:31:54.993	ccomserveradapter_20	[127.0.0.1][ccomserveradapter] Message dispatched to [passer_by_service]
+2022-02-09 06:31:54.994	ccomserveradapter_20	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA75][0000] Sending non-blocking request to passer_by_service (timeout=60000ms) 		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="0" is_repeat="0" sys_id="0000" sys_original_message_id="0000002D017ED88CEA75">
+		  <RoutingTable><TableEntry><Target target="passer_by_service"/></TableEntry><TableEntry><Target target="ccomserveradapter" is_reply="1"/></TableEntry></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>d40f9732-8958-11ec-8000-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="20"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-09 06:31:54.995	ccomserveradapter_20	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA75][0001] Changing transaction state to TRANSACTION_STATE_RUNNING
+2022-02-09 06:31:55.030	TP_20	[ccomserveradapter][0000002D017ED88CEA75][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 06:31:55.030	TP_20	[ccomserveradapter][0000002D017ED88CEA75][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 06:31:55.031	TP_20	[ccomserveradapter][0000002D017ED88CEA75][0004] Processing response from passer_by_service		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="59966" is_repeat="0" priority="normal" sys_id="0004" sys_original_message_id="0000002D017ED88CEA75">
+		  <RoutingTable><TableEntry><Target target="ccomserveradapter" timeout="59966" is_reply="1" sys_target_node="mobile-banking" sys_original_message_id="0001"/></TableEntry><DefaultErrorTarget target="container"/></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/><HistoryEntry sys_id="0001" target="passer_by_service" timeout="59999"/><HistoryEntry sys_id="0002" target="httpcl" timeout="40000"/><HistoryEntry sys_id="0003" target="passer_by_service" timeout="59972" is_reply="1" sys_original_message_id="0002"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>d40f9732-8958-11ec-8000-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="20"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-09 06:31:55.031	TP_20	[ccomserveradapter][0000002D017ED88CEA75][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 06:31:55.031	TP_20	[ccomserveradapter][0000002D017ED88CEA75][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 06:31:55.033	TP_20	[ccomserveradapter][0000002D017ED88CEA75][0004] response after outgoing xslt transformation:[
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>d40f9732-8958-11ec-8000-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-09 06:31:55.033	TP_20	[ccomserveradapter][0000002D017ED88CEA75][0004] Sending outgoing response: [
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>d40f9732-8958-11ec-8000-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-09 06:31:55.033	TP_20	[ccomserveradapter][0000002D017ED88CEA75][0004] response sent
+2022-02-09 06:31:55.033	TP_20	[ccomserveradapter][0000002D017ED88CEA75][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 06:31:55.034	TP_20	[ccomserveradapter][0000002D017ED88CEA75][0004] Changing transaction state to TRANSACTION_STATE_FINISHED
+2022-02-09 06:31:55.034	TP_20	[ccomserveradapter][0000002D017ED88CEA75][0004] Changing transaction state to TRANSACTION_STATE_CLOSED
+2022-02-09 06:31:55.037	ccomserveradapter_20	[127.0.0.1][ccomserveradapter] connection finished (total connections: 0)
+2022-02-09 06:51:13.673	ccomserveradapter_21	[127.0.0.1] New connection (total connections: 1)
+2022-02-09 06:51:13.674	ccomserveradapter_21	[ccomserveradapter][127.0.0.1] message received:[
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>86b5a298-895b-11ec-8000-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg>]
+2022-02-09 06:51:13.687	ccomserveradapter_21	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA76][0000] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 06:51:13.764	ccomserveradapter_21	[127.0.0.1][ccomserveradapter] Message dispatched to [passer_by_service]
+2022-02-09 06:51:13.765	ccomserveradapter_21	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA76][0000] Sending non-blocking request to passer_by_service (timeout=60000ms) 		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="0" is_repeat="0" sys_id="0000" sys_original_message_id="0000002D017ED88CEA76">
+		  <RoutingTable><TableEntry><Target target="passer_by_service"/></TableEntry><TableEntry><Target target="ccomserveradapter" is_reply="1"/></TableEntry></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>86b5a298-895b-11ec-8000-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="21"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-09 06:51:13.765	ccomserveradapter_21	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA76][0001] Changing transaction state to TRANSACTION_STATE_RUNNING
+2022-02-09 06:51:13.846	TP_12	[ccomserveradapter][0000002D017ED88CEA76][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 06:51:13.846	TP_12	[ccomserveradapter][0000002D017ED88CEA76][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 06:51:13.846	TP_12	[ccomserveradapter][0000002D017ED88CEA76][0004] Processing response from passer_by_service		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="59922" is_repeat="0" priority="normal" sys_id="0004" sys_original_message_id="0000002D017ED88CEA76">
+		  <RoutingTable><TableEntry><Target target="ccomserveradapter" timeout="59922" is_reply="1" sys_target_node="mobile-banking" sys_original_message_id="0001"/></TableEntry><DefaultErrorTarget target="container"/></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/><HistoryEntry sys_id="0001" target="passer_by_service" timeout="60000"/><HistoryEntry sys_id="0002" target="httpcl" timeout="40000"/><HistoryEntry sys_id="0003" target="passer_by_service" timeout="59935" is_reply="1" sys_original_message_id="0002"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>86b5a298-895b-11ec-8000-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="21"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-09 06:51:13.846	TP_12	[ccomserveradapter][0000002D017ED88CEA76][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 06:51:13.846	TP_12	[ccomserveradapter][0000002D017ED88CEA76][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 06:51:13.847	TP_12	[ccomserveradapter][0000002D017ED88CEA76][0004] response after outgoing xslt transformation:[
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>86b5a298-895b-11ec-8000-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-09 06:51:13.848	TP_12	[ccomserveradapter][0000002D017ED88CEA76][0004] Sending outgoing response: [
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>86b5a298-895b-11ec-8000-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-09 06:51:13.848	TP_12	[ccomserveradapter][0000002D017ED88CEA76][0004] response sent
+2022-02-09 06:51:13.848	TP_12	[ccomserveradapter][0000002D017ED88CEA76][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 06:51:13.848	TP_12	[ccomserveradapter][0000002D017ED88CEA76][0004] Changing transaction state to TRANSACTION_STATE_FINISHED
+2022-02-09 06:51:13.848	TP_12	[ccomserveradapter][0000002D017ED88CEA76][0004] Changing transaction state to TRANSACTION_STATE_CLOSED
+2022-02-09 06:51:13.857	ccomserveradapter_21	[127.0.0.1][ccomserveradapter] connection finished (total connections: 0)
+2022-02-09 06:57:17.374	ccomserveradapter_22	[127.0.0.1] New connection (total connections: 1)
+2022-02-09 06:57:17.376	ccomserveradapter_22	[ccomserveradapter][127.0.0.1] message received:[
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>5f7cb1a1-895c-11ec-8000-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg>]
+2022-02-09 06:57:17.378	ccomserveradapter_22	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA77][0000] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 06:57:17.465	ccomserveradapter_22	[127.0.0.1][ccomserveradapter] Message dispatched to [passer_by_service]
+2022-02-09 06:57:17.465	ccomserveradapter_22	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA77][0000] Sending non-blocking request to passer_by_service (timeout=60000ms) 		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="0" is_repeat="0" sys_id="0000" sys_original_message_id="0000002D017ED88CEA77">
+		  <RoutingTable><TableEntry><Target target="passer_by_service"/></TableEntry><TableEntry><Target target="ccomserveradapter" is_reply="1"/></TableEntry></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>5f7cb1a1-895c-11ec-8000-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="22"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-09 06:57:17.468	ccomserveradapter_22	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA77][0001] Changing transaction state to TRANSACTION_STATE_RUNNING
+2022-02-09 06:57:17.536	TP_5	[ccomserveradapter][0000002D017ED88CEA77][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 06:57:17.536	TP_5	[ccomserveradapter][0000002D017ED88CEA77][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 06:57:17.536	TP_5	[ccomserveradapter][0000002D017ED88CEA77][0004] Processing response from passer_by_service		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="59935" is_repeat="0" priority="normal" sys_id="0004" sys_original_message_id="0000002D017ED88CEA77">
+		  <RoutingTable><TableEntry><Target target="ccomserveradapter" timeout="59935" is_reply="1" sys_target_node="mobile-banking" sys_original_message_id="0001"/></TableEntry><DefaultErrorTarget target="container"/></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/><HistoryEntry sys_id="0001" target="passer_by_service" timeout="60000"/><HistoryEntry sys_id="0002" target="httpcl" timeout="40000"/><HistoryEntry sys_id="0003" target="passer_by_service" timeout="59940" is_reply="1" sys_original_message_id="0002"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>5f7cb1a1-895c-11ec-8000-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="22"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-09 06:57:17.537	TP_5	[ccomserveradapter][0000002D017ED88CEA77][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 06:57:17.537	TP_5	[ccomserveradapter][0000002D017ED88CEA77][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 06:57:17.538	TP_5	[ccomserveradapter][0000002D017ED88CEA77][0004] response after outgoing xslt transformation:[
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>5f7cb1a1-895c-11ec-8000-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-09 06:57:17.538	TP_5	[ccomserveradapter][0000002D017ED88CEA77][0004] Sending outgoing response: [
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>5f7cb1a1-895c-11ec-8000-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-09 06:57:17.538	TP_5	[ccomserveradapter][0000002D017ED88CEA77][0004] response sent
+2022-02-09 06:57:17.538	TP_5	[ccomserveradapter][0000002D017ED88CEA77][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 06:57:17.539	TP_5	[ccomserveradapter][0000002D017ED88CEA77][0004] Changing transaction state to TRANSACTION_STATE_FINISHED
+2022-02-09 06:57:17.539	TP_5	[ccomserveradapter][0000002D017ED88CEA77][0004] Changing transaction state to TRANSACTION_STATE_CLOSED
+2022-02-09 06:57:17.544	ccomserveradapter_22	[127.0.0.1][ccomserveradapter] connection finished (total connections: 0)
+2022-02-09 07:14:20.586	ccomserveradapter_23	[127.0.0.1] New connection (total connections: 1)
+2022-02-09 07:14:20.587	ccomserveradapter_23	[ccomserveradapter][127.0.0.1] message received:[
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>c15f6891-895e-11ec-8000-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg>]
+2022-02-09 07:14:20.588	ccomserveradapter_23	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA78][0000] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 07:14:20.635	ccomserveradapter_23	[127.0.0.1][ccomserveradapter] Message dispatched to [passer_by_service]
+2022-02-09 07:14:20.635	ccomserveradapter_23	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA78][0000] Sending non-blocking request to passer_by_service (timeout=60000ms) 		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="0" is_repeat="0" sys_id="0000" sys_original_message_id="0000002D017ED88CEA78">
+		  <RoutingTable><TableEntry><Target target="passer_by_service"/></TableEntry><TableEntry><Target target="ccomserveradapter" is_reply="1"/></TableEntry></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>c15f6891-895e-11ec-8000-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="23"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-09 07:14:20.636	ccomserveradapter_23	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA78][0001] Changing transaction state to TRANSACTION_STATE_RUNNING
+2022-02-09 07:14:20.666	TP_4	[ccomserveradapter][0000002D017ED88CEA78][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 07:14:20.666	TP_4	[ccomserveradapter][0000002D017ED88CEA78][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 07:14:20.666	TP_4	[ccomserveradapter][0000002D017ED88CEA78][0004] Processing response from passer_by_service		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="59972" is_repeat="0" priority="normal" sys_id="0004" sys_original_message_id="0000002D017ED88CEA78">
+		  <RoutingTable><TableEntry><Target target="ccomserveradapter" timeout="59972" is_reply="1" sys_target_node="mobile-banking" sys_original_message_id="0001"/></TableEntry><DefaultErrorTarget target="container"/></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/><HistoryEntry sys_id="0001" target="passer_by_service" timeout="60000"/><HistoryEntry sys_id="0002" target="httpcl" timeout="40000"/><HistoryEntry sys_id="0003" target="passer_by_service" timeout="59976" is_reply="1" sys_original_message_id="0002"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>c15f6891-895e-11ec-8000-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="23"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-09 07:14:20.666	TP_4	[ccomserveradapter][0000002D017ED88CEA78][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 07:14:20.667	TP_4	[ccomserveradapter][0000002D017ED88CEA78][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 07:14:20.667	TP_4	[ccomserveradapter][0000002D017ED88CEA78][0004] response after outgoing xslt transformation:[
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>c15f6891-895e-11ec-8000-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-09 07:14:20.667	TP_4	[ccomserveradapter][0000002D017ED88CEA78][0004] Sending outgoing response: [
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>c15f6891-895e-11ec-8000-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-09 07:14:20.668	TP_4	[ccomserveradapter][0000002D017ED88CEA78][0004] response sent
+2022-02-09 07:14:20.668	TP_4	[ccomserveradapter][0000002D017ED88CEA78][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 07:14:20.668	TP_4	[ccomserveradapter][0000002D017ED88CEA78][0004] Changing transaction state to TRANSACTION_STATE_FINISHED
+2022-02-09 07:14:20.668	TP_4	[ccomserveradapter][0000002D017ED88CEA78][0004] Changing transaction state to TRANSACTION_STATE_CLOSED
+2022-02-09 07:14:20.672	ccomserveradapter_23	[127.0.0.1][ccomserveradapter] connection finished (total connections: 0)
+2022-02-09 07:40:06.746	ccomserveradapter_24	[127.0.0.1] New connection (total connections: 1)
+2022-02-09 07:40:06.747	ccomserveradapter_24	[ccomserveradapter][127.0.0.1] message received:[
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>5af3cf7b-8962-11ec-8001-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg>]
+2022-02-09 07:40:06.748	ccomserveradapter_24	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA79][0000] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 07:40:06.807	ccomserveradapter_24	[127.0.0.1][ccomserveradapter] Message dispatched to [passer_by_service]
+2022-02-09 07:40:06.807	ccomserveradapter_24	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA79][0000] Sending non-blocking request to passer_by_service (timeout=60000ms) 		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="0" is_repeat="0" sys_id="0000" sys_original_message_id="0000002D017ED88CEA79">
+		  <RoutingTable><TableEntry><Target target="passer_by_service"/></TableEntry><TableEntry><Target target="ccomserveradapter" is_reply="1"/></TableEntry></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>5af3cf7b-8962-11ec-8001-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="24"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-09 07:40:06.808	ccomserveradapter_24	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA79][0001] Changing transaction state to TRANSACTION_STATE_RUNNING
+2022-02-09 07:40:06.858	TP_48	[ccomserveradapter][0000002D017ED88CEA79][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 07:40:06.858	TP_48	[ccomserveradapter][0000002D017ED88CEA79][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 07:40:06.858	TP_48	[ccomserveradapter][0000002D017ED88CEA79][0004] Processing response from passer_by_service		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="59957" is_repeat="0" priority="normal" sys_id="0004" sys_original_message_id="0000002D017ED88CEA79">
+		  <RoutingTable><TableEntry><Target target="ccomserveradapter" timeout="59957" is_reply="1" sys_target_node="mobile-banking" sys_original_message_id="0001"/></TableEntry><DefaultErrorTarget target="container"/></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/><HistoryEntry sys_id="0001" target="passer_by_service" timeout="60000"/><HistoryEntry sys_id="0002" target="httpcl" timeout="40000"/><HistoryEntry sys_id="0003" target="passer_by_service" timeout="59961" is_reply="1" sys_original_message_id="0002"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>5af3cf7b-8962-11ec-8001-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="24"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-09 07:40:06.858	TP_48	[ccomserveradapter][0000002D017ED88CEA79][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 07:40:06.858	TP_48	[ccomserveradapter][0000002D017ED88CEA79][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 07:40:06.861	TP_48	[ccomserveradapter][0000002D017ED88CEA79][0004] response after outgoing xslt transformation:[
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>5af3cf7b-8962-11ec-8001-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-09 07:40:06.861	TP_48	[ccomserveradapter][0000002D017ED88CEA79][0004] Sending outgoing response: [
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>5af3cf7b-8962-11ec-8001-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-09 07:40:06.861	TP_48	[ccomserveradapter][0000002D017ED88CEA79][0004] response sent
+2022-02-09 07:40:06.862	TP_48	[ccomserveradapter][0000002D017ED88CEA79][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 07:40:06.862	TP_48	[ccomserveradapter][0000002D017ED88CEA79][0004] Changing transaction state to TRANSACTION_STATE_FINISHED
+2022-02-09 07:40:06.862	TP_48	[ccomserveradapter][0000002D017ED88CEA79][0004] Changing transaction state to TRANSACTION_STATE_CLOSED
+2022-02-09 07:40:06.870	ccomserveradapter_24	[127.0.0.1][ccomserveradapter] connection finished (total connections: 0)
+2022-02-09 07:50:15.483	ccomserveradapter_25	[127.0.0.1] New connection (total connections: 1)
+2022-02-09 07:50:15.495	ccomserveradapter_25	[ccomserveradapter][127.0.0.1] message received:[
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>c5caea13-8963-11ec-8002-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg>]
+2022-02-09 07:50:15.497	ccomserveradapter_25	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA7A][0000] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 07:50:15.538	ccomserveradapter_25	[127.0.0.1][ccomserveradapter] Message dispatched to [passer_by_service]
+2022-02-09 07:50:15.538	ccomserveradapter_25	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA7A][0000] Sending non-blocking request to passer_by_service (timeout=60000ms) 		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="0" is_repeat="0" sys_id="0000" sys_original_message_id="0000002D017ED88CEA7A">
+		  <RoutingTable><TableEntry><Target target="passer_by_service"/></TableEntry><TableEntry><Target target="ccomserveradapter" is_reply="1"/></TableEntry></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>c5caea13-8963-11ec-8002-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="25"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-09 07:50:15.539	ccomserveradapter_25	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA7A][0001] Changing transaction state to TRANSACTION_STATE_RUNNING
+2022-02-09 07:50:15.566	TP_41	[ccomserveradapter][0000002D017ED88CEA7A][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 07:50:15.566	TP_41	[ccomserveradapter][0000002D017ED88CEA7A][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 07:50:15.566	TP_41	[ccomserveradapter][0000002D017ED88CEA7A][0004] Processing response from passer_by_service		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="59975" is_repeat="0" priority="normal" sys_id="0004" sys_original_message_id="0000002D017ED88CEA7A">
+		  <RoutingTable><TableEntry><Target target="ccomserveradapter" timeout="59975" is_reply="1" sys_target_node="mobile-banking" sys_original_message_id="0001"/></TableEntry><DefaultErrorTarget target="container"/></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/><HistoryEntry sys_id="0001" target="passer_by_service" timeout="60000"/><HistoryEntry sys_id="0002" target="httpcl" timeout="40000"/><HistoryEntry sys_id="0003" target="passer_by_service" timeout="59978" is_reply="1" sys_original_message_id="0002"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>c5caea13-8963-11ec-8002-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="25"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-09 07:50:15.566	TP_41	[ccomserveradapter][0000002D017ED88CEA7A][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 07:50:15.566	TP_41	[ccomserveradapter][0000002D017ED88CEA7A][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 07:50:15.567	TP_41	[ccomserveradapter][0000002D017ED88CEA7A][0004] response after outgoing xslt transformation:[
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>c5caea13-8963-11ec-8002-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-09 07:50:15.568	TP_41	[ccomserveradapter][0000002D017ED88CEA7A][0004] Sending outgoing response: [
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>c5caea13-8963-11ec-8002-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-09 07:50:15.568	TP_41	[ccomserveradapter][0000002D017ED88CEA7A][0004] response sent
+2022-02-09 07:50:15.568	TP_41	[ccomserveradapter][0000002D017ED88CEA7A][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 07:50:15.568	TP_41	[ccomserveradapter][0000002D017ED88CEA7A][0004] Changing transaction state to TRANSACTION_STATE_FINISHED
+2022-02-09 07:50:15.568	TP_41	[ccomserveradapter][0000002D017ED88CEA7A][0004] Changing transaction state to TRANSACTION_STATE_CLOSED
+2022-02-09 07:50:15.571	ccomserveradapter_25	[127.0.0.1][ccomserveradapter] connection finished (total connections: 0)
+2022-02-09 08:02:55.125	ccomserveradapter_26	[127.0.0.1] New connection (total connections: 1)
+2022-02-09 08:02:55.126	ccomserveradapter_26	[ccomserveradapter][127.0.0.1] message received:[
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>8a90ad19-8965-11ec-8003-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg>]
+2022-02-09 08:02:55.128	ccomserveradapter_26	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA7B][0000] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 08:02:55.166	ccomserveradapter_26	[127.0.0.1][ccomserveradapter] Message dispatched to [passer_by_service]
+2022-02-09 08:02:55.167	ccomserveradapter_26	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA7B][0000] Sending non-blocking request to passer_by_service (timeout=60000ms) 		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="0" is_repeat="0" sys_id="0000" sys_original_message_id="0000002D017ED88CEA7B">
+		  <RoutingTable><TableEntry><Target target="passer_by_service"/></TableEntry><TableEntry><Target target="ccomserveradapter" is_reply="1"/></TableEntry></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>8a90ad19-8965-11ec-8003-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="26"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-09 08:02:55.169	ccomserveradapter_26	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA7B][0001] Changing transaction state to TRANSACTION_STATE_RUNNING
+2022-02-09 08:02:55.203	TP_34	[ccomserveradapter][0000002D017ED88CEA7B][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 08:02:55.204	TP_34	[ccomserveradapter][0000002D017ED88CEA7B][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 08:02:55.204	TP_34	[ccomserveradapter][0000002D017ED88CEA7B][0004] Processing response from passer_by_service		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="59967" is_repeat="0" priority="normal" sys_id="0004" sys_original_message_id="0000002D017ED88CEA7B">
+		  <RoutingTable><TableEntry><Target target="ccomserveradapter" timeout="59967" is_reply="1" sys_target_node="mobile-banking" sys_original_message_id="0001"/></TableEntry><DefaultErrorTarget target="container"/></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/><HistoryEntry sys_id="0001" target="passer_by_service" timeout="59999"/><HistoryEntry sys_id="0002" target="httpcl" timeout="40000"/><HistoryEntry sys_id="0003" target="passer_by_service" timeout="59971" is_reply="1" sys_original_message_id="0002"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>8a90ad19-8965-11ec-8003-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="26"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-09 08:02:55.204	TP_34	[ccomserveradapter][0000002D017ED88CEA7B][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 08:02:55.204	TP_34	[ccomserveradapter][0000002D017ED88CEA7B][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 08:02:55.206	TP_34	[ccomserveradapter][0000002D017ED88CEA7B][0004] response after outgoing xslt transformation:[
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>8a90ad19-8965-11ec-8003-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-09 08:02:55.206	TP_34	[ccomserveradapter][0000002D017ED88CEA7B][0004] Sending outgoing response: [
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>8a90ad19-8965-11ec-8003-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-09 08:02:55.206	TP_34	[ccomserveradapter][0000002D017ED88CEA7B][0004] response sent
+2022-02-09 08:02:55.206	TP_34	[ccomserveradapter][0000002D017ED88CEA7B][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 08:02:55.207	TP_34	[ccomserveradapter][0000002D017ED88CEA7B][0004] Changing transaction state to TRANSACTION_STATE_FINISHED
+2022-02-09 08:02:55.213	ccomserveradapter_26	[127.0.0.1][ccomserveradapter] connection finished (total connections: 0)
+2022-02-09 08:02:55.222	TP_34	[ccomserveradapter][0000002D017ED88CEA7B][0004] Changing transaction state to TRANSACTION_STATE_CLOSED
+2022-02-09 08:03:07.319	ccomserveradapter_27	[127.0.0.1] New connection (total connections: 1)
+2022-02-09 08:03:07.321	ccomserveradapter_27	[ccomserveradapter][127.0.0.1] message received:[
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>91d7b865-8965-11ec-8004-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Subject>OTP_SMS</Subject><Content><Type>Text</Type><Text>****</Text></Content></MsgData></CComMsg>]
+2022-02-09 08:03:07.323	ccomserveradapter_27	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA7C][0000] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 08:03:07.366	ccomserveradapter_27	[127.0.0.1][ccomserveradapter] Message dispatched to [passer_by_service]
+2022-02-09 08:03:07.367	ccomserveradapter_27	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA7C][0000] Sending non-blocking request to passer_by_service (timeout=60000ms) 		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="0" is_repeat="0" sys_id="0000" sys_original_message_id="0000002D017ED88CEA7C">
+		  <RoutingTable><TableEntry><Target target="passer_by_service"/></TableEntry><TableEntry><Target target="ccomserveradapter" is_reply="1"/></TableEntry></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>91d7b865-8965-11ec-8004-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Subject>OTP_SMS</Subject><Content><Type>Text</Type><Text>****</Text></Content></MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="27"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-09 08:03:07.368	ccomserveradapter_27	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA7C][0001] Changing transaction state to TRANSACTION_STATE_RUNNING
+2022-02-09 08:03:07.408	TP_21	[ccomserveradapter][0000002D017ED88CEA7C][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 08:03:07.409	TP_21	[ccomserveradapter][0000002D017ED88CEA7C][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 08:03:07.409	TP_21	[ccomserveradapter][0000002D017ED88CEA7C][0004] Processing response from passer_by_service		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="59963" is_repeat="0" priority="normal" sys_id="0004" sys_original_message_id="0000002D017ED88CEA7C">
+		  <RoutingTable><TableEntry><Target target="ccomserveradapter" timeout="59963" is_reply="1" sys_target_node="mobile-banking" sys_original_message_id="0001"/></TableEntry><DefaultErrorTarget target="container"/></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/><HistoryEntry sys_id="0001" target="passer_by_service" timeout="60000"/><HistoryEntry sys_id="0002" target="httpcl" timeout="40000"/><HistoryEntry sys_id="0003" target="passer_by_service" timeout="59966" is_reply="1" sys_original_message_id="0002"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>91d7b865-8965-11ec-8004-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="27"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-09 08:03:07.410	TP_21	[ccomserveradapter][0000002D017ED88CEA7C][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 08:03:07.410	TP_21	[ccomserveradapter][0000002D017ED88CEA7C][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 08:03:07.415	TP_21	[ccomserveradapter][0000002D017ED88CEA7C][0004] response after outgoing xslt transformation:[
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>91d7b865-8965-11ec-8004-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-09 08:03:07.415	TP_21	[ccomserveradapter][0000002D017ED88CEA7C][0004] Sending outgoing response: [
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>91d7b865-8965-11ec-8004-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-09 08:03:07.416	TP_21	[ccomserveradapter][0000002D017ED88CEA7C][0004] response sent
+2022-02-09 08:03:07.416	TP_21	[ccomserveradapter][0000002D017ED88CEA7C][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 08:03:07.418	ccomserveradapter_27	[127.0.0.1][ccomserveradapter] connection finished (total connections: 0)
+2022-02-09 08:03:07.420	TP_21	[ccomserveradapter][0000002D017ED88CEA7C][0004] Changing transaction state to TRANSACTION_STATE_FINISHED
+2022-02-09 08:03:07.420	TP_21	[ccomserveradapter][0000002D017ED88CEA7C][0004] Changing transaction state to TRANSACTION_STATE_CLOSED
+2022-02-09 13:00:11.476	ccomserveradapter_28	[127.0.0.1] New connection (total connections: 1)
+2022-02-09 13:00:11.479	ccomserveradapter_28	[ccomserveradapter][127.0.0.1] message received:[
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>11de0e98-898f-11ec-8000-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg>]
+2022-02-09 13:00:11.493	ccomserveradapter_28	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA7D][0000] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 13:00:11.531	ccomserveradapter_28	[127.0.0.1][ccomserveradapter] Message dispatched to [passer_by_service]
+2022-02-09 13:00:11.532	ccomserveradapter_28	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA7D][0000] Sending non-blocking request to passer_by_service (timeout=60000ms) 		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="0" is_repeat="0" sys_id="0000" sys_original_message_id="0000002D017ED88CEA7D">
+		  <RoutingTable><TableEntry><Target target="passer_by_service"/></TableEntry><TableEntry><Target target="ccomserveradapter" is_reply="1"/></TableEntry></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>11de0e98-898f-11ec-8000-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="28"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-09 13:00:11.533	ccomserveradapter_28	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA7D][0001] Changing transaction state to TRANSACTION_STATE_RUNNING
+2022-02-09 13:00:11.648	TP_13	[ccomserveradapter][0000002D017ED88CEA7D][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 13:00:11.649	TP_13	[ccomserveradapter][0000002D017ED88CEA7D][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 13:00:11.649	TP_13	[ccomserveradapter][0000002D017ED88CEA7D][0004] Processing response from passer_by_service		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="59886" is_repeat="0" priority="normal" sys_id="0004" sys_original_message_id="0000002D017ED88CEA7D">
+		  <RoutingTable><TableEntry><Target target="ccomserveradapter" timeout="59886" is_reply="1" sys_target_node="mobile-banking" sys_original_message_id="0001"/></TableEntry><DefaultErrorTarget target="container"/></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/><HistoryEntry sys_id="0001" target="passer_by_service" timeout="60000"/><HistoryEntry sys_id="0002" target="httpcl" timeout="40000"/><HistoryEntry sys_id="0003" target="passer_by_service" timeout="59890" is_reply="1" sys_original_message_id="0002"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>11de0e98-898f-11ec-8000-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="28"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-09 13:00:11.649	TP_13	[ccomserveradapter][0000002D017ED88CEA7D][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 13:00:11.649	TP_13	[ccomserveradapter][0000002D017ED88CEA7D][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 13:00:11.650	TP_13	[ccomserveradapter][0000002D017ED88CEA7D][0004] response after outgoing xslt transformation:[
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>11de0e98-898f-11ec-8000-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-09 13:00:11.650	TP_13	[ccomserveradapter][0000002D017ED88CEA7D][0004] Sending outgoing response: [
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>11de0e98-898f-11ec-8000-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-09 13:00:11.651	TP_13	[ccomserveradapter][0000002D017ED88CEA7D][0004] response sent
+2022-02-09 13:00:11.651	TP_13	[ccomserveradapter][0000002D017ED88CEA7D][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 13:00:11.651	TP_13	[ccomserveradapter][0000002D017ED88CEA7D][0004] Changing transaction state to TRANSACTION_STATE_FINISHED
+2022-02-09 13:00:11.651	TP_13	[ccomserveradapter][0000002D017ED88CEA7D][0004] Changing transaction state to TRANSACTION_STATE_CLOSED
+2022-02-09 13:00:11.655	ccomserveradapter_28	[127.0.0.1][ccomserveradapter] connection finished (total connections: 0)
+2022-02-09 13:00:42.681	ccomserveradapter_29	[127.0.0.1] New connection (total connections: 1)
+2022-02-09 13:00:42.682	ccomserveradapter_29	[ccomserveradapter][127.0.0.1] message received:[
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>2477da8e-898f-11ec-8001-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg>]
+2022-02-09 13:00:42.685	ccomserveradapter_29	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA7E][0000] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 13:00:42.715	ccomserveradapter_29	[127.0.0.1][ccomserveradapter] Message dispatched to [passer_by_service]
+2022-02-09 13:00:42.715	ccomserveradapter_29	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA7E][0000] Sending non-blocking request to passer_by_service (timeout=60000ms) 		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="0" is_repeat="0" sys_id="0000" sys_original_message_id="0000002D017ED88CEA7E">
+		  <RoutingTable><TableEntry><Target target="passer_by_service"/></TableEntry><TableEntry><Target target="ccomserveradapter" is_reply="1"/></TableEntry></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>2477da8e-898f-11ec-8001-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Content><Type>Text</Type><Text>**************</Text></Content></MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="29"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-09 13:00:42.716	ccomserveradapter_29	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA7E][0001] Changing transaction state to TRANSACTION_STATE_RUNNING
+2022-02-09 13:00:42.756	TP_6	[ccomserveradapter][0000002D017ED88CEA7E][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 13:00:42.756	TP_6	[ccomserveradapter][0000002D017ED88CEA7E][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 13:00:42.757	TP_6	[ccomserveradapter][0000002D017ED88CEA7E][0004] Processing response from passer_by_service		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="59962" is_repeat="0" priority="normal" sys_id="0004" sys_original_message_id="0000002D017ED88CEA7E">
+		  <RoutingTable><TableEntry><Target target="ccomserveradapter" timeout="59962" is_reply="1" sys_target_node="mobile-banking" sys_original_message_id="0001"/></TableEntry><DefaultErrorTarget target="container"/></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/><HistoryEntry sys_id="0001" target="passer_by_service" timeout="60000"/><HistoryEntry sys_id="0002" target="httpcl" timeout="40000"/><HistoryEntry sys_id="0003" target="passer_by_service" timeout="59965" is_reply="1" sys_original_message_id="0002"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>2477da8e-898f-11ec-8001-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="29"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-09 13:00:42.757	TP_6	[ccomserveradapter][0000002D017ED88CEA7E][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 13:00:42.757	TP_6	[ccomserveradapter][0000002D017ED88CEA7E][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 13:00:42.758	TP_6	[ccomserveradapter][0000002D017ED88CEA7E][0004] response after outgoing xslt transformation:[
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>2477da8e-898f-11ec-8001-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-09 13:00:42.758	TP_6	[ccomserveradapter][0000002D017ED88CEA7E][0004] Sending outgoing response: [
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>2477da8e-898f-11ec-8001-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-09 13:00:42.758	TP_6	[ccomserveradapter][0000002D017ED88CEA7E][0004] response sent
+2022-02-09 13:00:42.758	TP_6	[ccomserveradapter][0000002D017ED88CEA7E][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 13:00:42.758	TP_6	[ccomserveradapter][0000002D017ED88CEA7E][0004] Changing transaction state to TRANSACTION_STATE_FINISHED
+2022-02-09 13:00:42.758	TP_6	[ccomserveradapter][0000002D017ED88CEA7E][0004] Changing transaction state to TRANSACTION_STATE_CLOSED
+2022-02-09 13:00:42.760	ccomserveradapter_29	[127.0.0.1][ccomserveradapter] connection finished (total connections: 0)
+2022-02-09 13:01:12.126	ccomserveradapter_30	[127.0.0.1] New connection (total connections: 1)
+2022-02-09 13:01:12.127	ccomserveradapter_30	[ccomserveradapter][127.0.0.1] message received:[
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>3604ad86-898f-11ec-8002-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Subject>OTP_SMS</Subject><Content><Type>Text</Type><Text>****</Text></Content></MsgData></CComMsg>]
+2022-02-09 13:01:12.131	ccomserveradapter_30	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA7F][0000] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 13:01:12.164	ccomserveradapter_30	[127.0.0.1][ccomserveradapter] Message dispatched to [passer_by_service]
+2022-02-09 13:01:12.167	ccomserveradapter_30	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA7F][0000] Sending non-blocking request to passer_by_service (timeout=60000ms) 		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="0" is_repeat="0" sys_id="0000" sys_original_message_id="0000002D017ED88CEA7F">
+		  <RoutingTable><TableEntry><Target target="passer_by_service"/></TableEntry><TableEntry><Target target="ccomserveradapter" is_reply="1"/></TableEntry></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rq" version="1.0"><MsgId>3604ad86-898f-11ec-8002-000c29c37761</MsgId><MsgData><SvcType>sms</SvcType><To>099818888871</To><Subject>OTP_SMS</Subject><Content><Type>Text</Type><Text>****</Text></Content></MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="30"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-09 13:01:12.168	ccomserveradapter_30	[127.0.0.1][ccomserveradapter][0000002D017ED88CEA7F][0001] Changing transaction state to TRANSACTION_STATE_RUNNING
+2022-02-09 13:01:12.205	TP_5	[ccomserveradapter][0000002D017ED88CEA7F][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 13:01:12.205	TP_5	[ccomserveradapter][0000002D017ED88CEA7F][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 13:01:12.206	TP_5	[ccomserveradapter][0000002D017ED88CEA7F][0004] Processing response from passer_by_service		<Way4UMessage sys_version="2.0">
+		<SystemHeader global_timeout="59964" is_repeat="0" priority="normal" sys_id="0004" sys_original_message_id="0000002D017ED88CEA7F">
+		  <RoutingTable><TableEntry><Target target="ccomserveradapter" timeout="59964" is_reply="1" sys_target_node="mobile-banking" sys_original_message_id="0001"/></TableEntry><DefaultErrorTarget target="container"/></RoutingTable><RoutingHistory><HistoryEntry sys_id="" target="ccomserveradapter" sys_target_node="mobile-banking"/><HistoryEntry sys_id="0001" target="passer_by_service" timeout="59999"/><HistoryEntry sys_id="0002" target="httpcl" timeout="40000"/><HistoryEntry sys_id="0003" target="passer_by_service" timeout="59968" is_reply="1" sys_original_message_id="0002"/></RoutingHistory></SystemHeader><Body>
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>3604ad86-898f-11ec-8002-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg></Body>
+		<Contexts>
+		<Context service_name="ccomserveradapter_ChannelInfo">
+			<Channel id="30"><Attrs><Attr name="source_ip">127.0.0.1</Attr></Attrs></Channel>
+		</Context>
+		</Contexts>
+		</Way4UMessage>
+2022-02-09 13:01:12.206	TP_5	[ccomserveradapter][0000002D017ED88CEA7F][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 13:01:12.206	TP_5	[ccomserveradapter][0000002D017ED88CEA7F][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 13:01:12.207	TP_5	[ccomserveradapter][0000002D017ED88CEA7F][0004] response after outgoing xslt transformation:[
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>3604ad86-898f-11ec-8002-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-09 13:01:12.207	TP_5	[ccomserveradapter][0000002D017ED88CEA7F][0004] Sending outgoing response: [
+		<CComMsg msg_type="Outgoing" direction="Rs" version="1.0" resp_code="0"><MsgId>3604ad86-898f-11ec-8002-000c29c37761</MsgId><MsgData>Message Deliveried</MsgData></CComMsg>]
+2022-02-09 13:01:12.210	TP_5	[ccomserveradapter][0000002D017ED88CEA7F][0004] response sent
+2022-02-09 13:01:12.210	TP_5	[ccomserveradapter][0000002D017ED88CEA7F][0004] TransactionContextStep.getRC() returned RC_OK.
+2022-02-09 13:01:12.216	ccomserveradapter_30	[127.0.0.1][ccomserveradapter] connection finished (total connections: 0)
+2022-02-09 13:01:12.217	TP_5	[ccomserveradapter][0000002D017ED88CEA7F][0004] Changing transaction state to TRANSACTION_STATE_FINISHED
+2022-02-09 13:01:12.217	TP_5	[ccomserveradapter][0000002D017ED88CEA7F][0004] Changing transaction state to TRANSACTION_STATE_CLOSED
